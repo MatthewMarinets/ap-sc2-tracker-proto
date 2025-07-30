@@ -10,14 +10,18 @@ let setProgressiveAcquiredLevel = (itemname, level) => {
 
 let setAcquired = (itemname) => {
     let targetElement = document.getElementById(itemname);
-    if (targetElement.tagName === "IMG") {
+    if (targetElement == null) {
+        console.error("Unable to find element for " + itemname);
+    } else if (targetElement.tagName === "IMG") {
         targetElement.setAttribute("class", "acquired");
     } else {
         targetElement.setAttribute("class", "progressive-1");
     }
 }
 
-setAcquired("Ghost");
-setAcquired("Shaped Blast (Siege Tank)");
-setAcquired("Valkyrie");
-setAcquired("Shockwave Missile Battery (Banshee)");
+onload = () => {
+    setAcquired("Ghost");
+    setAcquired("Shaped Blast (Siege Tank)");
+    setAcquired("Valkyrie");
+    setAcquired("Shockwave Missile Battery (Banshee)");
+}
