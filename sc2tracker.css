@@ -6,6 +6,9 @@ body {
     --icon-size: 36px;
     --item-class-padding: 4px;
 }
+a {
+    color: #1ae;
+}
 
 #player-info {
     background-color: #a37;
@@ -30,6 +33,9 @@ body {
 }
 #kerrigan-items {
     background-color: #a37;
+}
+#keys {
+    background-color: #aa2;
 }
 
 .section-body {
@@ -64,7 +70,7 @@ input[type="checkbox"] {
     max-width: var(--icon-size);
     max-height: var(--icon-size);
     /* border: 1px solid #000000; */
-    filter: grayscale(100%) contrast(75%) brightness(40%);
+    filter: grayscale(100%) contrast(80%) brightness(42%) blur(0.5px);
     background-color: black;
 }
 .tracker-section img.acquired {
@@ -180,6 +186,16 @@ input[type="checkbox"] {
     vertical-align: middle;
     padding-left: 3px;
     padding-right: 15px;
+}
+
+/* Keys */
+#keys ol, #keys ul {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}
+#keys li {
+    padding-right: 15pt;
 }
 
 /* Allowing scrolling down a little further */
