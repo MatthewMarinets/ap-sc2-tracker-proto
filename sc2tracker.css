@@ -141,6 +141,9 @@ input[type="checkbox"] {
 .tracker-section:has(input.ss-6-toggle:checked) .ss-6 {
     display: none;
 }
+.tracker-section:has(input.ss-7-toggle:checked) .ss-7 {
+    display: none;
+}
 .tracker-section:has(input.ss-1-toggle:hover) .ss-1 {
     background-color: #fff5;
     box-shadow: 0 0 1px 1px white;
@@ -162,6 +165,10 @@ input[type="checkbox"] {
     box-shadow: 0 0 1px 1px white;
 }
 .tracker-section:has(input.ss-6-toggle:hover) .ss-6 {
+    background-color: #fff5;
+    box-shadow: 0 0 1px 1px white;
+}
+.tracker-section:has(input.ss-7-toggle:hover) .ss-7 {
     background-color: #fff5;
     box-shadow: 0 0 1px 1px white;
 }
@@ -224,6 +231,14 @@ input[type="checkbox"] {
     vertical-align: middle;
     padding-left: 3px;
     padding-right: 15px;
+}
+
+/* Hidden items */
+.hidden-class:not(:has(img.acquired)) {
+    display: none;
+}
+.hidden-item:not(.acquired) {
+    display:none;
 }
 
 /* Keys */
