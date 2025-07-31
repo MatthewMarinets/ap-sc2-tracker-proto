@@ -5,7 +5,7 @@ let getMaxLevel = (itemname) => {
 
 let setProgressiveAcquiredLevel = (itemname, level) => {
     let targetLevel = Math.min(getMaxLevel(itemname), level);
-    document.getElementById(itemname).setAttribute("class", "progressive-" + targetLevel);
+    document.getElementById(itemname).setAttribute("class", "progressive lvl-" + targetLevel);
 }
 
 let setAcquired = (itemname) => {
@@ -15,7 +15,7 @@ let setAcquired = (itemname) => {
     } else if (targetElement.tagName === "IMG") {
         targetElement.setAttribute("class", "acquired");
     } else {
-        targetElement.setAttribute("class", "progressive-1");
+        targetElement.setAttribute("class", "progressive lvl-1");
     }
 }
 
@@ -24,4 +24,8 @@ onload = () => {
     setAcquired("Shaped Blast (Siege Tank)");
     setAcquired("Valkyrie");
     setAcquired("Shockwave Missile Battery (Banshee)");
+    let elements = document.querySelectorAll("div.progressive");
+    for (let i = 0; i < elements.length; ++i) {
+        elements[i].setAttribute("class", "progressive lvl-1");
+    }
 }
