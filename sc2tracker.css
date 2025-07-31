@@ -10,9 +10,7 @@ a {
     color: #1ae;
 }
 
-#player-info {
-    background-color: #a37;
-}
+/* Section colours */
 .player-tracker {
     max-width: 100%;
 }
@@ -38,6 +36,7 @@ a {
     background-color: #aa2;
 }
 
+/* Sections */
 .section-body {
     display: flex;
     flex-flow: row wrap;
@@ -69,12 +68,15 @@ input[type="checkbox"] {
     width: 100%;
     height: 100%;
 }
+.section-title:hover h2 {
+    text-shadow: 0 0 4px #ddd;
+}
 
+/* Acquire item filters */
 .tracker-section img {
     height: 100%;
     max-width: var(--icon-size);
     max-height: var(--icon-size);
-    /* border: 1px solid #000000; */
     filter: grayscale(100%) contrast(80%) brightness(42%) blur(0.5px);
     background-color: black;
 }
@@ -113,7 +115,7 @@ input[type="checkbox"] {
     padding-right: 15px;
 }
 .toc-box:hover {
-    text-shadow: 0 0 7px #fe7;
+    text-shadow: 0 0 7px white;
 }
 .ss-header {
     position: relative;
