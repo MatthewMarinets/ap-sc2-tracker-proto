@@ -178,6 +178,8 @@ input[type="checkbox"] {
 .item-count {
     display: table-cell;
     vertical-align: middle;
+    padding-left: 3px;
+    padding-right: 15px;
 }
 
 /* Allowing scrolling down a little further */
