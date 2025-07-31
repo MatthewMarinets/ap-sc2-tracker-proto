@@ -13,7 +13,7 @@
   <div id="player-tracker" data-tracker="{{ room.tracker|suuid }}">
     <div id="filler-items" class="tracker-section">
       <div class="section-title">
-        <input type="checkbox">
+        <input type="checkbox" class="collapse-section">
         <h2>Filler Items</h2>
       </div>
       <div class="section-body">
@@ -57,11 +57,15 @@
     </div>
     <div id="terran-items" class="tracker-section">
       <div class="section-title">
-        <input type="checkbox">
+        <input type="checkbox" class="collapse-section">
         <h2>Terran Items</h2>
       </div>
       <div class="section-body">
-        <div id="class-marine" class="item-class">
+        <div class="ss-header">
+          <input type="checkbox" class="ss-1-toggle">
+          &#x2014; Barracks &#x2014;
+        </div>
+        <div id="class-marine" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Marine" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-marine.png" title="Marine">
           </div>
@@ -76,7 +80,7 @@
             </div>
           </div>
         </div>
-        <div id="class-medic" class="item-class">
+        <div id="class-medic" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Medic" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-medic.png" title="Medic">
           </div>
@@ -90,7 +94,7 @@
             <img id="Stabilizer Medpacks (Medic)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-raynor-stabilizermedpacks.png" title="Stabilizer Medpacks (Medic)">
           </div>
         </div>
-        <div id="class-firebat" class="item-class">
+        <div id="class-firebat" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Firebat" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-firebat.png" title="Firebat">
           </div>
@@ -107,7 +111,7 @@
             <img id="Resource Efficiency (Firebat)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (Firebat)">
           </div>
         </div>
-        <div id="class-marauder" class="item-class">
+        <div id="class-marauder" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Marauder" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-marauder.png" title="Marauder">
           </div>
@@ -125,7 +129,7 @@
             </div>
           </div>
         </div>
-        <div id="class-reaper" class="item-class">
+        <div id="class-reaper" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Reaper" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-reaper.png" title="Reaper">
           </div>
@@ -145,7 +149,7 @@
             <img id="U-238 Rounds (Reaper)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-techupgrade-terran-u238rounds-color.png" title="U-238 Rounds (Reaper)">
           </div>
         </div>
-        <div id="class-ghost" class="item-class">
+        <div id="class-ghost" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Ghost" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-ghost.png" title="Ghost">
           </div>
@@ -158,7 +162,7 @@
             <img id="Resource Efficiency (Ghost)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (Ghost)">
           </div>
         </div>
-        <div id="class-spectre" class="item-class">
+        <div id="class-spectre" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Spectre" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-terran-spectre.png" title="Spectre">
           </div>
@@ -170,7 +174,7 @@
             <img id="Resource Efficiency (Spectre)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (Spectre)">
           </div>
         </div>
-        <div id="class-herc" class="item-class">
+        <div id="class-herc" class="item-class ss-1">
           <div class="item-class-header">
             <img id="HERC" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-herc.png" title="HERC">
           </div>
@@ -181,7 +185,7 @@
             <img id="Resource Efficiency (HERC)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (HERC)">
           </div>
         </div>
-        <div id="class-dominion-trooper" class="item-class">
+        <div id="class-dominion-trooper" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Dominion Trooper" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-troopermengsk.png" title="Dominion Trooper">
           </div>
@@ -193,7 +197,11 @@
             <img id="Optimized Logistics (Dominion Trooper)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-terran-optimizedlogistics.png" title="Optimized Logistics (Dominion Trooper)">
           </div>
         </div>
-        <div id="class-hellion" class="item-class">
+        <div class="ss-header">
+          <input type="checkbox" class="ss-2-toggle">
+          &#x2014; Factory &#x2014;
+        </div>
+        <div id="class-hellion" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Hellion" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-hellion.png" title="Hellion">
           </div>
@@ -211,7 +219,7 @@
             <img id="Twin-Linked Flamethrower (Hellion)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-upgrade-terran-twin-linkedflamethrower-color.png" title="Twin-Linked Flamethrower (Hellion)">
           </div>
         </div>
-        <div id="class-vulture" class="item-class">
+        <div id="class-vulture" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Vulture" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-vulture.png" title="Vulture">
           </div>
@@ -225,7 +233,7 @@
             </div>
           </div>
         </div>
-        <div id="class-goliath" class="item-class">
+        <div id="class-goliath" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Goliath" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-goliath.png" title="Goliath">
           </div>
@@ -239,7 +247,7 @@
             <img id="Shaped Hull (Goliath)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-techupgrade-terran-shapedhull-colored.png" title="Shaped Hull (Goliath)">
           </div>
         </div>
-        <div id="class-diamondback" class="item-class">
+        <div id="class-diamondback" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Diamondback" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-cobra.png" title="Diamondback">
           </div>
@@ -255,7 +263,7 @@
             <img id="Shaped Hull (Diamondback)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-techupgrade-terran-shapedhull-colored.png" title="Shaped Hull (Diamondback)">
           </div>
         </div>
-        <div id="class-siege-tank" class="item-class">
+        <div id="class-siege-tank" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Siege Tank" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-siegetank.png" title="Siege Tank">
           </div>
@@ -278,7 +286,7 @@
             <img id="Spider Mines (Siege Tank)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-siegetank-spidermines.png" title="Spider Mines (Siege Tank)">
           </div>
         </div>
-        <div id="class-thor" class="item-class">
+        <div id="class-thor" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Thor" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-thor.png" title="Thor">
           </div>
@@ -298,7 +306,7 @@
             <img id="Rapid Reload (Thor)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-mengsk-siegetank-flyingtankarmament.png" title="Rapid Reload (Thor)">
           </div>
         </div>
-        <div id="class-predator" class="item-class">
+        <div id="class-predator" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Predator" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-terran-predator.png" title="Predator">
           </div>
@@ -310,7 +318,7 @@
             <img id="Vespene Synthesis (Predator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/predatorvespene.png" title="Vespene Synthesis (Predator)">
           </div>
         </div>
-        <div id="class-widow-mine" class="item-class">
+        <div id="class-widow-mine" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Widow Mine" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-widowmine.png" title="Widow Mine">
           </div>
@@ -323,7 +331,7 @@
             <img id="Resource Efficiency (Widow Mine)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (Widow Mine)">
           </div>
         </div>
-        <div id="class-cyclone" class="item-class">
+        <div id="class-cyclone" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Cyclone" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-cyclone.png" title="Cyclone">
           </div>
@@ -336,7 +344,7 @@
             <img id="Targeting Optics (Cyclone)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-swann-targetingoptics.png" title="Targeting Optics (Cyclone)">
           </div>
         </div>
-        <div id="class-warhound" class="item-class">
+        <div id="class-warhound" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Warhound" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-warhound.png" title="Warhound">
           </div>
@@ -346,7 +354,11 @@
             <img id="Resource Efficiency (Warhound)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (Warhound)">
           </div>
         </div>
-        <div id="class-medivac" class="item-class">
+        <div class="ss-header">
+          <input type="checkbox" class="ss-3-toggle">
+          &#x2014; Starport &#x2014;
+        </div>
+        <div id="class-medivac" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Medivac" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-medivac.png" title="Medivac">
           </div>
@@ -361,7 +373,7 @@
             <img id="Scatter Veil (Medivac)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-scatter-veil.png" title="Scatter Veil (Medivac)">
           </div>
         </div>
-        <div id="class-wraith" class="item-class">
+        <div id="class-wraith" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Wraith" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-wraith.png" title="Wraith">
           </div>
@@ -377,7 +389,7 @@
             <img id="Trigger Override (Wraith)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-wraith-attackspeed.png" title="Trigger Override (Wraith)">
           </div>
         </div>
-        <div id="class-viking" class="item-class">
+        <div id="class-viking" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Viking" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-vikingfighter.png" title="Viking">
           </div>
@@ -391,7 +403,7 @@
             <img id="W.I.L.D. Missiles (Viking)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-viking-missileupgrade.png" title="W.I.L.D. Missiles (Viking)">
           </div>
         </div>
-        <div id="class-banshee" class="item-class">
+        <div id="class-banshee" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Banshee" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-banshee.png" title="Banshee">
           </div>
@@ -410,7 +422,7 @@
             <img id="Shockwave Missile Battery (Banshee)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-raynor-shockwavemissilebattery.png" title="Shockwave Missile Battery (Banshee)">
           </div>
         </div>
-        <div id="class-liberator" class="item-class">
+        <div id="class-liberator" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Liberator" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-liberator.png" title="Liberator">
           </div>
@@ -426,7 +438,7 @@
             <img id="UED Missile Technology (Liberator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-ued-rocketry-technology.png" title="UED Missile Technology (Liberator)">
           </div>
         </div>
-        <div id="class-valkyrie" class="item-class">
+        <div id="class-valkyrie" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Valkyrie" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-terran-valkyrie@scbw.png" title="Valkyrie">
           </div>
@@ -439,7 +451,7 @@
             <img id="Shaped Hull (Valkyrie)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-techupgrade-terran-shapedhull-colored.png" title="Shaped Hull (Valkyrie)">
           </div>
         </div>
-        <div id="class-raven" class="item-class">
+        <div id="class-raven" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Raven" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-raven.png" title="Raven">
           </div>
@@ -455,7 +467,7 @@
             <img id="Spider Mines (Raven)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-siegetank-spidermines.png" title="Spider Mines (Raven)">
           </div>
         </div>
-        <div id="class-science-vessel" class="item-class">
+        <div id="class-science-vessel" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Science Vessel" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-sciencevessel.png" title="Science Vessel">
           </div>
@@ -467,7 +479,7 @@
             <img id="Tactical Jump (Science Vessel)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-fleethyperjump.png" title="Tactical Jump (Science Vessel)">
           </div>
         </div>
-        <div id="class-hercules" class="item-class">
+        <div id="class-hercules" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Hercules" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-hercules.png" title="Hercules">
           </div>
@@ -476,7 +488,7 @@
             <img id="Tactical Jump (Hercules)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-terran-hercules-tacticaljump.png" title="Tactical Jump (Hercules)">
           </div>
         </div>
-        <div id="class-battlecruiser" class="item-class">
+        <div id="class-battlecruiser" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Battlecruiser" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-battlecruiser.png" title="Battlecruiser">
           </div>
@@ -500,7 +512,11 @@
             <img id="Tactical Jump (Battlecruiser)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-terran-warpjump.png" title="Tactical Jump (Battlecruiser)">
           </div>
         </div>
-        <div id="class-bunker" class="item-class">
+        <div class="ss-header">
+          <input type="checkbox" class="ss-4-toggle">
+          &#x2014; Buildings &#x2014;
+        </div>
+        <div id="class-bunker" class="item-class ss-4">
           <div class="item-class-header">
             <img id="Bunker" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-terran-bunker.png" title="Bunker">
           </div>
@@ -511,7 +527,7 @@
             <img id="Shrike Turret (Bunker)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-swann-improvedturretattackspeed.png" title="Shrike Turret (Bunker)">
           </div>
         </div>
-        <div id="class-missile-turret" class="item-class">
+        <div id="class-missile-turret" class="item-class ss-4">
           <div class="item-class-header">
             <img id="Missile Turret" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-terran-missileturret.png" title="Missile Turret">
           </div>
@@ -521,7 +537,7 @@
             <img id="Titanium Housing (Missile Turret)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-techupgrade-terran-titaniumhousing-color.png" title="Titanium Housing (Missile Turret)">
           </div>
         </div>
-        <div id="class-sensor-tower" class="item-class">
+        <div id="class-sensor-tower" class="item-class ss-4">
           <div class="item-class-header">
             <img id="Sensor Tower" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-terran-sensordome.png" title="Sensor Tower">
           </div>
@@ -530,7 +546,7 @@
             <img id="Multispectrum Doppler (Sensor Tower)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-tips-laserdrillantiair.png" title="Multispectrum Doppler (Sensor Tower)">
           </div>
         </div>
-        <div id="class-devastator-turret" class="item-class">
+        <div id="class-devastator-turret" class="item-class ss-4">
           <div class="item-class-header">
             <img id="Devastator Turret" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-tips-flamingbetty.png" title="Devastator Turret">
           </div>
@@ -540,7 +556,7 @@
             <img id="Resource Efficiency (Devastator Turret)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (Devastator Turret)">
           </div>
         </div>
-        <div id="class-planetary-fortress" class="item-class">
+        <div id="class-planetary-fortress" class="item-class ss-4">
           <div class="item-class-header">
             <img id="Planetary Fortress" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-terran-planetaryfortress.png" title="Planetary Fortress">
           </div>
@@ -553,26 +569,30 @@
             </div>
           </div>
         </div>
-        <div id="class-perdition-turret" class="item-class">
+        <div id="class-perdition-turret" class="item-class ss-4">
           <div class="item-class-header">
             <img id="Perdition Turret" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-perditionturret.png" title="Perdition Turret">
           </div>
         </div>
-        <div id="class-hive-mind-emulator" class="item-class">
+        <div id="class-hive-mind-emulator" class="item-class ss-4">
           <div class="item-class-upgrades">
             <img id="Hive Mind Emulator" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-terran-hivemindemulator.png" title="Hive Mind Emulator">
             <img id="Argus Amplifier (Hive Mind Emulator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-terran-hivemindemulator.png" title="Argus Amplifier (Hive Mind Emulator)">
             <img id="Psi Indoctrinator (Hive Mind Emulator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-terran-hivemindemulator.png" title="Psi Indoctrinator (Hive Mind Emulator)">
           </div>
         </div>
-        <div id="class-psi-disrupter" class="item-class">
+        <div id="class-psi-disrupter" class="item-class ss-4">
           <div class="item-class-upgrades">
             <img id="Psi Disrupter" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-terran-sigmaprojector.png" title="Psi Disrupter">
             <img id="Sonic Disrupter (Psi Disrupter)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-mindblast.png" title="Sonic Disrupter (Psi Disrupter)">
             <img id="Psi Screen (Psi Disrupter)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-progression-protoss-fenix-1-zealotsuit.png" title="Psi Screen (Psi Disrupter)">
           </div>
         </div>
-        <div id="class-terran-mercenary" class="item-class">
+        <div class="ss-header">
+          <input type="checkbox" class="ss-5-toggle">
+          &#x2014; Mercenaries &#x2014;
+        </div>
+        <div id="class-terran-mercenary" class="item-class ss-5">
           <div class="item-class-upgrades">
             <img id="War Pigs" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-terran-marinemercenary.png" title="War Pigs">
             <img id="Devil Dogs" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-terran-firebatmercenary.png" title="Devil Dogs">
@@ -590,7 +610,7 @@
             <img id="Jotun" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-merc-thor.png" title="Jotun">
           </div>
         </div>
-        <div id="class-terran-mercenary-upgrade" class="item-class">
+        <div id="class-terran-mercenary-upgrade" class="item-class ss-5">
           <div class="item-class-upgrades">
             <img id="Rogue Forces (Terran)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-terran-tosh.png" title="Rogue Forces (Terran)">
             <img id="Rapid Reinforcement (Terran)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-progression-hornerhan-6-mirabuildtime.png" title="Rapid Reinforcement (Terran)">
@@ -669,7 +689,7 @@
       </div>
       <div class="section-body">
         <div id="class-terran-wa" class="item-class">
-          <div class="item-class-upgrades">
+          <div class="item-class-header">
             <div id="Progressive Terran Infantry Weapon" class="progressive lvl-0" data-max-level="5">
               <img src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-terran-infantryweaponslevel1.png" title="Progressive Terran Infantry Weapon - Level 1">
               <img src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-terran-infantryweaponslevel2.png" title="Progressive Terran Infantry Weapon - Level 2">
@@ -769,11 +789,15 @@
     </div>
     <div id="zerg-items" class="tracker-section">
       <div class="section-title">
-        <input type="checkbox">
+        <input type="checkbox" class="collapse-section">
         <h2>Zerg Items</h2>
       </div>
       <div class="section-body">
-        <div id="class-zergling" class="item-class">
+        <div class="ss-header">
+          <input type="checkbox" class="ss-1-toggle">
+          &#x2014; Ground &#x2014;
+        </div>
+        <div id="class-zergling" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Zergling" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-zergling.png" title="Zergling">
           </div>
@@ -788,7 +812,7 @@
             <img id="Swarmling Strain (Zergling)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-zergling-swarmling.png" title="Swarmling Strain (Zergling)">
           </div>
         </div>
-        <div id="class-swarm-queen" class="item-class">
+        <div id="class-swarm-queen" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Swarm Queen" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-broodqueen.png" title="Swarm Queen">
           </div>
@@ -801,7 +825,7 @@
             <img id="Spawn Larvae (Swarm Queen)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-larva.png" title="Spawn Larvae (Swarm Queen)">
           </div>
         </div>
-        <div id="class-roach" class="item-class">
+        <div id="class-roach" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Roach" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-roach.png" title="Roach">
           </div>
@@ -817,7 +841,7 @@
             <img id="Vile Strain (Roach)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-roach-vile.png" title="Vile Strain (Roach)">
           </div>
         </div>
-        <div id="class-hydralisk" class="item-class">
+        <div id="class-hydralisk" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Hydralisk" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-hydralisk.png" title="Hydralisk">
           </div>
@@ -831,7 +855,7 @@
             <img id="Resource Efficiency (Hydralisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (Hydralisk)">
           </div>
         </div>
-        <div id="class-aberration" class="item-class">
+        <div id="class-aberration" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Aberration" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-aberration.png" title="Aberration">
           </div>
@@ -847,23 +871,7 @@
             <img id="Resource Efficiency (Aberration)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (Aberration)">
           </div>
         </div>
-        <div id="class-mutalisk" class="item-class">
-          <div class="item-class-header">
-            <img id="Mutalisk" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-mutalisk.png" title="Mutalisk">
-          </div>
-          <div class="item-class-upgrades">
-            <img id="Aerodynamic Glaive Shape (Mutalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-dehaka-airbonusdamage.png" title="Aerodynamic Glaive Shape (Mutalisk)">
-            <img id="Brood Lord" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-broodlord.png" title="Brood Lord">
-            <img id="Devourer" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-devourerex3.png" title="Devourer">
-            <img id="Guardian" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-primalguardian.png" title="Guardian">
-            <img id="Viper" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-mutalisk-viper.png" title="Viper">
-            <img id="Rapid Regeneration (Mutalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-rapidregeneration.png" title="Rapid Regeneration (Mutalisk)">
-            <img id="Severing Glaive (Mutalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-explosiveglaive.png" title="Severing Glaive (Mutalisk)">
-            <img id="Sundering Glaive (Mutalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-explosiveglaive.png" title="Sundering Glaive (Mutalisk)">
-            <img id="Vicious Glaive (Mutalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-viciousglaive.png" title="Vicious Glaive (Mutalisk)">
-          </div>
-        </div>
-        <div id="class-swarm-host" class="item-class">
+        <div id="class-swarm-host" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Swarm Host" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-swarmhost.png" title="Swarm Host">
           </div>
@@ -879,7 +887,7 @@
             <img id="Resource Efficiency (Swarm Host)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (Swarm Host)">
           </div>
         </div>
-        <div id="class-infestor" class="item-class">
+        <div id="class-infestor" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Infestor" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-infestor.png" title="Infestor">
           </div>
@@ -888,7 +896,7 @@
             <img id="Microbial Shroud (Infestor)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-darkswarm.png" title="Microbial Shroud (Infestor)">
           </div>
         </div>
-        <div id="class-ultralisk" class="item-class">
+        <div id="class-ultralisk" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Ultralisk" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-ultralisk.png" title="Ultralisk">
           </div>
@@ -905,7 +913,48 @@
             <img id="Tyrannozor" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-collection-primal-tyrannozor.png" title="Tyrannozor">
           </div>
         </div>
-        <div id="class-corruptor" class="item-class">
+        <div id="class-defiler" class="item-class ss-1">
+          <div class="item-class-header">
+            <img id="Defiler" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-zerg-defiler@scbw.png" title="Defiler">
+          </div>
+          <div class="item-class-upgrades">
+            <img id="Comorbidity (Defiler)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-dehaka-tenderize.png" title="Comorbidity (Defiler)">
+            <img id="Pathogen Projectors (Defiler)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zagara-increasebilelauncherrange.png" title="Pathogen Projectors (Defiler)">
+            <img id="Predatory Consumption (Defiler)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-progression-zerg-dehaka-15-genemutation.png" title="Predatory Consumption (Defiler)">
+            <img id="Trapdoor Adaptation (Defiler)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-burrowmove.png" title="Trapdoor Adaptation (Defiler)">
+          </div>
+        </div>
+        <div id="class-pygalisk" class="item-class ss-1">
+          <div class="item-class-header">
+            <img id="Pygalisk" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-ultralisk-rcz.png" title="Pygalisk">
+          </div>
+          <div class="item-class-upgrades">
+            <img id="Combat Carapace (Pygalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-stetmann-mechachitinousplating.png" title="Combat Carapace (Pygalisk)">
+            <img id="Ducal Blades (Pygalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-dehaka-ultralisk-brutalcharge.png" title="Ducal Blades (Pygalisk)">
+            <img id="Stimpack (Pygalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-terran-stimpack-color.png" title="Stimpack (Pygalisk)">
+          </div>
+        </div>
+        <div class="ss-header">
+          <input type="checkbox" class="ss-2-toggle">
+          &#x2014; Flyers &#x2014;
+        </div>
+        <div id="class-mutalisk" class="item-class ss-2">
+          <div class="item-class-header">
+            <img id="Mutalisk" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-mutalisk.png" title="Mutalisk">
+          </div>
+          <div class="item-class-upgrades">
+            <img id="Aerodynamic Glaive Shape (Mutalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-dehaka-airbonusdamage.png" title="Aerodynamic Glaive Shape (Mutalisk)">
+            <img id="Brood Lord" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-broodlord.png" title="Brood Lord">
+            <img id="Devourer" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-devourerex3.png" title="Devourer">
+            <img id="Guardian" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-primalguardian.png" title="Guardian">
+            <img id="Viper" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-viper.png" title="Viper">
+            <img id="Rapid Regeneration (Mutalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-rapidregeneration.png" title="Rapid Regeneration (Mutalisk)">
+            <img id="Severing Glaive (Mutalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-explosiveglaive.png" title="Severing Glaive (Mutalisk)">
+            <img id="Sundering Glaive (Mutalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-explosiveglaive.png" title="Sundering Glaive (Mutalisk)">
+            <img id="Vicious Glaive (Mutalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-viciousglaive.png" title="Vicious Glaive (Mutalisk)">
+          </div>
+        </div>
+        <div id="class-corruptor" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Corruptor" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-corruptor.png" title="Corruptor">
           </div>
@@ -918,7 +967,7 @@
             <img id="Scourge Incubation (Corruptor)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-scourge.png" title="Scourge Incubation (Corruptor)">
           </div>
         </div>
-        <div id="class-scourge" class="item-class">
+        <div id="class-scourge" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Scourge" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-scourge.png" title="Scourge">
           </div>
@@ -928,7 +977,7 @@
             <img id="Virulent Spores (Scourge)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zagara-scourgesplashdamage.png" title="Virulent Spores (Scourge)">
           </div>
         </div>
-        <div id="class-brood-queen" class="item-class">
+        <div id="class-brood-queen" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Brood Queen" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-classicqueen.png" title="Brood Queen">
           </div>
@@ -938,97 +987,11 @@
             <img id="Fungal Growth (Brood Queen)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-researchqueenfungalgrowth.png" title="Fungal Growth (Brood Queen)">
           </div>
         </div>
-        <div id="class-defiler" class="item-class">
-          <div class="item-class-header">
-            <img id="Defiler" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-zerg-defiler@scbw.png" title="Defiler">
-          </div>
-          <div class="item-class-upgrades">
-            <img id="Comorbidity (Defiler)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-dehaka-tenderize.png" title="Comorbidity (Defiler)">
-            <img id="Pathogen Projectors (Defiler)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zagara-increasebilelauncherrange.png" title="Pathogen Projectors (Defiler)">
-            <img id="Predatory Consumption (Defiler)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-progression-zerg-dehaka-15-genemutation.png" title="Predatory Consumption (Defiler)">
-            <img id="Trapdoor Adaptation (Defiler)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-burrowmove.png" title="Trapdoor Adaptation (Defiler)">
-          </div>
+        <div class="ss-header">
+          <input type="checkbox" class="ss-3-toggle">
+          &#x2014; Morphs &#x2014;
         </div>
-        <div id="class-infested-marine" class="item-class">
-          <div class="item-class-header">
-            <img id="Infested Marine" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-infestedmarine.png" title="Infested Marine">
-          </div>
-          <div class="item-class-upgrades">
-            <img id="Plagued Munitions (Infested Marine)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-stukov-plaugedmunitions.png" title="Plagued Munitions (Infested Marine)">
-            <img id="Retinal Augmentation (Infested Marine)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-infestedmarinerangeupgrade.png" title="Retinal Augmentation (Infested Marine)">
-          </div>
-        </div>
-        <div id="class-infested-siege-tank" class="item-class">
-          <div class="item-class-header">
-            <img id="Infested Siege Tank" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-infestedsiegetank.png" title="Infested Siege Tank">
-          </div>
-          <div class="item-class-upgrades">
-            <img id="Acidic Enzymes (Infested Siege Tank)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-siegetankbonusdamage.png" title="Acidic Enzymes (Infested Siege Tank)">
-            <img id="Balanced Roots (Infested Siege Tank)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-creepteleport.png" title="Balanced Roots (Infested Siege Tank)">
-            <img id="Deep Tunnel (Infested Siege Tank)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-deeptunnel.png" title="Deep Tunnel (Infested Siege Tank)">
-            <div id="Progressive Automated Mitosis (Infested Siege Tank)" class="progressive lvl-0" data-max-level="2">
-              <img src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-automated-mitosis-lvl1.png" title="Progressive Automated Mitosis (Infested Siege Tank) - Level 1">
-              <img src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-siegetankammoregen.png" title="Progressive Automated Mitosis (Infested Siege Tank) - Level 2">
-            </div>
-            <img id="Seismic Sonar (Infested Siege Tank)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-seismic-sonar.png" title="Seismic Sonar (Infested Siege Tank)">
-          </div>
-        </div>
-        <div id="class-infested-diamondback" class="item-class">
-          <div class="item-class-header">
-            <img id="Infested Diamondback" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-infesteddiamondback.png" title="Infested Diamondback">
-          </div>
-          <div class="item-class-upgrades">
-            <img id="Caustic Mucus (Infested Diamondback)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-diamondbacksnailtrail.png" title="Caustic Mucus (Infested Diamondback)">
-            <img id="Concentrated Spew (Infested Diamondback)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-upgrade-zerg-concentrated-spew.png" title="Concentrated Spew (Infested Diamondback)">
-            <div id="Progressive Fungal Snare (Infested Diamondback)" class="progressive lvl-0" data-max-level="2">
-              <img src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-stukov-ensnare.png" title="Progressive Fungal Snare (Infested Diamondback) - Level 1">
-              <img src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-stukov-ensnarecdr.png" title="Progressive Fungal Snare (Infested Diamondback) - Level 2">
-            </div>
-            <img id="Violent Enzymes (Infested Diamondback)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-mengsk-ghost-pyrokineticimmolation_orange.png" title="Violent Enzymes (Infested Diamondback)">
-          </div>
-        </div>
-        <div id="class-infested-banshee" class="item-class">
-          <div class="item-class-header">
-            <img id="Infested Banshee" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-infestedbanshee.png" title="Infested Banshee">
-          </div>
-          <div class="item-class-upgrades">
-            <img id="Braced Exoskeleton (Infested Banshee)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-bansheemorelife.png" title="Braced Exoskeleton (Infested Banshee)">
-            <img id="Fleshfused Targeting Optics (Infested Banshee)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-fleshfused-targeting-optics.png" title="Fleshfused Targeting Optics (Infested Banshee)">
-            <img id="Rapid Hibernation (Infested Banshee)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-bansheeburrowregeneration.png" title="Rapid Hibernation (Infested Banshee)">
-          </div>
-        </div>
-        <div id="class-infested-liberator" class="item-class">
-          <div class="item-class-header">
-            <img id="Infested Liberator" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-infestedliberator.png" title="Infested Liberator">
-          </div>
-          <div class="item-class-upgrades">
-            <img id="Cloud Dispersal (Infested Liberator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-infestedliberatorswarmcloud.png" title="Cloud Dispersal (Infested Liberator)">
-            <img id="Defender Mode (Infested Liberator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-infested-liberator-ag.png" title="Defender Mode (Infested Liberator)">
-            <img id="Viral Contamination (Infested Liberator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-infestedliberatoraoe.png" title="Viral Contamination (Infested Liberator)">
-          </div>
-        </div>
-        <div id="class-pygalisk" class="item-class">
-          <div class="item-class-header">
-            <img id="Pygalisk" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-ultralisk-rcz.png" title="Pygalisk">
-          </div>
-          <div class="item-class-upgrades">
-            <img id="Combat Carapace (Pygalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-stetmann-mechachitinousplating.png" title="Combat Carapace (Pygalisk)">
-            <img id="Ducal Blades (Pygalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-dehaka-ultralisk-brutalcharge.png" title="Ducal Blades (Pygalisk)">
-            <img id="Stimpack (Pygalisk)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-terran-stimpack-color.png" title="Stimpack (Pygalisk)">
-          </div>
-        </div>
-        <div id="class-bullfrog" class="item-class">
-          <div class="item-class-header">
-            <img id="Bullfrog" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-zerg-bullfrog.png" title="Bullfrog">
-          </div>
-          <div class="item-class-upgrades">
-            <img id="Suffused With Vermin (Bullfrog)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-infestedspawnbroodling.png" title="Suffused With Vermin (Bullfrog)">
-            <img id="Lethal Impact (Bullfrog)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-mengsk-ghost-tacticalmissilestrike.png" title="Lethal Impact (Bullfrog)">
-            <img id="Catalytic Boosters (Bullfrog)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-mengsk-medivac-igniteafterburners.png" title="Catalytic Boosters (Bullfrog)">
-            <img id="Mutagen Vents (Bullfrog)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-dehaka-essencecollector.png" title="Mutagen Vents (Bullfrog)">
-          </div>
-        </div>
-        <div id="class-baneling" class="item-class">
+        <div id="class-baneling" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Baneling" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-baneling.png" title="Baneling">
           </div>
@@ -1043,7 +1006,7 @@
             <img id="Tunneling Jaws (Baneling)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-tunnelingjaws.png" title="Tunneling Jaws (Baneling)">
           </div>
         </div>
-        <div id="class-impaler" class="item-class">
+        <div id="class-impaler" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Impaler" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-impaler.png" title="Impaler">
           </div>
@@ -1053,7 +1016,7 @@
             <img id="Sunken Spines (Impaler)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-dehaka-impaler-tenderize.png" title="Sunken Spines (Impaler)">
           </div>
         </div>
-        <div id="class-lurker" class="item-class">
+        <div id="class-lurker" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Lurker" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-lurker.png" title="Lurker">
           </div>
@@ -1062,7 +1025,7 @@
             <img id="Seismic Spines (Lurker)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-kerrigan-seismicspines.png" title="Seismic Spines (Lurker)">
           </div>
         </div>
-        <div id="class-brood-lord" class="item-class">
+        <div id="class-brood-lord" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Brood Lord" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-broodlord.png" title="Brood Lord">
           </div>
@@ -1073,9 +1036,9 @@
             <img id="Splitter Mitosis (Brood Lord)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/abilityicon_spawnbroodlings_square.png" title="Splitter Mitosis (Brood Lord)">
           </div>
         </div>
-        <div id="class-viper" class="item-class">
+        <div id="class-viper" class="item-class ss-3">
           <div class="item-class-header">
-            <img id="Viper" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-mutalisk-viper.png" title="Viper">
+            <img id="Viper" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-viper.png" title="Viper">
           </div>
           <div class="item-class-upgrades">
             <img id="Paralytic Barbs (Viper)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-abathur-abduct.png" title="Paralytic Barbs (Viper)">
@@ -1083,7 +1046,7 @@
             <img id="Virulent Microbes (Viper)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-abathur-castrange.png" title="Virulent Microbes (Viper)">
           </div>
         </div>
-        <div id="class-guardian" class="item-class">
+        <div id="class-guardian" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Guardian" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-primalguardian.png" title="Guardian">
           </div>
@@ -1097,7 +1060,7 @@
             <img id="Soronan Acid (Guardian)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-abathur-biomass.png" title="Soronan Acid (Guardian)">
           </div>
         </div>
-        <div id="class-devourer" class="item-class">
+        <div id="class-devourer" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Devourer" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-devourerex3.png" title="Devourer">
           </div>
@@ -1108,7 +1071,7 @@
             <img id="Prescient Spores (Devourer)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-prescient-spores.png" title="Prescient Spores (Devourer)">
           </div>
         </div>
-        <div id="class-ravager" class="item-class">
+        <div id="class-ravager" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Ravager" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-ravager.png" title="Ravager">
           </div>
@@ -1118,12 +1081,12 @@
             <img id="Potent Bile (Ravager)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/potentbile_coop.png" title="Potent Bile (Ravager)">
           </div>
         </div>
-        <div id="class-overseer" class="item-class">
+        <div id="class-overseer" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Overseer" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-overseer.png" title="Overseer">
           </div>
         </div>
-        <div id="class-primal-igniter" class="item-class">
+        <div id="class-primal-igniter" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Primal Igniter" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-collection-primal-roachupgrade.png" title="Primal Igniter">
           </div>
@@ -1132,7 +1095,7 @@
             <img id="Primal Tenacity (Primal Igniter)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-genemutation-thornsaura.png" title="Primal Tenacity (Primal Igniter)">
           </div>
         </div>
-        <div id="class-tyrannozor" class="item-class">
+        <div id="class-tyrannozor" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Tyrannozor" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-collection-primal-tyrannozor.png" title="Tyrannozor">
           </div>
@@ -1143,12 +1106,89 @@
             <img id="Tyrant's Protection (Tyrannozor)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-dehaka-tyrannozor-tyrantprotection.png" title="Tyrant's Protection (Tyrannozor)">
           </div>
         </div>
-        <div id="class-spine-crawler" class="item-class">
+        <div class="ss-header">
+          <input type="checkbox" class="ss-4-toggle">
+          &#x2014; Infested &#x2014;
+        </div>
+        <div id="class-infested-marine" class="item-class ss-4">
+          <div class="item-class-header">
+            <img id="Infested Marine" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-infestedmarine.png" title="Infested Marine">
+          </div>
+          <div class="item-class-upgrades">
+            <img id="Plagued Munitions (Infested Marine)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-stukov-plaugedmunitions.png" title="Plagued Munitions (Infested Marine)">
+            <img id="Retinal Augmentation (Infested Marine)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-infestedmarinerangeupgrade.png" title="Retinal Augmentation (Infested Marine)">
+          </div>
+        </div>
+        <div id="class-infested-siege-tank" class="item-class ss-4">
+          <div class="item-class-header">
+            <img id="Infested Siege Tank" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-infestedsiegetank.png" title="Infested Siege Tank">
+          </div>
+          <div class="item-class-upgrades">
+            <img id="Acidic Enzymes (Infested Siege Tank)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-siegetankbonusdamage.png" title="Acidic Enzymes (Infested Siege Tank)">
+            <img id="Balanced Roots (Infested Siege Tank)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-creepteleport.png" title="Balanced Roots (Infested Siege Tank)">
+            <img id="Deep Tunnel (Infested Siege Tank)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-deeptunnel.png" title="Deep Tunnel (Infested Siege Tank)">
+            <div id="Progressive Automated Mitosis (Infested Siege Tank)" class="progressive lvl-0" data-max-level="2">
+              <img src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-automated-mitosis-lvl1.png" title="Progressive Automated Mitosis (Infested Siege Tank) - Level 1">
+              <img src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-siegetankammoregen.png" title="Progressive Automated Mitosis (Infested Siege Tank) - Level 2">
+            </div>
+            <img id="Seismic Sonar (Infested Siege Tank)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-seismic-sonar.png" title="Seismic Sonar (Infested Siege Tank)">
+          </div>
+        </div>
+        <div id="class-infested-diamondback" class="item-class ss-4">
+          <div class="item-class-header">
+            <img id="Infested Diamondback" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-infesteddiamondback.png" title="Infested Diamondback">
+          </div>
+          <div class="item-class-upgrades">
+            <img id="Caustic Mucus (Infested Diamondback)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-diamondbacksnailtrail.png" title="Caustic Mucus (Infested Diamondback)">
+            <img id="Concentrated Spew (Infested Diamondback)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-upgrade-zerg-concentrated-spew.png" title="Concentrated Spew (Infested Diamondback)">
+            <div id="Progressive Fungal Snare (Infested Diamondback)" class="progressive lvl-0" data-max-level="2">
+              <img src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-stukov-ensnare.png" title="Progressive Fungal Snare (Infested Diamondback) - Level 1">
+              <img src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-stukov-ensnarecdr.png" title="Progressive Fungal Snare (Infested Diamondback) - Level 2">
+            </div>
+            <img id="Violent Enzymes (Infested Diamondback)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-mengsk-ghost-pyrokineticimmolation_orange.png" title="Violent Enzymes (Infested Diamondback)">
+          </div>
+        </div>
+        <div id="class-infested-banshee" class="item-class ss-4">
+          <div class="item-class-header">
+            <img id="Infested Banshee" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-infestedbanshee.png" title="Infested Banshee">
+          </div>
+          <div class="item-class-upgrades">
+            <img id="Braced Exoskeleton (Infested Banshee)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-bansheemorelife.png" title="Braced Exoskeleton (Infested Banshee)">
+            <img id="Fleshfused Targeting Optics (Infested Banshee)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-fleshfused-targeting-optics.png" title="Fleshfused Targeting Optics (Infested Banshee)">
+            <img id="Rapid Hibernation (Infested Banshee)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-bansheeburrowregeneration.png" title="Rapid Hibernation (Infested Banshee)">
+          </div>
+        </div>
+        <div id="class-infested-liberator" class="item-class ss-4">
+          <div class="item-class-header">
+            <img id="Infested Liberator" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-infestedliberator.png" title="Infested Liberator">
+          </div>
+          <div class="item-class-upgrades">
+            <img id="Cloud Dispersal (Infested Liberator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-infestedliberatorswarmcloud.png" title="Cloud Dispersal (Infested Liberator)">
+            <img id="Defender Mode (Infested Liberator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-infested-liberator-ag.png" title="Defender Mode (Infested Liberator)">
+            <img id="Viral Contamination (Infested Liberator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-infestedliberatoraoe.png" title="Viral Contamination (Infested Liberator)">
+          </div>
+        </div>
+        <div id="class-bullfrog" class="item-class ss-4">
+          <div class="item-class-header">
+            <img id="Bullfrog" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-zerg-bullfrog.png" title="Bullfrog">
+          </div>
+          <div class="item-class-upgrades">
+            <img id="Suffused With Vermin (Bullfrog)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-infestedspawnbroodling.png" title="Suffused With Vermin (Bullfrog)">
+            <img id="Lethal Impact (Bullfrog)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-mengsk-ghost-tacticalmissilestrike.png" title="Lethal Impact (Bullfrog)">
+            <img id="Catalytic Boosters (Bullfrog)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-mengsk-medivac-igniteafterburners.png" title="Catalytic Boosters (Bullfrog)">
+            <img id="Mutagen Vents (Bullfrog)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-dehaka-essencecollector.png" title="Mutagen Vents (Bullfrog)">
+          </div>
+        </div>
+        <div class="ss-header">
+          <input type="checkbox" class="ss-5-toggle">
+          &#x2014; Buildings &#x2014;
+        </div>
+        <div id="class-spine-crawler" class="item-class ss-5">
           <div class="item-class-header">
             <img id="Spine Crawler" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-zerg-spinecrawler.png" title="Spine Crawler">
           </div>
         </div>
-        <div id="class-spore-crawler" class="item-class">
+        <div id="class-spore-crawler" class="item-class ss-5">
           <div class="item-class-header">
             <img id="Spore Crawler" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-zerg-sporecrawler.png" title="Spore Crawler">
           </div>
@@ -1156,7 +1196,7 @@
             <img id="Caustic Enzymes (Spore Crawler)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zerg-acidspores.png" title="Caustic Enzymes (Spore Crawler)">
           </div>
         </div>
-        <div id="class-bile-launcher" class="item-class">
+        <div id="class-bile-launcher" class="item-class ss-5">
           <div class="item-class-header">
             <img id="Bile Launcher" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-zerg-sporecannon.png" title="Bile Launcher">
           </div>
@@ -1165,7 +1205,7 @@
             <img id="Rapid Bombardment (Bile Launcher)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-demolition.png" title="Rapid Bombardment (Bile Launcher)">
           </div>
         </div>
-        <div id="class-infested-bunker" class="item-class">
+        <div id="class-infested-bunker" class="item-class ss-5">
           <div class="item-class-header">
             <img id="Infested Bunker" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-stukov-infestedbunker.png" title="Infested Bunker">
           </div>
@@ -1175,7 +1215,7 @@
             <img id="Regenerative Plating (Infested Bunker)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-stukov-bunkerformliferegenupgraded.png" title="Regenerative Plating (Infested Bunker)">
           </div>
         </div>
-        <div id="class-infested-missile-turret" class="item-class">
+        <div id="class-infested-missile-turret" class="item-class ss-5">
           <div class="item-class-header">
             <img id="Infested Missile Turret" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-stukov-infestedturret.png" title="Infested Missile Turret">
           </div>
@@ -1184,7 +1224,7 @@
             <img id="Bioelectric Payload (Infested Missile Turret)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zeratul-immortal-forcecannon.png" title="Bioelectric Payload (Infested Missile Turret)">
           </div>
         </div>
-        <div id="class-nydus-worm" class="item-class">
+        <div id="class-nydus-worm" class="item-class ss-5">
           <div class="item-class-header">
             <img id="Nydus Worm" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-zerg-nydusworm.png" title="Nydus Worm">
           </div>
@@ -1192,7 +1232,7 @@
             <img id="Ravenous Appetite (Nydus Worm)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/ui_tipicon_evolution_hydralisk-waves.png" title="Ravenous Appetite (Nydus Worm)">
           </div>
         </div>
-        <div id="class-echidna-worm" class="item-class">
+        <div id="class-echidna-worm" class="item-class ss-5">
           <div class="item-class-header">
             <img id="Echidna Worm" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-nydusdragon.png" title="Echidna Worm">
           </div>
@@ -1200,14 +1240,18 @@
             <img id="Ouroboros Strain (Echidna Worm)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/talent-zagara-level12-unlockswarmling.png" title="Ouroboros Strain (Echidna Worm)">
           </div>
         </div>
-        <div id="class-zerg-worm" class="item-class">
+        <div id="class-zerg-worm" class="item-class ss-5">
           <div class="item-class-upgrades">
             <img id="Jormungandr Strain (Nydus Worm/Echidna Worm)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-enduringcorruption.png" title="Jormungandr Strain (Nydus Worm/Echidna Worm)">
             <img id="Resource Efficiency (Nydus Worm/Echidna Worm)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (Nydus Worm/Echidna Worm)">
             <img id="Subterranean Scales (Nydus Worm/Echidna Worm)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-buildingarmor.png" title="Subterranean Scales (Nydus Worm/Echidna Worm)">
           </div>
         </div>
-        <div id="class-zerg-mercenary" class="item-class">
+        <div class="ss-header">
+          <input type="checkbox" class="ss-6-toggle">
+          &#x2014; Mercenaries &#x2014;
+        </div>
+        <div id="class-zerg-mercenary" class="item-class ss-6">
           <div class="item-class-upgrades">
             <img id="Infested Medics" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-infested-infestedmedic.png" title="Infested Medics">
             <img id="Infested Siege Breakers" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-terran-siegetankmercenary-tank.png" title="Infested Siege Breakers">
@@ -1220,10 +1264,18 @@
             <img id="Caustic Horrors" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-zerg-roach_collection.png" title="Caustic Horrors">
           </div>
         </div>
+        <div id="class-zerg-mercenary-upgrade" class="item-class ss-6">
+          <div class="item-class-upgrades">
+            <img id="Self-Sufficient (Zerg)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-progression-zerg-dehaka-7-newdehakaabilities.png" title="Self-Sufficient (Zerg)">
+            <img id="Unrestricted Mutation (Zerg)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-swarmfrenzy.png" title="Unrestricted Mutation (Zerg)">
+            <img id="Evolutionary Leap (Zerg)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/evolution_coop.png" title="Evolutionary Leap (Zerg)">
+            <img id="Cell Division (Zerg)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-upgrade-zerg-celldivisionon.png" title="Cell Division (Zerg)">
+          </div>
+        </div>
       </div>
       <div class="section-body">
         <div id="class-zerg-wa" class="item-class">
-          <div class="item-class-upgrades">
+          <div class="item-class-header">
             <div id="Progressive Zerg Melee Attack" class="progressive lvl-0" data-max-level="5">
               <img src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-meleeattacks-level1.png" title="Progressive Zerg Melee Attack - Level 1">
               <img src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-meleeattacks-level2.png" title="Progressive Zerg Melee Attack - Level 2">
@@ -1270,16 +1322,8 @@
             <img id="Pneumatized Carapace (Overlord)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-pneumatizedcarapace.png" title="Pneumatized Carapace (Overlord)">
           </div>
         </div>
-        <div id="class-zerg-mercenary-upgrade" class="item-class">
-          <div class="item-class-upgrades">
-            <img id="Self-Sufficient (Zerg)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-progression-zerg-dehaka-7-newdehakaabilities.png" title="Self-Sufficient (Zerg)">
-            <img id="Unrestricted Mutation (Zerg)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-zerg-swarmfrenzy.png" title="Unrestricted Mutation (Zerg)">
-            <img id="Evolutionary Leap (Zerg)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/evolution_coop.png" title="Evolutionary Leap (Zerg)">
-            <img id="Cell Division (Zerg)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-upgrade-zerg-celldivisionon.png" title="Cell Division (Zerg)">
-          </div>
-        </div>
         <div id="class-zerg-macro" class="item-class">
-          <div class="item-class-header">
+          <div class="item-class-upgrades">
             <img id="Sustained Cultivation Ventricles (Infested SCV)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-swann-scvdoublerepair.png" title="Sustained Cultivation Ventricles (Infested SCV)">
             <img id="Twin Drones (Zerg)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-kerrigan-twindrones.png" title="Twin Drones (Zerg)">
             <img id="Automated Extractors (Zerg)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-kerrigan-automatedextractors.png" title="Automated Extractors (Zerg)">
@@ -1297,11 +1341,15 @@
     </div>
     <div id="protoss-items" class="tracker-section">
       <div class="section-title">
-        <input type="checkbox">
+        <input type="checkbox" class="collapse-section">
         <h2>Protoss Items</h2>
       </div>
       <div class="section-body">
-        <div id="class-zealot" class="item-class">
+        <div class="ss-header">
+          <input type="checkbox" class="ss-1-toggle">
+          &#x2014; Gateway &#x2014;
+        </div>
+        <div id="class-zealot" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Zealot" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-zealot.png" title="Zealot">
           </div>
@@ -1309,7 +1357,7 @@
             <img id="Whirlwind (Zealot)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-whirlwind.png" title="Whirlwind (Zealot)">
           </div>
         </div>
-        <div id="class-centurion" class="item-class">
+        <div id="class-centurion" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Centurion" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-zealot-nerazim.png" title="Centurion">
           </div>
@@ -1317,7 +1365,7 @@
             <img id="Resource Efficiency (Centurion)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (Centurion)">
           </div>
         </div>
-        <div id="class-sentinel" class="item-class">
+        <div id="class-sentinel" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Sentinel" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-zealot-purifier.png" title="Sentinel">
           </div>
@@ -1325,7 +1373,7 @@
             <img id="Resource Efficiency (Sentinel)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (Sentinel)">
           </div>
         </div>
-        <div id="class-supplicant" class="item-class">
+        <div id="class-supplicant" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Supplicant" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-alarak-taldarim-supplicant.png" title="Supplicant">
           </div>
@@ -1337,13 +1385,13 @@
             <img id="Zenith Pitch (Supplicant)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-protoss-alarak-rangeweapon.png" title="Zenith Pitch (Supplicant)">
           </div>
         </div>
-        <div id="class-zealot-tier" class="item-class">
+        <div id="class-zealot-tier" class="item-class ss-1">
           <div class="item-class-upgrades">
             <img id="Leg Enhancements (Zealot/Sentinel/Centurion)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-lightningdash.png" title="Leg Enhancements (Zealot/Sentinel/Centurion)">
             <img id="Shield Capacity (Zealot/Sentinel/Centurion)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-shield-capacity.png" title="Shield Capacity (Zealot/Sentinel/Centurion)">
           </div>
         </div>
-        <div id="class-stalker" class="item-class">
+        <div id="class-stalker" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Stalker" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-stalker.png" title="Stalker">
           </div>
@@ -1351,7 +1399,7 @@
             <img id="Phase Reactor (Stalker)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-blinkshieldrestore.png" title="Phase Reactor (Stalker)">
           </div>
         </div>
-        <div id="class-instigator" class="item-class">
+        <div id="class-instigator" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Instigator" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-stalker-purifier.png" title="Instigator">
           </div>
@@ -1361,7 +1409,7 @@
             <img id="Reconstruction (Instigator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-upgrade-protoss-stalkerpurifier-reconstruction.png" title="Reconstruction (Instigator)">
           </div>
         </div>
-        <div id="class-slayer" class="item-class">
+        <div id="class-slayer" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Slayer" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-protoss-stalker-taldarim-collection-ds.png" title="Slayer">
           </div>
@@ -1369,13 +1417,13 @@
             <img id="Phase Blink (Slayer)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-blink-color.png" title="Phase Blink (Slayer)">
           </div>
         </div>
-        <div id="class-stalker-tier" class="item-class">
+        <div id="class-stalker-tier" class="item-class ss-1">
           <div class="item-class-upgrades">
             <img id="Disintegrating Particles (Stalker/Instigator/Slayer)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-disintegrating-particles.png" title="Disintegrating Particles (Stalker/Instigator/Slayer)">
             <img id="Particle Reflection (Stalker/Instigator/Slayer)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-protoss-fenix-adeptchampionbounceattack.png" title="Particle Reflection (Stalker/Instigator/Slayer)">
           </div>
         </div>
-        <div id="class-sentry" class="item-class">
+        <div id="class-sentry" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Sentry" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-sentry.png" title="Sentry">
           </div>
@@ -1385,7 +1433,7 @@
             <img id="Hallucination (Sentry)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-hallucination-color.png" title="Hallucination (Sentry)">
           </div>
         </div>
-        <div id="class-energizer" class="item-class">
+        <div id="class-energizer" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Energizer" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-sentry-purifier.png" title="Energizer">
           </div>
@@ -1395,7 +1443,7 @@
             <img id="Reclamation (Energizer)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-reclamation.png" title="Reclamation (Energizer)">
           </div>
         </div>
-        <div id="class-havoc" class="item-class">
+        <div id="class-havoc" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Havoc" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-sentry-taldarim.png" title="Havoc">
           </div>
@@ -1405,13 +1453,13 @@
             <img id="Enduring Sight (Havoc)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-raven-analyzetarget.png" title="Enduring Sight (Havoc)">
           </div>
         </div>
-        <div id="class-sentry-tier" class="item-class">
+        <div id="class-sentry-tier" class="item-class ss-1">
           <div class="item-class-upgrades">
             <img id="Cloaking Module (Sentry/Energizer/Havoc)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-protoss-alarak-permanentcloak.png" title="Cloaking Module (Sentry/Energizer/Havoc)">
             <img id="Rapid Recharging (Sentry/Energizer/Havoc/Shield Battery)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-karax-energyregen200.png" title="Rapid Recharging (Sentry/Energizer/Havoc/Shield Battery)">
           </div>
         </div>
-        <div id="class-dragoon" class="item-class">
+        <div id="class-dragoon" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Dragoon" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-dragoon-void.png" title="Dragoon">
           </div>
@@ -1423,7 +1471,7 @@
             <img id="Trillic Compression System (Dragoon)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-dragoonchassis.png" title="Trillic Compression System (Dragoon)">
           </div>
         </div>
-        <div id="class-adept" class="item-class">
+        <div id="class-adept" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Adept" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-adept-purifier.png" title="Adept">
           </div>
@@ -1434,7 +1482,7 @@
             <img id="Shockwave (Adept)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-protoss-fenix-adept-recochetglaiveupgraded.png" title="Shockwave (Adept)">
           </div>
         </div>
-        <div id="class-high-templar" class="item-class">
+        <div id="class-high-templar" class="item-class ss-1">
           <div class="item-class-header">
             <img id="High Templar" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-hightemplar.png" title="High Templar">
           </div>
@@ -1442,7 +1490,7 @@
             <img id="Plasma Surge (High Templar)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-artanis-healingpsionicstorm.png" title="Plasma Surge (High Templar)">
           </div>
         </div>
-        <div id="class-signifier" class="item-class">
+        <div id="class-signifier" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Signifier" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-protoss-hightemplar-nerazim.png" title="Signifier">
           </div>
@@ -1450,7 +1498,7 @@
             <img id="Feedback (Signifier)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-feedback-color.png" title="Feedback (Signifier)">
           </div>
         </div>
-        <div id="class-ascendant" class="item-class">
+        <div id="class-ascendant" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Ascendant" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-hightemplar-taldarim.png" title="Ascendant">
           </div>
@@ -1462,14 +1510,14 @@
             <img id="Power Overwhelming (Ascendant)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-protoss-alarak-ascendantspermanentlybetter.png" title="Power Overwhelming (Ascendant)">
           </div>
         </div>
-        <div id="class-high-templar-tier" class="item-class">
+        <div id="class-high-templar-tier" class="item-class ss-1">
           <div class="item-class-upgrades">
             <img id="Hallucination (High Templar/Signifier)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-hallucination-color.png" title="Hallucination (High Templar/Signifier)">
             <img id="Khaydarin Amulet (High Templar/Signifier)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-protoss-khaydarinamulet.png" title="Khaydarin Amulet (High Templar/Signifier)">
             <img id="Unshackled Psionic Storm (High Templar/Signifier)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unshackled-psionic-storm.png" title="Unshackled Psionic Storm (High Templar/Signifier)">
           </div>
         </div>
-        <div id="class-archon" class="item-class">
+        <div id="class-archon" class="item-class ss-1">
           <div class="item-class-upgrades">
             <img id="High Archon (Archon)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-archon-upgraded.png" title="High Archon (Archon)">
             <img id="Transcendence (Archon)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-astralwind.png" title="Transcendence (Archon)">
@@ -1478,7 +1526,7 @@
             <img id="Obliterate (Archon)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-obliterate.png" title="Obliterate (Archon)">
           </div>
         </div>
-        <div id="class-dark-archon" class="item-class">
+        <div id="class-dark-archon" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Dark Archon" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/talent-vorazun-level05-unlockdarkarchon.png" title="Dark Archon">
           </div>
@@ -1489,7 +1537,7 @@
             <img id="Maelstrom (Dark Archon)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-voidstasis.png" title="Maelstrom (Dark Archon)">
           </div>
         </div>
-        <div id="class-dark-templar" class="item-class">
+        <div id="class-dark-templar" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Dark Templar" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-darktemplar.png" title="Dark Templar">
           </div>
@@ -1500,7 +1548,7 @@
             <img id="Lesser Shadow Fury (Dark Templar)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-shadowfury.png" title="Lesser Shadow Fury (Dark Templar)">
           </div>
         </div>
-        <div id="class-avenger" class="item-class">
+        <div id="class-avenger" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Avenger" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-darktemplar-aiur.png" title="Avenger">
           </div>
@@ -1508,7 +1556,7 @@
             <img id="Kryhas Cloak (Avenger)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-kryhas-cloak.png" title="Kryhas Cloak (Avenger)">
           </div>
         </div>
-        <div id="class-blood-hunter" class="item-class">
+        <div id="class-blood-hunter" class="item-class ss-1">
           <div class="item-class-header">
             <img id="Blood Hunter" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-darktemplar-taldarim.png" title="Blood Hunter">
           </div>
@@ -1516,7 +1564,7 @@
             <img id="Brutal Efficiency (Blood Hunter)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-protoss-alarak-melleeweapon.png" title="Brutal Efficiency (Blood Hunter)">
           </div>
         </div>
-        <div id="class-dark-templar-tier" class="item-class">
+        <div id="class-dark-templar-tier" class="item-class ss-1">
           <div class="item-class-upgrades">
             <img id="Blink (Dark Templar/Avenger/Blood Hunter)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-shadowdash.png" title="Blink (Dark Templar/Avenger/Blood Hunter)">
             <img id="Resource Efficiency (Dark Templar/Avenger/Blood Hunter)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (Dark Templar/Avenger/Blood Hunter)">
@@ -1524,7 +1572,11 @@
             <img id="Shroud of Adun (Dark Templar/Avenger/Blood Hunter)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/talent-vorazun-level01-shadowstalk.png" title="Shroud of Adun (Dark Templar/Avenger/Blood Hunter)">
           </div>
         </div>
-        <div id="class-immortal" class="item-class">
+        <div class="ss-header">
+          <input type="checkbox" class="ss-2-toggle">
+          &#x2014; Robotics Facility &#x2014;
+        </div>
+        <div id="class-immortal" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Immortal" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-immortal.png" title="Immortal">
           </div>
@@ -1532,7 +1584,7 @@
             <img id="Improved Barrier (Immortal)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-barrier-upgraded.png" title="Improved Barrier (Immortal)">
           </div>
         </div>
-        <div id="class-annihilator" class="item-class">
+        <div id="class-annihilator" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Annihilator" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-immortal-nerazim.png" title="Annihilator">
           </div>
@@ -1540,7 +1592,7 @@
             <img id="Twilight Chassis (Annihilator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-twilight-chassis.png" title="Twilight Chassis (Annihilator)">
           </div>
         </div>
-        <div id="class-stalwart" class="item-class">
+        <div id="class-stalwart" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Stalwart" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-collection-purifier-immortal.png" title="Stalwart">
           </div>
@@ -1552,7 +1604,7 @@
             <img id="Stabilized Electrodes (Stalwart)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-stabilized-electrodes.png" title="Stabilized Electrodes (Stalwart)">
           </div>
         </div>
-        <div id="class-vanguard" class="item-class">
+        <div id="class-vanguard" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Vanguard" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-immortal-taldarim.png" title="Vanguard">
           </div>
@@ -1563,14 +1615,14 @@
             <img id="Rapid-Fire Cannon (Vanguard)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-mengsk-engineeringbay-orbitaldrop.png" title="Rapid-Fire Cannon (Vanguard)">
           </div>
         </div>
-        <div id="class-immortal-tier" class="item-class">
+        <div id="class-immortal-tier" class="item-class ss-2">
           <div class="item-class-upgrades">
             <img id="Advanced Targeting (Immortal/Annihilator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-advanced-targeting.png" title="Advanced Targeting (Immortal/Annihilator)">
             <img id="Disruptor Dispersion (Immortal/Annihilator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-disruptor-dispersion.png" title="Disruptor Dispersion (Immortal/Annihilator)">
             <img id="Singularity Charge (Immortal/Annihilator)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-artanis-singularitycharge.png" title="Singularity Charge (Immortal/Annihilator)">
           </div>
         </div>
-        <div id="class-colossus" class="item-class">
+        <div id="class-colossus" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Colossus" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-colossus.png" title="Colossus">
           </div>
@@ -1579,7 +1631,7 @@
             <img id="Pacification Protocol (Colossus)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-pacification-protocols.png" title="Pacification Protocol (Colossus)">
           </div>
         </div>
-        <div id="class-wrathwalker" class="item-class">
+        <div id="class-wrathwalker" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Wrathwalker" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-colossus-taldarim.png" title="Wrathwalker">
           </div>
@@ -1589,7 +1641,7 @@
             <img id="Rapid Power Cycling (Wrathwalker)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-protoss-wrathwalker-chargetimeimproved.png" title="Rapid Power Cycling (Wrathwalker)">
           </div>
         </div>
-        <div id="class-reaver" class="item-class">
+        <div id="class-reaver" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Reaver" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-reaver.png" title="Reaver">
           </div>
@@ -1602,7 +1654,7 @@
             <img id="Solarite Payload (Reaver)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-solarite-payload.png" title="Solarite Payload (Reaver)">
           </div>
         </div>
-        <div id="class-disruptor" class="item-class">
+        <div id="class-disruptor" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Disruptor" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-collection-purifier-disruptor.png" title="Disruptor">
           </div>
@@ -1613,7 +1665,7 @@
             <img id="Restrained Destruction (Disruptor)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-stetmann-banelingmanashieldefficiency.png" title="Restrained Destruction (Disruptor)">
           </div>
         </div>
-        <div id="class-observer" class="item-class">
+        <div id="class-observer" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Observer" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-observer.png" title="Observer">
           </div>
@@ -1623,7 +1675,7 @@
             <img id="Sensor Array (Observer)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-zeratul-observer-sensorarray.png" title="Sensor Array (Observer)">
           </div>
         </div>
-        <div id="class-warp-prism" class="item-class">
+        <div id="class-warp-prism" class="item-class ss-2">
           <div class="item-class-header">
             <img id="Warp Prism" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-warpprism.png" title="Warp Prism">
           </div>
@@ -1634,7 +1686,11 @@
             <img id="War Configuration (Warp Prism)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-protoss-alarak-graviticdrive.png" title="War Configuration (Warp Prism)">
           </div>
         </div>
-        <div id="class-phoenix" class="item-class">
+        <div class="ss-header">
+          <input type="checkbox" class="ss-3-toggle">
+          &#x2014; Stargate &#x2014;
+        </div>
+        <div id="class-phoenix" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Phoenix" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-phoenix.png" title="Phoenix">
           </div>
@@ -1642,7 +1698,7 @@
             <img id="Double Graviton Beam (Phoenix)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-dualgravitonbeam.png" title="Double Graviton Beam (Phoenix)">
           </div>
         </div>
-        <div id="class-mirage" class="item-class">
+        <div id="class-mirage" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Mirage" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-phoenix-purifier.png" title="Mirage">
           </div>
@@ -1650,13 +1706,13 @@
             <img id="Graviton Beam (Mirage)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-gravitonbeam-color.png" title="Graviton Beam (Mirage)">
           </div>
         </div>
-        <div id="class-phoenix-tier" class="item-class">
+        <div id="class-phoenix-tier" class="item-class ss-3">
           <div class="item-class-upgrades">
             <img id="Anion Pulse-Crystals (Phoenix/Mirage/Skirmisher)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-protoss-phoenixrange.png" title="Anion Pulse-Crystals (Phoenix/Mirage/Skirmisher)">
             <img id="Ionic Wavelength Flux (Phoenix/Mirage/Skirmisher)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-iconic-wavelength-flux.png" title="Ionic Wavelength Flux (Phoenix/Mirage/Skirmisher)">
           </div>
         </div>
-        <div id="class-corsair" class="item-class">
+        <div id="class-corsair" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Corsair" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-corsair.png" title="Corsair">
           </div>
@@ -1668,7 +1724,7 @@
             <img id="Sustaining Disruption (Corsair)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-sustaining-disruption.png" title="Sustaining Disruption (Corsair)">
           </div>
         </div>
-        <div id="class-void-ray" class="item-class">
+        <div id="class-void-ray" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Void Ray" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-warpray.png" title="Void Ray">
           </div>
@@ -1677,7 +1733,7 @@
             <img id="Prismatic Range (Void Ray)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-prismaticrange.png" title="Prismatic Range (Void Ray)">
           </div>
         </div>
-        <div id="class-carrier" class="item-class">
+        <div id="class-carrier" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Carrier" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-carrier.png" title="Carrier">
           </div>
@@ -1687,7 +1743,7 @@
             <img id="Graviton Catapult (Carrier/Trireme)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-protoss-gravitoncatapult.png" title="Graviton Catapult (Carrier/Trireme)">
           </div>
         </div>
-        <div id="class-destroyer" class="item-class">
+        <div id="class-destroyer" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Destroyer" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-voidray-taldarim.png" title="Destroyer">
           </div>
@@ -1696,7 +1752,7 @@
             <img id="Resource Efficiency (Destroyer)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-hornerhan-salvagebonus.png" title="Resource Efficiency (Destroyer)">
           </div>
         </div>
-        <div id="class-scout" class="item-class">
+        <div id="class-scout" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Scout" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-protoss-scout.png" title="Scout">
           </div>
@@ -1710,7 +1766,7 @@
             <img id="Supply Efficiency (Scout)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/talent-artanis-level14-startingmaxsupply.png" title="Supply Efficiency (Scout)">
           </div>
         </div>
-        <div id="class-tempest" class="item-class">
+        <div id="class-tempest" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Tempest" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-tempest-purifier.png" title="Tempest">
           </div>
@@ -1722,7 +1778,7 @@
             <img id="Tectonic Destabilizers (Tempest)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-disruptionblast.png" title="Tectonic Destabilizers (Tempest)">
           </div>
         </div>
-        <div id="class-mothership" class="item-class">
+        <div id="class-mothership" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Mothership" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-mothership-taldarim.png" title="Mothership">
           </div>
@@ -1730,7 +1786,7 @@
             <img id="Integrated Power (Mothership)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-integrated-power.png" title="Integrated Power (Mothership)">
           </div>
         </div>
-        <div id="class-arbiter" class="item-class">
+        <div id="class-arbiter" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Arbiter" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-arbiter.png" title="Arbiter">
           </div>
@@ -1743,7 +1799,7 @@
             <img id="Vessel of the Conclave (Arbiter)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-forceofwill.png" title="Vessel of the Conclave (Arbiter)">
           </div>
         </div>
-        <div id="class-oracle" class="item-class">
+        <div id="class-oracle" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Oracle" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-oracle.png" title="Oracle">
           </div>
@@ -1755,7 +1811,7 @@
             <img id="Temporal Acceleration Beam (Oracle)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-oraclepulsarcannonon.png" title="Temporal Acceleration Beam (Oracle)">
           </div>
         </div>
-        <div id="class-pulsar" class="item-class">
+        <div id="class-pulsar" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Pulsar" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-voidray-aiur.png" title="Pulsar">
           </div>
@@ -1765,7 +1821,7 @@
             <img id="Entropic Reversal (Pulsar)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-stasistrap.png" title="Entropic Reversal (Pulsar)">
           </div>
         </div>
-        <div id="class-dawnbringer" class="item-class">
+        <div id="class-dawnbringer" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Dawnbringer" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-protoss-voidray-purifier.png" title="Dawnbringer">
           </div>
@@ -1775,7 +1831,7 @@
             <img id="Solarite Lens (Dawnbringer)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-solarite-lens.png" title="Solarite Lens (Dawnbringer)">
           </div>
         </div>
-        <div id="class-skylord" class="item-class">
+        <div id="class-skylord" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Skylord" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-collection-taldarim-carrier.png" title="Skylord">
           </div>
@@ -1783,7 +1839,7 @@
             <img id="Jump (Skylord)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-jump.png" title="Jump (Skylord)">
           </div>
         </div>
-        <div id="class-trireme" class="item-class">
+        <div id="class-trireme" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Trireme" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-collection-purifier-carrier.png" title="Trireme">
           </div>
@@ -1791,7 +1847,7 @@
             <img id="Solar Beam (Trireme)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-protoss-fenix-carrier-solarbeam.png" title="Solar Beam (Trireme)">
           </div>
         </div>
-        <div id="class-skirmisher" class="item-class">
+        <div id="class-skirmisher" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Skirmisher" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-collection-taldarim-phoenix.png" title="Skirmisher">
           </div>
@@ -1799,7 +1855,7 @@
             <img id="Peer Contempt (Skirmisher)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-peer-contempt.png" title="Peer Contempt (Skirmisher)">
           </div>
         </div>
-        <div id="class-oppressor" class="item-class">
+        <div id="class-oppressor" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Oppressor" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-protoss-scouttaldarim.png" title="Oppressor">
           </div>
@@ -1809,7 +1865,7 @@
             <img id="Vulcan Blaster (Oppressor)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-ability-protoss-vulcanblaster.png" title="Vulcan Blaster (Oppressor)">
           </div>
         </div>
-        <div id="class-caladrius" class="item-class">
+        <div id="class-caladrius" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Caladrius" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-protoss-scoutpurifier.png" title="Caladrius">
           </div>
@@ -1820,7 +1876,7 @@
             <img id="Structure Targeting (Caladrius)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-caladrius-structure.png" title="Structure Targeting (Caladrius)">
           </div>
         </div>
-        <div id="class-mist-wing" class="item-class">
+        <div id="class-mist-wing" class="item-class ss-3">
           <div class="item-class-header">
             <img id="Mist Wing" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/original/btn-unit-protoss-scoutnerazim.png" title="Mist Wing">
           </div>
@@ -1830,14 +1886,18 @@
             <img id="Pilot (Mist Wing)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-protoss-veilofshadowsvorazun.png" title="Pilot (Mist Wing)">
           </div>
         </div>
-        <div id="class-protoss-static-defense" class="item-class">
+        <div class="ss-header">
+          <input type="checkbox" class="ss-4-toggle">
+          &#x2014; Buildings &#x2014;
+        </div>
+        <div id="class-protoss-static-defense" class="item-class ss-4">
           <div class="item-class-header">
             <img id="Photon Cannon" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-protoss-photoncannon.png" title="Photon Cannon">
             <img id="Khaydarin Monolith" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-unit-protoss-khaydarinmonolith.png" title="Khaydarin Monolith">
             <img id="Shield Battery" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-building-protoss-shieldbattery.png" title="Shield Battery">
           </div>
         </div>
-        <div id="class-protoss-static-defense-upgrade" class="item-class">
+        <div id="class-protoss-static-defense-upgrade" class="item-class ss-4">
           <div class="item-class-upgrades">
             <img id="Nexus Overcharge (Protoss)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-ability-spearofadun-nexusovercharge.png" title="Nexus Overcharge (Protoss)">
             <img id="Enhanced Targeting (Protoss)" src="https://matthewmarinets.github.io/ap_sc2_icons/icons/blizzard/btn-upgrade-karax-turretrange.png" title="Enhanced Targeting (Protoss)">
@@ -1932,7 +1992,7 @@
     </div>
     <div id="nova-items" class="tracker-section">
       <div class="section-title">
-        <input type="checkbox">
+        <input type="checkbox" class="collapse-section">
         <h2>Nova Items</h2>
       </div>
       <div class="section-body">
@@ -1962,7 +2022,7 @@
     </div>
     <div id="kerrigan-items" class="tracker-section">
       <div class="section-title">
-        <input type="checkbox">
+        <input type="checkbox" class="collapse-section">
         <h2>Kerrigan Items</h2>
       </div>
       <div class="section-body">

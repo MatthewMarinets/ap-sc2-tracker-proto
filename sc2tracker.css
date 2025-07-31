@@ -1,7 +1,10 @@
 * {
-    --icon-size: 36px;
     margin: 0;
     font-family: "JuraBook", monospace;
+}
+body {
+    --icon-size: 36px;
+    --item-class-padding: 4px;
 }
 
 #player-info {
@@ -36,7 +39,7 @@
     align-items: flex-start;
     padding-bottom: 3px;
 }
-.tracker-section:has(input[type=checkbox]:checked) .section-body {
+.tracker-section:has(input.collapse-section[type=checkbox]:checked) .section-body {
     display: none;
 }
 .section-title {
@@ -50,10 +53,10 @@
 input[type="checkbox"] {
     position: absolute;
     cursor: pointer;
-    width: 100%;
-    height: 100%;
     opacity: 0;
     z-index: 1;
+    width: 100%;
+    height: 100%;
 }
 
 .tracker-section img {
@@ -76,7 +79,7 @@ input[type="checkbox"] {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    padding: 4px;
+    padding: var(--item-class-padding);
 }
 .item-class-header {
     display: flex;
@@ -88,9 +91,41 @@ input[type="checkbox"] {
     max-height: calc(4 * var(--icon-size));
 }
 
+/* Subsections */
+.ss-header {
+    position: relative;
+    text-align: center;
+    writing-mode: sideways-lr;
+    user-select: none;
+    padding-top: 5px;
+    font-size: 115%;
+}
+.ss-header:hover {
+    text-shadow: 0 0 7px #fe7;
+}
+.section-body:has(input.ss-1-toggle:checked) .ss-1 {
+    display: none;
+}
+.section-body:has(input.ss-2-toggle:checked) .ss-2 {
+    display: none;
+}
+.section-body:has(input.ss-3-toggle:checked) .ss-3 {
+    display: none;
+}
+.section-body:has(input.ss-4-toggle:checked) .ss-4 {
+    display: none;
+}
+.section-body:has(input.ss-5-toggle:checked) .ss-5 {
+    display: none;
+}
+.section-body:has(input.ss-6-toggle:checked) .ss-6 {
+    display: none;
+}
+
 /* Progressive items */
 .progressive {
     max-height: var(--icon-size);
+    display: contents;
 }
 
 .lvl-1 img, .lvl-2 img,
