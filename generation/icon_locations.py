@@ -1,0 +1,2597 @@
+ICON_PATHS = {
+ "330mm Barrage Cannon (Thor)": [
+  "icons/original/btn-ability-thor-330mm.png"
+ ],
+ "ATX Laser Battery (Battlecruiser)": [
+  "icons/original/btn-atx-batteries.png"
+ ],
+ "Aberration": [
+  "icons/blizzard/btn-unit-zerg-aberration.png"
+ ],
+ "Ability Efficiency (Kerrigan Passive)": [
+  "icons/blizzard/btn-ability-kerrigan-abilityefficiency.png"
+ ],
+ "Accelerated Warp (Oppressor)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+ ],
+ "Acid Spore Vents (Infested Missile Turret)": [
+  "icons/blizzard/btn-ability-zerg-acidspores.png"
+ ],
+ "Acidic Enzymes (Infested Siege Tank)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-siegetankbonusdamage.png"
+ ],
+ "Adapted Spines (Lurker)": [
+  "icons/blizzard/btn-upgrade-zerg-groovedspines.png"
+ ],
+ "Adaptive Defenses (Predator)": [
+  "icons/blizzard/btn-ability-stetmann-banelingmanashield.png"
+ ],
+ "Adaptive Medpacks (Medic)": [
+  "icons/original/btn-adaptive-medpacks.png"
+ ],
+ "Adaptive Plating (Roach)": [
+  "icons/blizzard/btn-upgrade-zerg-adaptivecarapace.png"
+ ],
+ "Adaptive Talons (Impaler)": [
+  "icons/blizzard/btn-upgrade-zerg-adaptivetalons.png"
+ ],
+ "Additional Maximum Supply": [
+  "icons/blizzard/icon-health-nobg.png"
+ ],
+ "Additional Starting Minerals": [
+  "icons/blizzard/icon-mineral-nobg.png"
+ ],
+ "Additional Starting Supply": [
+  "icons/blizzard/icon-supply-protoss_nobg.png",
+  "icons/blizzard/icon-supply-terran_nobg.png",
+  "icons/blizzard/icon-supply-zerg_nobg.png"
+ ],
+ "Additional Starting Vespene": [
+  "icons/blizzard/icon-gas-terran-nobg.png"
+ ],
+ "Adept": [
+  "icons/blizzard/btn-unit-protoss-adept-purifier.png"
+ ],
+ "Adrenal Overload (Zergling)": [
+  "icons/blizzard/btn-upgrade-zerg-adrenaloverload.png"
+ ],
+ "Advanced Alloys (Dominion Trooper)": [
+  "icons/blizzard/btn-upgrade-mengsk-engineeringbay-dominionweaponslevel0.png"
+ ],
+ "Advanced Ballistics (Liberator)": [
+  "icons/blizzard/btn-upgrade-terran-advanceballistics.png"
+ ],
+ "Advanced Cloaking Field (Medivac)": [
+  "icons/original/btn-permacloak-medivac.png"
+ ],
+ "Advanced Cloaking Field (Reaper)": [
+  "icons/original/btn-permacloak-reaper.png"
+ ],
+ "Advanced Construction (SCV)": [
+  "icons/original/btn-advanced-construction.png"
+ ],
+ "Advanced Healing AI (Medivac)": [
+  "icons/blizzard/btn-ability-mengsk-medivac-doublehealbeam.png"
+ ],
+ "Advanced Laser Technology (Wraith)": [
+  "icons/blizzard/btn-upgrade-swann-improvedburstlaser.png"
+ ],
+ "Advanced Medic Facilities (Medic)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Advanced Optics (Terran)": [
+  "icons/blizzard/btn-upgrade-swann-vehiclerangeincrease.png"
+ ],
+ "Advanced Photon Blasters (Scout/Oppressor/Mist Wing)": [
+  "icons/original/btn-advanced-photon-blasters.png"
+ ],
+ "Advanced Siege Tech (Siege Tank)": [
+  "icons/blizzard/btn-upgrade-raynor-improvedsiegemode.png"
+ ],
+ "Advanced Targeting (Immortal/Annihilator)": [
+  "icons/original/btn-advanced-targeting.png"
+ ],
+ "Advanced Targeting Optics (Banshee)": [
+  "icons/blizzard/btn-ability-terran-detectionconedebuff.png"
+ ],
+ "Aegis Guard": [
+  "icons/blizzard/btn-unit-terran-maraudermengsk.png"
+ ],
+ "Aerial Tracking (Wrathwalker)": [
+  "icons/blizzard/btn-upgrade-protoss-wrathwalker-cantargetairunits.png"
+ ],
+ "Aerodynamic Glaive Shape (Mutalisk)": [
+  "icons/blizzard/btn-ability-dehaka-airbonusdamage.png"
+ ],
+ "Aesir Turbines (Viking)": [
+  "icons/blizzard/btn-ability-mengsk-viking-speed.png"
+ ],
+ "Afterburners (Medivac)": [
+  "icons/blizzard/btn-upgrade-terran-medivacemergencythrusters.png"
+ ],
+ "Afterburners (Valkyrie)": [
+  "icons/original/btn-afterburners-valkyrie.png"
+ ],
+ "Agony Launchers (Vanguard)": [
+  "icons/blizzard/btn-ability-protoss-chargedblast.png"
+ ],
+ "All-Terrain Treads (Siege Tank)": [
+  "icons/original/btn-all-terrain-treads.png"
+ ],
+ "Amplified Assimilators (Protoss)": [
+  "icons/original/btn-research-terran-microfiltering.png"
+ ],
+ "Anabolic Synthesis (Ultralisk)": [
+  "icons/blizzard/btn-upgrade-zerg-anabolicsynthesis.png"
+ ],
+ "Ancillary Carapace (Hydralisk)": [
+  "icons/blizzard/btn-upgrade-zerg-ancillaryarmor.png"
+ ],
+ "Anion Pulse-Crystals (Phoenix/Mirage/Skirmisher)": [
+  "icons/blizzard/btn-upgrade-protoss-phoenixrange.png"
+ ],
+ "Annihilator": [
+  "icons/blizzard/btn-unit-protoss-immortal-nerazim.png"
+ ],
+ "Antennae (Overlord)": [
+  "icons/blizzard/btn-ability-zerg-overlord-oversight-off.png"
+ ],
+ "Anti-Armor Missile (Raven)": [
+  "icons/blizzard/btn-ability-terran-shreddermissile-color.png"
+ ],
+ "Anti-Armor Munitions (Devastator Turret)": [
+  "icons/blizzard/btn-ability-terran-ignorearmor.png"
+ ],
+ "Anti-Mechanical Munition (Viking)": [
+  "icons/blizzard/btn-ability-terran-ignorearmor.png"
+ ],
+ "Anti-Surface Countermeasures (Dawnbringer)": [
+  "icons/original/btn-anti-surface-countermeasures.png"
+ ],
+ "Apial Sensors (Scout)": [
+  "icons/original/btn-apial-sensors.png"
+ ],
+ "Apocalypse (Kerrigan Ability)": [
+  "icons/blizzard/btn-ability-kerrigan-apocalypse.png"
+ ],
+ "Arbiter": [
+  "icons/blizzard/btn-unit-protoss-arbiter.png"
+ ],
+ "Arc Inducers (Stalwart)": [
+  "icons/original/btn-arc-inducers.png"
+ ],
+ "Archon Merge (Ascendant)": [
+  "icons/blizzard/btn-unit-protoss-archon.png"
+ ],
+ "Archon Merge (Dark Templar)": [
+  "icons/blizzard/btn-unit-protoss-archon.png"
+ ],
+ "Ares-Class Targeting System (Goliath)": [
+  "icons/blizzard/btn-upgrade-swann-aresclasstargetingsystem.png"
+ ],
+ "Argus Amplifier (Hive Mind Emulator)": [
+  "icons/blizzard/btn-building-terran-hivemindemulator.png"
+ ],
+ "Argus Jewel (Corsair)": [
+  "icons/blizzard/btn-ability-protoss-stasistrap.png"
+ ],
+ "Argus Talisman (Dark Archon)": [
+  "icons/original/btn-argus-talisman.png"
+ ],
+ "Armor Melting Blasters (Oppressor)": [
+  "icons/original/btn-armor-metling-blasters.png"
+ ],
+ "Armored Suit Module (Nova Suit Module)": [
+  "icons/blizzard/btn-upgrade-nova-equipment-blinksuit.png"
+ ],
+ "Artillery Ducts (Bile Launcher)": [
+  "icons/blizzard/btn-upgrade-zagara-increasebilelauncherrange.png"
+ ],
+ "Ascendant": [
+  "icons/blizzard/btn-unit-protoss-hightemplar-taldarim.png"
+ ],
+ "Assimilation Aura (Kerrigan Ability)": [
+  "icons/blizzard/btn-upgrade-kerrigan-assimilationaura.png"
+ ],
+ "Assistive Targeting (Sensor Tower)": [
+  "icons/blizzard/btn-ability-hornerhan-raven-analyzetarget.png"
+ ],
+ "Auto Launchers (Vulture)": [
+  "icons/original/vultureautolaunchers.png"
+ ],
+ "Automated Extractors (Zerg)": [
+  "icons/blizzard/btn-ability-kerrigan-automatedextractors.png"
+ ],
+ "Automated Refinery (Terran)": [
+  "icons/original/btn-building-terran-refineryautomated.png"
+ ],
+ "Avenger": [
+  "icons/blizzard/btn-unit-protoss-darktemplar-aiur.png"
+ ],
+ "Axiom Plating (Warhound)": [
+  "icons/original/btn-research-zerg-fortifiedbunker.png"
+ ],
+ "B-2 High-Cal LMG (Dominion Trooper)": [
+  "icons/blizzard/btn-upgrade-mengsk-trooper-plasmarifle.png"
+ ],
+ "Balanced Roots (Infested Siege Tank)": [
+  "icons/blizzard/btn-ability-zerg-creepteleport.png"
+ ],
+ "Ballistic Flightsuit (Reaper)": [
+  "icons/blizzard/btn-upgrade-mengsk-engineeringbay-dominionarmorlevel2.png"
+ ],
+ "Baneling": [
+  "icons/blizzard/btn-unit-zerg-baneling.png"
+ ],
+ "Baneling Incubation (Aberration)": [
+  "icons/blizzard/btn-upgrade-zerg-rupture.png"
+ ],
+ "Banshee": [
+  "icons/blizzard/btn-unit-terran-banshee.png"
+ ],
+ "Bargain Bin Prices (Ghost)": [
+  "icons/blizzard/naptime_coop.png"
+ ],
+ "Bargain Bin Prices (Reaver)": [
+  "icons/blizzard/naptime_coop.png"
+ ],
+ "Bargain Bin Prices (Spectre)": [
+  "icons/blizzard/naptime_coop.png"
+ ],
+ "Barrage of Spikes (Tyrannozor)": [
+  "icons/blizzard/btn-ability-zerg-dehaka-tyrannozor-barrageofspikes.png"
+ ],
+ "Battlecruiser": [
+  "icons/blizzard/btn-unit-terran-battlecruiser.png"
+ ],
+ "Behemoth Plating (Battlecruiser)": [
+  "icons/original/btn-research-zerg-fortifiedbunker.png"
+ ],
+ "Behemoth Reactor (Battlecruiser)": [
+  "icons/blizzard/btn-upgrade-terran-behemothreactor.png"
+ ],
+ "Behemoth Stellarskin (Brood Lord)": [
+  "icons/original/btn-behemoth-stellarskin.png"
+ ],
+ "Bile Launcher": [
+  "icons/blizzard/btn-building-zerg-sporecannon.png"
+ ],
+ "Bio Mechanical Repair Drone (Raven)": [
+  "icons/blizzard/btn-unit-biomechanicaldrone.png"
+ ],
+ "Bio-Mechanical Stockpiling (Zerg)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-queenenergyregen.png"
+ ],
+ "Bio-Mechanical Transfusion (Swarm Queen)": [
+  "icons/blizzard/btn-upgrade-zerg-abathur-biomechanicaltransfusion.png"
+ ],
+ "Bioelectric Payload (Infested Missile Turret)": [
+  "icons/blizzard/btn-ability-zeratul-immortal-forcecannon.png"
+ ],
+ "Black Market Launchers (Widow Mine)": [
+  "icons/blizzard/btn-ability-hornerhan-widowmine-attackrange.png"
+ ],
+ "Blackhammer": [
+  "icons/blizzard/btn-unit-terran-thormengsk.png"
+ ],
+ "Blazefire Gunblade (Nova Weapon)": [
+  "icons/blizzard/btn-upgrade-nova-equipment-gunblade_sword.png"
+ ],
+ "Blink (Dark Templar/Avenger/Blood Hunter)": [
+  "icons/blizzard/btn-ability-protoss-shadowdash.png"
+ ],
+ "Blink (Nova Ability)": [
+  "icons/blizzard/btn-upgrade-nova-blink.png"
+ ],
+ "Blink Overdrive (Instigator)": [
+  "icons/blizzard/btn-ability-zeratul-darkarchon-maelstrom.png"
+ ],
+ "Bloated Bile Ducts (Ravager)": [
+  "icons/blizzard/btn-ability-zerg-abathur-corrosivebilelarge.png"
+ ],
+ "Blood Amulet (Ascendant)": [
+  "icons/original/btn-blood-amulet.png"
+ ],
+ "Blood Hunter": [
+  "icons/blizzard/btn-unit-protoss-darktemplar-taldarim.png"
+ ],
+ "Blood Shield (Supplicant)": [
+  "icons/blizzard/btn-upgrade-protoss-alarak-supplicantarmor.png"
+ ],
+ "Bloodshard Resonance (Havoc)": [
+  "icons/blizzard/btn-upgrade-protoss-alarak-rangeincrease.png"
+ ],
+ "Bosonic Core (Oracle)": [
+  "icons/blizzard/btn-upgrade-protoss-researchbosoniccore.png"
+ ],
+ "Braced Exoskeleton (Infested Banshee)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-bansheemorelife.png"
+ ],
+ "Breath of Creation (Ascendant)": [
+  "icons/blizzard/tip_terrazinefog.png"
+ ],
+ "Brood Lord": [
+  "icons/blizzard/btn-unit-zerg-broodlord.png"
+ ],
+ "Brood Queen": [
+  "icons/blizzard/btn-unit-zerg-classicqueen.png"
+ ],
+ "Broodling Spore Saturation (Zerg)": [
+  "icons/blizzard/btn-ability-kerrigan-broodlingnest.png"
+ ],
+ "Brutal Efficiency (Blood Hunter)": [
+  "icons/blizzard/btn-upgrade-protoss-alarak-melleeweapon.png"
+ ],
+ "Brynhilds": [
+  "icons/blizzard/btn-unit-collection-vikingfighter-covertops.png"
+ ],
+ "Bullfrog": [
+  "icons/original/btn-unit-zerg-bullfrog.png"
+ ],
+ "Bulwark Company": [
+  "icons/original/btn-unit-terran-goliath-mengsk.png"
+ ],
+ "Bunker": [
+  "icons/blizzard/btn-building-terran-bunker.png"
+ ],
+ "Burrow (Swarm Host)": [
+  "icons/blizzard/btn-ability-zerg-burrow-color.png"
+ ],
+ "Burrow Charge (Ultralisk)": [
+  "icons/blizzard/btn-upgrade-zerg-burrowcharge.png"
+ ],
+ "Burst Capacitors (Diamondback)": [
+  "icons/blizzard/btn-ability-terran-electricfield.png"
+ ],
+ "Button With a Skull on It (Thor)": [
+  "icons/blizzard/btn-ability-terran-nuclearstrike-color.png"
+ ],
+ "C20A Canister Rifle (Nova Weapon)": [
+  "icons/blizzard/btn-upgrade-nova-equipment-canisterrifle.png"
+ ],
+ "CPO-7 Salamander Flamethrower (Dominion Trooper)": [
+  "icons/blizzard/btn-upgrade-mengsk-trooper-flamethrower.png"
+ ],
+ "Caladrius": [
+  "icons/original/btn-unit-protoss-scoutpurifier.png"
+ ],
+ "Calcified Armor (Infested Bunker)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-infestedbunkermorelife.png"
+ ],
+ "Carrier": [
+  "icons/blizzard/btn-unit-protoss-carrier.png"
+ ],
+ "Carrion Strain (Swarm Host)": [
+  "icons/blizzard/btn-unit-zerg-swarmhost-carrion.png"
+ ],
+ "Catalytic Boosters (Bullfrog)": [
+  "icons/blizzard/btn-ability-mengsk-medivac-igniteafterburners.png"
+ ],
+ "Caustic Enzymes (Spore Crawler)": [
+  "icons/blizzard/btn-ability-zerg-acidspores.png"
+ ],
+ "Caustic Horrors": [
+  "icons/blizzard/btn-unit-zerg-roach_collection.png"
+ ],
+ "Caustic Mucus (Infested Diamondback)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-diamondbacksnailtrail.png"
+ ],
+ "Caustic Spray (Corruptor)": [
+  "icons/blizzard/btn-ability-zerg-causticspray.png"
+ ],
+ "Cell Division (Zerg)": [
+  "icons/original/btn-upgrade-zerg-celldivisionon.png",
+  "icons/blizzard/btn-ability-zerg-rapidregeneration-color.png"
+ ],
+ "Cellular Reactor (Terran)": [
+  "icons/blizzard/btn-research-zerg-cellularreactor.png"
+ ],
+ "Centrifugal Hooks (Baneling)": [
+  "icons/blizzard/btn-upgrade-zerg-centrifugalhooks.png"
+ ],
+ "Centurion": [
+  "icons/blizzard/btn-unit-protoss-zealot-nerazim.png"
+ ],
+ "Cerberus Mine (Spider Mine)": [
+  "icons/blizzard/btn-upgrade-raynor-cerberusmines.png"
+ ],
+ "Chain Reaction (Kerrigan Passive)": [
+  "icons/blizzard/btn-ability-swarm-kerrigan-chainreaction.png"
+ ],
+ "Chaotic Attunement (Ascendant)": [
+  "icons/blizzard/btn-upgrade-protoss-alarak-ascendant'spsiorbtravelsfurther.png"
+ ],
+ "Chitinous Plating (Ultralisk)": [
+  "icons/blizzard/btn-upgrade-zerg-chitinousplating.png"
+ ],
+ "Chrono Shear (Pulsar)": [
+  "icons/blizzard/btn-ability-spearofadun-chronomancy.png"
+ ],
+ "Chrono Surge (Spear of Adun)": [
+  "icons/blizzard/btn-ability-spearofadun-chronosurge.png"
+ ],
+ "Chronoclysm (Pulsar)": [
+  "icons/blizzard/btn-ability-zeratul-avatarofform-psionicblast.png"
+ ],
+ "Chronostatic Reinforcement (Arbiter)": [
+  "icons/original/btn-chronostatic-reinforcement.png"
+ ],
+ "Cloak (Battlecruiser)": [
+  "icons/blizzard/btn-ability-terran-cloak-color.png"
+ ],
+ "Cloak (Liberator)": [
+  "icons/blizzard/btn-ability-terran-cloak-color.png"
+ ],
+ "Cloaking Module (Disruptor)": [
+  "icons/blizzard/btn-upgrade-protoss-fenix-disruptorpermanentcloak.png"
+ ],
+ "Cloaking Module (Sentry/Energizer/Havoc)": [
+  "icons/blizzard/btn-upgrade-protoss-alarak-permanentcloak.png"
+ ],
+ "Cloud Dispersal (Infested Liberator)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-infestedliberatorswarmcloud.png"
+ ],
+ "Colossus": [
+  "icons/blizzard/btn-unit-protoss-colossus.png"
+ ],
+ "Combat Carapace (Pygalisk)": [
+  "icons/blizzard/btn-upgrade-stetmann-mechachitinousplating.png"
+ ],
+ "Combat Drugs (Reaper)": [
+  "icons/blizzard/btn-upgrade-terran-reapercombatdrugs.png"
+ ],
+ "Combat Sensor Array (Scout/Oppressor/Caladrius/Mist Wing)": [
+  "icons/blizzard/btn-upgrade-protoss-fenix-scoutchampionrange.png"
+ ],
+ "Combat Shield (Marine)": [
+  "icons/blizzard/btn-techupgrade-terran-combatshield-color.png"
+ ],
+ "Command Center Reactor (Command Center)": [
+  "icons/blizzard/btn-research-terran-commandcenterreactor.png"
+ ],
+ "Comorbidity (Defiler)": [
+  "icons/blizzard/btn-upgrade-zerg-dehaka-tenderize.png"
+ ],
+ "Concealment (Widow Mine)": [
+  "icons/blizzard/btn-ability-terran-widowminehidden.png"
+ ],
+ "Concentrated Antimatter (Dragoon)": [
+  "icons/original/btn-concentrated-antimatter.png"
+ ],
+ "Concentrated Fire (Primal Igniter)": [
+  "icons/blizzard/btn-ability-zerg-fireroach-increasefiredamage.png"
+ ],
+ "Concentrated Spew (Infested Diamondback)": [
+  "icons/original/btn-upgrade-zerg-concentrated-spew.png"
+ ],
+ "Concussive Charge (Predator)": [
+  "icons/original/predatorcharge.png"
+ ],
+ "Concussive Grenades (Devastator Turret)": [
+  "icons/blizzard/btn-ability-terran-punishergrenade-color.png"
+ ],
+ "Concussive Shells (Marauder)": [
+  "icons/blizzard/btn-ability-terran-punishergrenade-color.png"
+ ],
+ "Construct Regeneration (Aberration)": [
+  "icons/blizzard/btn-upgrade-zerg-abathur-improvedmend.png"
+ ],
+ "Construct Regeneration (Corruptor)": [
+  "icons/blizzard/btn-upgrade-zerg-abathur-improvedmend.png"
+ ],
+ "Construction Jump Jets (SCV)": [
+  "icons/original/btn-scv-cliffjump.png"
+ ],
+ "Corona Beam (Caladrius)": [
+  "icons/original/btn-ability-protoss-coronabeam.png"
+ ],
+ "Corpser Strain (Roach)": [
+  "icons/blizzard/btn-unit-zerg-roach-corpser.png"
+ ],
+ "Corrosive Acid (Baneling)": [
+  "icons/blizzard/btn-upgrade-zerg-corrosiveacid.png"
+ ],
+ "Corrosive Spray (Devourer)": [
+  "icons/blizzard/btn-upgrade-zerg-abathur-devourer-corrosivespray.png"
+ ],
+ "Corruption (Corruptor)": [
+  "icons/blizzard/btn-ability-zerg-corruption-color.png"
+ ],
+ "Corruptor": [
+  "icons/blizzard/btn-unit-zerg-corruptor.png"
+ ],
+ "Corsair": [
+  "icons/blizzard/btn-unit-protoss-corsair.png"
+ ],
+ "Creep Stomach (Zerg)": [
+  "icons/blizzard/btn-ability-zerg-creepspread.png"
+ ],
+ "Creeper Strain (Swarm Host)": [
+  "icons/blizzard/btn-unit-zerg-swarmhost-creeper.png"
+ ],
+ "Crius Suit (Ghost)": [
+  "icons/original/btn-permacloak-ghost.png"
+ ],
+ "Crushing Grip (Kerrigan Ability)": [
+  "icons/blizzard/btn-ability-swarm-kerrigan-crushinggrip.png"
+ ],
+ "Cyclone": [
+  "icons/blizzard/btn-unit-terran-cyclone.png"
+ ],
+ "Dark Archon": [
+  "icons/blizzard/talent-vorazun-level05-unlockdarkarchon.png"
+ ],
+ "Dark Archon Meld (Dark Templar)": [
+  "icons/blizzard/talent-vorazun-level05-unlockdarkarchon.png"
+ ],
+ "Dark Templar": [
+  "icons/blizzard/btn-unit-protoss-darktemplar.png"
+ ],
+ "Dawnbringer": [
+  "icons/original/btn-unit-protoss-voidray-purifier.png"
+ ],
+ "Death Heads": [
+  "icons/blizzard/btn-unit-terran-deathhead.png"
+ ],
+ "Decreased Maximum Supply": [
+  "icons/blizzard/ui_btn_generic_exclemation_red.png"
+ ],
+ "Deep Tunnel (Infested Siege Tank)": [
+  "icons/blizzard/btn-ability-zerg-deeptunnel.png"
+ ],
+ "Deep Tunnel (Ravager)": [
+  "icons/blizzard/btn-ability-zerg-deeptunnel.png"
+ ],
+ "Deep Tunnel (Swarm Queen)": [
+  "icons/blizzard/btn-ability-zerg-deeptunnel.png"
+ ],
+ "Defender Mode (Infested Liberator)": [
+  "icons/original/btn-infested-liberator-ag.png"
+ ],
+ "Defensive Matrix (Science Vessel)": [
+  "icons/blizzard/btn-upgrade-swann-defensivematrix.png"
+ ],
+ "Defiler": [
+  "icons/original/btn-unit-zerg-defiler@scbw.png"
+ ],
+ "Demolition Payload (Widow Mine)": [
+  "icons/blizzard/btn-ability-terran-ignorearmor.png"
+ ],
+ "Deploy Fenix (Spear of Adun)": [
+  "icons/blizzard/btn-unit-protoss-fenix.png"
+ ],
+ "Deploy Turret (Warhound)": [
+  "icons/blizzard/btn-building-terran-autoturret.png"
+ ],
+ "Destroyer": [
+  "icons/blizzard/btn-unit-protoss-voidray-taldarim.png"
+ ],
+ "Detect Weakness (Havoc)": [
+  "icons/blizzard/btn-upgrade-protoss-alarak-havoctargetlockbuffed.png"
+ ],
+ "Devastator Turret": [
+  "icons/blizzard/btn-tips-flamingbetty.png"
+ ],
+ "Devil Dogs": [
+  "icons/original/btn-unit-terran-firebatmercenary.png"
+ ],
+ "Devourer": [
+  "icons/blizzard/btn-unit-zerg-devourerex3.png"
+ ],
+ "Devouring Ones": [
+  "icons/original/btn-unit-zerg-zergling-scr.png"
+ ],
+ "Diamondback": [
+  "icons/blizzard/btn-unit-terran-cobra.png"
+ ],
+ "Disintegrating Particles (Stalker/Instigator/Slayer)": [
+  "icons/original/btn-disintegrating-particles.png"
+ ],
+ "Disintegration (Tempest)": [
+  "icons/blizzard/btn-ability-protoss-disintegration.png"
+ ],
+ "Displacement Field (Wraith)": [
+  "icons/blizzard/btn-upgrade-swann-displacementfield.png"
+ ],
+ "Disruptive Transfer (Adept)": [
+  "icons/blizzard/btn-ability-protoss-adept-spiritform.png"
+ ],
+ "Disruptor": [
+  "icons/blizzard/btn-unit-collection-purifier-disruptor.png"
+ ],
+ "Disruptor Dispersion (Immortal/Annihilator)": [
+  "icons/original/btn-disruptor-dispersion.png"
+ ],
+ "Distortion Blasters (Banshee)": [
+  "icons/original/btn-techupgrade-terran-cloakdistortionfield-color.png"
+ ],
+ "Domination (Nova Ability)": [
+  "icons/blizzard/btn-ability-nova-domination.png"
+ ],
+ "Dominion Trooper": [
+  "icons/blizzard/btn-unit-terran-troopermengsk.png"
+ ],
+ "Double Graviton Beam (Phoenix)": [
+  "icons/blizzard/btn-ability-protoss-dualgravitonbeam.png"
+ ],
+ "Double Shield Recharge (Sentry)": [
+  "icons/blizzard/btn-ability-protoss-doubleshieldrecharge.png"
+ ],
+ "Dragoon": [
+  "icons/blizzard/btn-unit-protoss-dragoon-void.png"
+ ],
+ "Drilling Claws (Widow Mine)": [
+  "icons/blizzard/btn-upgrade-terran-researchdrillingclaws.png"
+ ],
+ "Drop-Pods (Kerrigan Ability)": [
+  "icons/blizzard/btn-ability-kerrigan-droppods.png"
+ ],
+ "Dual-Fusion Welders (SCV)": [
+  "icons/blizzard/btn-upgrade-swann-scvdoublerepair.png"
+ ],
+ "Ducal Blades (Pygalisk)": [
+  "icons/blizzard/btn-ability-zerg-dehaka-ultralisk-brutalcharge.png"
+ ],
+ "Durable Materials (Raven)": [
+  "icons/blizzard/btn-upgrade-terran-durablematerials.png"
+ ],
+ "Dusk Wings": [
+  "icons/original/btn-unit-terran-bansheemercenary.png"
+ ],
+ "EMP Rounds (Ghost)": [
+  "icons/blizzard/btn-ability-terran-emp-color.png"
+ ],
+ "EMP Shockwave (Science Vessel)": [
+  "icons/blizzard/btn-ability-mengsk-ghost-staticempblast.png"
+ ],
+ "Echidna Worm": [
+  "icons/blizzard/btn-unit-zerg-nydusdragon.png"
+ ],
+ "Elder Probes (Protoss)": [
+  "icons/blizzard/btn-unit-collection-probe-remastered.png"
+ ],
+ "Emperor's Guardian": [
+  "icons/original/btn-royalliberator.png"
+ ],
+ "Emperor's Shadow": [
+  "icons/blizzard/btn-unit-terran-ghostmengsk.png"
+ ],
+ "Endless Servitude (Supplicant)": [
+  "icons/original/btn-endless-servitude.png"
+ ],
+ "Enduring Locusts (Swarm Host)": [
+  "icons/blizzard/btn-upgrade-zerg-evolveincreasedlocustlifetime.png"
+ ],
+ "Enduring Sight (Havoc)": [
+  "icons/blizzard/btn-ability-hornerhan-raven-analyzetarget.png"
+ ],
+ "Energizer": [
+  "icons/blizzard/btn-unit-protoss-sentry-purifier.png"
+ ],
+ "Energy Suit Module (Nova Suit Module)": [
+  "icons/blizzard/btn-upgrade-nova-equipment-apolloinfantrysuit.png"
+ ],
+ "Engorged Bunkers (Infested Bunker)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-bunkerupgradeii_14.png"
+ ],
+ "Enhanced Cluster Launchers (Valkyrie)": [
+  "icons/blizzard/btn-ability-stetmann-corruptormissilebarrage.png"
+ ],
+ "Enhanced Mitochondria (Brood Queen)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-queenenergyregen.png"
+ ],
+ "Enhanced Shield Generator (Dawnbringer)": [
+  "icons/original/btn-enhanced-shield-generator.png"
+ ],
+ "Enhanced Strider Servos (Dragoon)": [
+  "icons/original/btn-enhanced-servo-striders.png"
+ ],
+ "Enhanced Targeting (Protoss)": [
+  "icons/blizzard/btn-upgrade-karax-turretrange.png"
+ ],
+ "Ensnare (Brood Queen)": [
+  "icons/blizzard/btn-ability-zerg-fungalgrowth-color.png"
+ ],
+ "Entropic Reversal (Pulsar)": [
+  "icons/blizzard/btn-ability-protoss-stasistrap.png"
+ ],
+ "Eradicate (Archon)": [
+  "icons/blizzard/btn-ability-protoss-recallondeath.png"
+ ],
+ "Evolutionary Leap (Zerg)": [
+  "icons/blizzard/evolution_coop.png"
+ ],
+ "Excavating Claws (Zerg)": [
+  "icons/blizzard/btn-upgrade-zerg-anabolicsynthesis.png"
+ ],
+ "Executioner Missiles (Widow Mine)": [
+  "icons/blizzard/btn-ability-hornerhan-widowmine-deathblossom.png"
+ ],
+ "Expanded Hull (Medivac)": [
+  "icons/blizzard/btn-upgrade-mengsk-engineeringbay-neosteelfortifiedarmor.png"
+ ],
+ "Expeditionary Hull (Scout)": [
+  "icons/blizzard/btn-upgrade-stetmann-zerglinghardenedshield.png"
+ ],
+ "Explosive Spores (Guardian)": [
+  "icons/blizzard/btn-ability-zerg-dehaka-guardian-explosivespores.png"
+ ],
+ "Extra Supplies (Command Center)": [
+  "icons/blizzard/btn-ability-terran-calldownextrasupplies-color.png"
+ ],
+ "Eye of Wrath (Wrathwalker)": [
+  "icons/original/btn-eye-of-wrath.png"
+ ],
+ "Feedback (Dark Archon)": [
+  "icons/blizzard/btn-ability-protoss-feedback-color.png"
+ ],
+ "Feedback (Signifier)": [
+  "icons/blizzard/btn-ability-protoss-feedback-color.png"
+ ],
+ "Field Response Theta": [
+  "icons/original/btn-unit-terran-medic-mengsk.png"
+ ],
+ "Field-Assist Target System (Battlecruiser)": [
+  "icons/blizzard/btn-ability-mengsk-battlecruiser-decksights.png"
+ ],
+ "Fire Lance (Colossus)": [
+  "icons/blizzard/btn-ability-protoss-firebeam.png"
+ ],
+ "Firebat": [
+  "icons/blizzard/btn-unit-terran-firebat.png"
+ ],
+ "Flashbang Grenades (Nova Gadget)": [
+  "icons/blizzard/btn-upgrade-nova-btn-upgrade-nova-flashgrenade.png"
+ ],
+ "Flechette Missiles (Valkyrie)": [
+  "icons/blizzard/btn-ability-hornerhan-viking-missileupgrade.png"
+ ],
+ "Fleshfused Targeting Optics (Infested Banshee)": [
+  "icons/original/btn-fleshfused-targeting-optics.png"
+ ],
+ "Flux Vanes (Void Ray/Destroyer/Pulsar/Dawnbringer)": [
+  "icons/blizzard/btn-upgrade-protoss-fluxvanes.png"
+ ],
+ "Force Field (Sentry)": [
+  "icons/blizzard/btn-ability-protoss-forcefield-color.png"
+ ],
+ "Forged Chassis (Energizer)": [
+  "icons/original/btn-forged-chassis.png"
+ ],
+ "Fortified Bunker (Bunker)": [
+  "icons/original/btn-building-terran-bunkerneosteel.png",
+  "icons/original/btn-research-zerg-fortifiedbunker.png"
+ ],
+ "Frenzy (Hydralisk)": [
+  "icons/blizzard/btn-upgrade-zerg-frenzy.png"
+ ],
+ "Frightful Fleshwelder (Infested Banshee)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Frightful Fleshwelder (Infested Diamondback)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Frightful Fleshwelder (Infested Liberator)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Frightful Fleshwelder (Infested Siege Tank)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Fungal Growth (Brood Queen)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-researchqueenfungalgrowth.png"
+ ],
+ "Fury (Kerrigan Passive)": [
+  "icons/blizzard/btn-ability-kerrigan-fury.png"
+ ],
+ "Fusion Mortars (Vanguard)": [
+  "icons/blizzard/btn-upgrade-protoss-vanguard-increasedarmordamage.png"
+ ],
+ "Fusion Reactor (Fusion Core)": [
+  "icons/blizzard/btn-tips-terran-energynova.png"
+ ],
+ "G-4 Clusterbomb (Reaper)": [
+  "icons/blizzard/btn-upgrade-terran-kd8chargeex3.png"
+ ],
+ "Gaping Maw (Devourer)": [
+  "icons/original/btn-gaping-maw.png"
+ ],
+ "Generate Creep (Overlord)": [
+  "icons/blizzard/btn-ability-zerg-generatecreep-color.png"
+ ],
+ "Ghost": [
+  "icons/blizzard/btn-unit-terran-ghost.png"
+ ],
+ "Ghost Visor (Nova Equipment)": [
+  "icons/blizzard/btn-upgrade-nova-equipment-ghostvisor.png"
+ ],
+ "Glial Reconstitution (Roach)": [
+  "icons/blizzard/btn-upgrade-zerg-glialreconstitution.png"
+ ],
+ "Goliath": [
+  "icons/blizzard/btn-unit-terran-goliath.png"
+ ],
+ "Graduating Range (Siege Tank)": [
+  "icons/blizzard/btn-upgrade-terran-nova-siegetankrange.png"
+ ],
+ "Grapple Pull (HERC)": [
+  "icons/blizzard/btn-ability-tychus-herc-heavyimpact.png"
+ ],
+ "Gravitic Boosters (Observer)": [
+  "icons/blizzard/btn-upgrade-protoss-graviticbooster.png"
+ ],
+ "Gravitic Drive (Warp Prism)": [
+  "icons/blizzard/btn-upgrade-protoss-graviticdrive.png"
+ ],
+ "Gravitic Thrusters (Scout/Oppressor/Caladrius/Mist Wing)": [
+  "icons/original/btn-gravitic-thrusters.png"
+ ],
+ "Graviton Beam (Mirage)": [
+  "icons/blizzard/btn-ability-protoss-gravitonbeam-color.png"
+ ],
+ "Graviton Catapult (Carrier/Trireme)": [
+  "icons/blizzard/btn-upgrade-protoss-gravitoncatapult.png"
+ ],
+ "Gravity Sling (Tempest)": [
+  "icons/blizzard/btn-upgrade-protoss-tectonicdisruptors.png"
+ ],
+ "Greater Shadow Fury (Dark Templar)": [
+  "icons/blizzard/btn-ability-protoss-shadowfury.png"
+ ],
+ "Grooved Spines (Hydralisk)": [
+  "icons/blizzard/btn-upgrade-zerg-hotsgroovedspines.png"
+ ],
+ "Guardian": [
+  "icons/blizzard/btn-unit-zerg-primalguardian.png"
+ ],
+ "Guardian Shell (Spear of Adun)": [
+  "icons/blizzard/btn-ability-spearofadun-guardianshell.png"
+ ],
+ "Guerilla Missiles (Liberator)": [
+  "icons/blizzard/btn-upgrade-terran-nova-hellfiremissiles.png"
+ ],
+ "HERC": [
+  "icons/blizzard/btn-unit-terran-herc.png"
+ ],
+ "Hailstorm Launcher (Dominion Trooper)": [
+  "icons/blizzard/btn-upgrade-mengsk-trooper-missilelauncher.png"
+ ],
+ "Hallucination (High Templar/Signifier)": [
+  "icons/blizzard/btn-ability-protoss-hallucination-color.png"
+ ],
+ "Hallucination (Sentry)": [
+  "icons/blizzard/btn-ability-protoss-hallucination-color.png"
+ ],
+ "Hammer Securities": [
+  "icons/original/btn-unit-terran-maraudermercenary.png"
+ ],
+ "Hardened Carapace (Zergling)": [
+  "icons/blizzard/btn-upgrade-zerg-hardenedcarapace.png"
+ ],
+ "Havoc": [
+  "icons/blizzard/btn-unit-protoss-sentry-taldarim.png"
+ ],
+ "Healing Adaptation (Tyrannozor)": [
+  "icons/blizzard/btn-ability-zerg-dehaka-ultralisk-healingadaptation.png"
+ ],
+ "Hel's Angels": [
+  "icons/original/btn-unit-terran-vikingmercenary-fighter.png"
+ ],
+ "Hellbat (Hellion Morph)": [
+  "icons/blizzard/btn-unit-terran-hellionbattlemode.png"
+ ],
+ "Hellfire Shotgun (Nova Weapon)": [
+  "icons/blizzard/btn-upgrade-nova-equipment-shotgun.png"
+ ],
+ "Hellion": [
+  "icons/blizzard/btn-unit-terran-hellion.png"
+ ],
+ "Hellstorm Batteries (Missile Turret)": [
+  "icons/original/btn-techupgrade-terran-hellstormbatteries-color.png"
+ ],
+ "Hercules": [
+  "icons/blizzard/btn-unit-terran-hercules.png"
+ ],
+ "Heroic Fortitude (Kerrigan Passive)": [
+  "icons/blizzard/btn-ability-kerrigan-heroicfortitude.png"
+ ],
+ "Hi-Sec Auto Tracking (Terran)": [
+  "icons/blizzard/btn-upgrade-terran-hisecautotracking.png"
+ ],
+ "High Archon (Archon)": [
+  "icons/blizzard/btn-unit-protoss-archon-upgraded.png"
+ ],
+ "High Explosive Munition (Spider Mine)": [
+  "icons/original/btn-high-explosive-munition.png"
+ ],
+ "High Templar": [
+  "icons/blizzard/btn-unit-protoss-hightemplar.png"
+ ],
+ "High Voltage Capacitors (Stalwart)": [
+  "icons/original/btn-high-voltage-capacitors.png"
+ ],
+ "Hive Cluster Maturation (Zerg)": [
+  "icons/blizzard/btn-building-zerg-hive.png"
+ ],
+ "Hive Mind Emulator": [
+  "icons/blizzard/btn-building-terran-hivemindemulator.png"
+ ],
+ "Holo Decoy (Nova Gadget)": [
+  "icons/blizzard/btn-upgrade-nova-holographicdecoy.png"
+ ],
+ "Hostile Environment Adaptation (SCV)": [
+  "icons/original/btn-hostile-environment-adaptation.png"
+ ],
+ "Hull of Past Glories (Carrier/Skylord/Trireme)": [
+  "icons/original/btn-hull-of-past-glories.png"
+ ],
+ "Hunter Killers": [
+  "icons/blizzard/btn-unit-zerg-hydralisk-remastered.png"
+ ],
+ "Hunter Strain (Baneling)": [
+  "icons/blizzard/btn-unit-zerg-baneling-hunter.png"
+ ],
+ "Hunter-Seeker Weapon (Raven)": [
+  "icons/original/btn-hunter-seeker-weapon.png"
+ ],
+ "Hunterling": [
+  "icons/original/btn-unit-hunterling.png"
+ ],
+ "Hydralisk": [
+  "icons/blizzard/btn-unit-zerg-hydralisk.png"
+ ],
+ "Hydriodic Bile (Roach)": [
+  "icons/blizzard/btn-upgrade-zerg-hydriaticacid.png"
+ ],
+ "Hyperflight Rotors (Banshee)": [
+  "icons/blizzard/btn-upgrade-terran-hyperflightrotors.png"
+ ],
+ "Hyperfluxor (Diamondback)": [
+  "icons/blizzard/btn-upgrade-mengsk-engineeringbay-orbitaldrop.png"
+ ],
+ "Ibiks Tracking Scanners (Planetary Fortress)": [
+  "icons/blizzard/btn-ability-terran-detectionconedebuff.png"
+ ],
+ "Immobilization Wave (Kerrigan Ability)": [
+  "icons/blizzard/btn-upgrade-kerrigan-crushinggripwave.png"
+ ],
+ "Immortal": [
+  "icons/blizzard/btn-unit-protoss-immortal.png"
+ ],
+ "Impaler": [
+  "icons/blizzard/btn-unit-zerg-impaler.png"
+ ],
+ "Impaler Rounds (Spectre)": [
+  "icons/blizzard/btn-techupgrade-terran-impalerrounds.png"
+ ],
+ "Impaling Strike (Tyrannozor)": [
+  "icons/blizzard/btn-ability-zerg-dehaka-ultralisk-impalingstrike.png"
+ ],
+ "Improved Barrier (Immortal)": [
+  "icons/blizzard/btn-ability-protoss-barrier-upgraded.png"
+ ],
+ "Improved Nano-Repair (Science Vessel)": [
+  "icons/blizzard/btn-upgrade-swann-improvednanorepair.png"
+ ],
+ "Improved Osmosis (Devourer)": [
+  "icons/original/btn-improved-osmosis.png"
+ ],
+ "Improved Overlords (Overlord)": [
+  "icons/blizzard/btn-ability-kerrigan-improvedoverlords.png"
+ ],
+ "Incinerator Gauntlets (Firebat)": [
+  "icons/blizzard/btn-upgrade-raynor-incineratorgauntlets.png"
+ ],
+ "Increased Building Construction Speed": [
+  "icons/blizzard/icon-time-protoss.png"
+ ],
+ "Increased Shield Regeneration": [
+  "icons/blizzard/icon-shields.png"
+ ],
+ "Increased Upgrade Research Speed": [
+  "icons/original/btn-upgrade-increasedupgraderesearchspeed.png"
+ ],
+ "Incubator Chamber (Swarm Queen)": [
+  "icons/blizzard/btn-upgrade-zerg-abathur-incubationchamber.png"
+ ],
+ "Indomitable Will (Dark Archon)": [
+  "icons/blizzard/btn-ability-zeratul-topbar-serdathlegion.png"
+ ],
+ "Induce Scopophobia (Observer)": [
+  "icons/blizzard/btn-upgrade-afaidofthedark.png"
+ ],
+ "Infernal Plating (Hellion)": [
+  "icons/blizzard/btn-upgrade-swann-hellarmor.png"
+ ],
+ "Infernal Pre-Igniter (Firebat)": [
+  "icons/blizzard/btn-upgrade-terran-infernalpreigniter.png"
+ ],
+ "Infest Broodlings (Kerrigan Passive)": [
+  "icons/blizzard/abilityicon_spawnbroodlings_square.png"
+ ],
+ "Infested Banshee": [
+  "icons/blizzard/btn-unit-zerg-infestedbanshee.png"
+ ],
+ "Infested Bunker": [
+  "icons/blizzard/btn-building-stukov-infestedbunker.png"
+ ],
+ "Infested Diamondback": [
+  "icons/blizzard/btn-unit-zerg-infesteddiamondback.png"
+ ],
+ "Infested Dusk Wings": [
+  "icons/original/btn-unit-terran-bansheemercenary.png"
+ ],
+ "Infested Liberator": [
+  "icons/blizzard/btn-unit-zerg-infestedliberator.png"
+ ],
+ "Infested Marine": [
+  "icons/blizzard/btn-unit-zerg-infestedmarine.png"
+ ],
+ "Infested Medics": [
+  "icons/original/btn-unit-infested-infestedmedic.png"
+ ],
+ "Infested Missile Turret": [
+  "icons/blizzard/btn-building-stukov-infestedturret.png"
+ ],
+ "Infested Siege Breakers": [
+  "icons/original/btn-unit-terran-siegetankmercenary-tank.png"
+ ],
+ "Infested Siege Tank": [
+  "icons/blizzard/btn-unit-zerg-infestedsiegetank.png"
+ ],
+ "Infested Terran (Infestor)": [
+  "icons/blizzard/btn-unit-zerg-infestedmarine.png"
+ ],
+ "Infestor": [
+  "icons/blizzard/btn-unit-zerg-infestor.png"
+ ],
+ "Instigator": [
+  "icons/blizzard/btn-unit-protoss-stalker-purifier.png"
+ ],
+ "Integrated Power (Mothership)": [
+  "icons/original/btn-integrated-power.png"
+ ],
+ "Interference Matrix (Raven)": [
+  "icons/blizzard/btn-upgrade-terran-interferencematrix.png"
+ ],
+ "Internal Fusion Module (Hercules)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Banshee)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Battlecruiser)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Cyclone)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Goliath)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Marauder)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Raven)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Siege Tank)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Wraith)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Interplanetary Range (Tempest)": [
+  "icons/blizzard/ui_aicommand_build_open_aggressivepush.png"
+ ],
+ "Ion Thrusters (Vulture)": [
+  "icons/blizzard/btn-ability-terran-emergencythrusters.png"
+ ],
+ "Ionic Force Field (Nova Gadget)": [
+  "icons/blizzard/btn-upgrade-terran-nova-personaldefensivematrix.png"
+ ],
+ "Ionic Wavelength Flux (Phoenix/Mirage/Skirmisher)": [
+  "icons/original/btn-iconic-wavelength-flux.png"
+ ],
+ "Jackson's Revenge": [
+  "icons/original/btn-unit-terran-battlecruiserloki.png"
+ ],
+ "Jerry-Rigged Patchup (Vulture)": [
+  "icons/original/btn-jerry-rigged-patchjob.png"
+ ],
+ "Jet Pack Overdrive (Reaper)": [
+  "icons/blizzard/btn-ability-hornerhan-reaper-flightmode.png"
+ ],
+ "Jormungandr Strain (Nydus Worm/Echidna Worm)": [
+  "icons/blizzard/btn-upgrade-zerg-enduringcorruption.png"
+ ],
+ "Jotun": [
+  "icons/blizzard/btn-unit-terran-merc-thor.png"
+ ],
+ "Judicator's Veil (Arbiter)": [
+  "icons/original/btn-veil-of-the-judicator.png"
+ ],
+ "Juggernaut Plating (Firebat)": [
+  "icons/blizzard/btn-upgrade-raynor-juggernautplating.png"
+ ],
+ "Juggernaut Plating (HERC)": [
+  "icons/original/btn-juggernaut-plating-herc.png"
+ ],
+ "Juggernaut Plating (Marauder)": [
+  "icons/original/btn-juggernaut-plating-marauder.png",
+  "icons/blizzard/btn-upgrade-raynor-juggernautplating.png"
+ ],
+ "Jump (Skylord)": [
+  "icons/original/btn-jump.png"
+ ],
+ "Jump Jets (Goliath)": [
+  "icons/original/btn-ability-terran-goliath-jetpack.png"
+ ],
+ "Jump Jets (Hellion)": [
+  "icons/blizzard/btn-upgrade-terran-jumpjets.png"
+ ],
+ "Jump Jets (Siege Tank)": [
+  "icons/blizzard/btn-upgrade-terran-jumpjets.png"
+ ],
+ "Jump Suit Module (Nova Suit Module)": [
+  "icons/blizzard/btn-upgrade-nova-jetpack.png"
+ ],
+ "Khalai Ingenuity (Protoss)": [
+  "icons/blizzard/btn-upgrade-karax-pylonwarpininstantly.png"
+ ],
+ "Khalai Replicators (Reaver)": [
+  "icons/blizzard/btn-ability-protoss-entomb.png"
+ ],
+ "Khaydarin Amulet (High Templar/Signifier)": [
+  "icons/blizzard/btn-upgrade-protoss-khaydarinamulet.png"
+ ],
+ "Khaydarin Core (Arbiter)": [
+  "icons/blizzard/btn-upgrade-protoss-adeptshieldupgrade.png"
+ ],
+ "Khaydarin Monolith": [
+  "icons/blizzard/btn-unit-protoss-khaydarinmonolith.png"
+ ],
+ "Kinetic Blast (Kerrigan Ability)": [
+  "icons/blizzard/btn-ability-kerrigan-kineticblast.png"
+ ],
+ "Kinetic Foam (Firebat)": [
+  "icons/original/btn-techupgrade-kinetic-foam.png"
+ ],
+ "Kinetic Foam (HERC)": [
+  "icons/original/btn-techupgrade-kinetic-foam.png"
+ ],
+ "Kinetic Foam (Marauder)": [
+  "icons/original/btn-techupgrade-kinetic-foam.png"
+ ],
+ "Kryhas Cloak (Avenger)": [
+  "icons/original/btn-kryhas-cloak.png"
+ ],
+ "Large Scale Field Construction (Thor)": [
+  "icons/blizzard/btn-tips-armory.png"
+ ],
+ "Laser Targeting System (Banshee)": [
+  "icons/blizzard/btn-upgrade-terran-lazertargetingsystem.png"
+ ],
+ "Laser Targeting System (Liberator)": [
+  "icons/blizzard/btn-upgrade-terran-lazertargetingsystem.png"
+ ],
+ "Laser Targeting System (Marauder)": [
+  "icons/blizzard/btn-upgrade-terran-lazertargetingsystem.png"
+ ],
+ "Laser Targeting System (Marine)": [
+  "icons/blizzard/btn-upgrade-terran-lazertargetingsystem.png"
+ ],
+ "Laser Targeting System (Reaper)": [
+  "icons/blizzard/btn-upgrade-terran-lazertargetingsystem.png"
+ ],
+ "Laser Targeting System (Siege Tank)": [
+  "icons/blizzard/btn-upgrade-terran-lazertargetingsystem.png"
+ ],
+ "Laser Targeting System (Thor)": [
+  "icons/blizzard/btn-upgrade-terran-lazertargetingsystem.png"
+ ],
+ "Latticed Shielding (Stalwart)": [
+  "icons/original/btn-latticed-shielding.png"
+ ],
+ "Launching Vector Compensator (Valkyrie)": [
+  "icons/original/btn-launch-vector-compensator.png"
+ ],
+ "Leaping Strike (Kerrigan Ability)": [
+  "icons/blizzard/btn-ability-kerrigan-leapingstrike.png"
+ ],
+ "Leg Enhancements (Zealot/Sentinel/Centurion)": [
+  "icons/blizzard/btn-ability-protoss-lightningdash.png"
+ ],
+ "Lesser Shadow Fury (Dark Templar)": [
+  "icons/blizzard/btn-ability-protoss-shadowfury.png"
+ ],
+ "Lethal Impact (Bullfrog)": [
+  "icons/blizzard/btn-ability-mengsk-ghost-tacticalmissilestrike.png"
+ ],
+ "Liberator": [
+  "icons/blizzard/btn-unit-terran-liberator.png"
+ ],
+ "Lockdown (Ghost)": [
+  "icons/original/btn-abilty-terran-lockdown@scbw.png"
+ ],
+ "Locust Metabolic Boost (Swarm Host)": [
+  "icons/blizzard/btn-upgrade-zerg-glialreconstitution.png"
+ ],
+ "Lurker": [
+  "icons/blizzard/btn-unit-zerg-lurker.png"
+ ],
+ "MULE (Command Center)": [
+  "icons/blizzard/btn-unit-terran-mule.png"
+ ],
+ "Macroscopic Recuperation (Zerg)": [
+  "icons/blizzard/btn-upgrade-zerg-abathur-improvedmend.png"
+ ],
+ "Maelstrom (Dark Archon)": [
+  "icons/blizzard/btn-ability-protoss-voidstasis.png"
+ ],
+ "Maelstrom Rounds (Siege Tank)": [
+  "icons/blizzard/btn-upgrade-raynor-maelstromrounds.png"
+ ],
+ "Mag-Field Accelerators (Cyclone)": [
+  "icons/blizzard/btn-upgrade-terran-magfieldaccelerator.png"
+ ],
+ "Mag-Field Launchers (Cyclone)": [
+  "icons/blizzard/btn-upgrade-terran-cyclonerangeupgrade.png"
+ ],
+ "Magellan Computation Systems (Science Vessel)": [
+  "icons/original/btn-magellan-computation-systems.png"
+ ],
+ "Maglev Propulsion (Diamondback)": [
+  "icons/blizzard/btn-upgrade-terran-nova-specialordance.png"
+ ],
+ "Magrail Munitions (Marauder)": [
+  "icons/blizzard/btn-upgrade-terran-magrailmunitions.png"
+ ],
+ "Magrail Munitions (Marine)": [
+  "icons/blizzard/btn-upgrade-terran-magrailmunitions.png"
+ ],
+ "Malignant Creep (Zerg)": [
+  "icons/blizzard/btn-ability-kerrigan-malignantcreep.png"
+ ],
+ "Marauder": [
+  "icons/blizzard/btn-unit-terran-marauder.png"
+ ],
+ "Marine": [
+  "icons/blizzard/btn-unit-terran-marine.png"
+ ],
+ "Mass Recall (Spear of Adun)": [
+  "icons/blizzard/btn-ability-spearofadun-massrecall.png"
+ ],
+ "Matrix Overload (Protoss)": [
+  "icons/blizzard/btn-ability-spearofadun-matrixoverload.png"
+ ],
+ "Matter Dispersion (Vanguard)": [
+  "icons/blizzard/btn-upgrade-protoss-vanguard-aoeradiusincreased.png"
+ ],
+ "Mechanical Know-how (Terran)": [
+  "icons/blizzard/talent-swann-level14-vehiclehealthincrease.png"
+ ],
+ "Medic": [
+  "icons/blizzard/btn-unit-terran-medic.png"
+ ],
+ "Medivac": [
+  "icons/blizzard/btn-unit-terran-medivac.png"
+ ],
+ "Mend (Kerrigan Ability)": [
+  "icons/blizzard/btn-ability-zerg-transfusion-color.png"
+ ],
+ "Mercenary Munitions (Terran)": [
+  "icons/blizzard/talent-raynor-level14-infantryattackspeed.png"
+ ],
+ "Metabolic Boost (Zergling)": [
+  "icons/blizzard/btn-upgrade-zerg-hotsmetabolicboost.png"
+ ],
+ "Micro-Filtering (Terran)": [
+  "icons/original/btn-research-terran-microfiltering.png"
+ ],
+ "Microbial Shroud (Infestor)": [
+  "icons/blizzard/btn-ability-zerg-darkswarm.png"
+ ],
+ "Midnight Riders": [
+  "icons/blizzard/btn-unit-terran-liberatorblackops.png"
+ ],
+ "Mirage": [
+  "icons/blizzard/btn-unit-protoss-phoenix-purifier.png"
+ ],
+ "Missile Turret": [
+  "icons/blizzard/btn-building-terran-missileturret.png"
+ ],
+ "Mist Wing": [
+  "icons/original/btn-unit-protoss-scoutnerazim.png"
+ ],
+ "Mobile Chrono Beam (Energizer)": [
+  "icons/blizzard/btn-ability-hornerhan-raven-analyzetarget.png"
+ ],
+ "Mobility Protocols (Disruptor)": [
+  "icons/original/btn-mobility-protocols.png"
+ ],
+ "Modernized Servos (Instigator)": [
+  "icons/original/btn-modernized-servos.png"
+ ],
+ "Moirai Impulse Drive (Battlecruiser)": [
+  "icons/original/btn-moirai-impulse-drive.png"
+ ],
+ "Monarch Blades (Ultralisk)": [
+  "icons/blizzard/btn-upgrade-zerg-monarchblades.png"
+ ],
+ "Monomolecular Blade (Nova Weapon)": [
+  "icons/blizzard/btn-upgrade-nova-equipment-monomolecularblade.png"
+ ],
+ "Monstrous Resilience (Aberration)": [
+  "icons/original/btn-monstrous-resilience-aberration.png"
+ ],
+ "Monstrous Resilience (Corruptor)": [
+  "icons/original/btn-monstrous-resilience-corruptor.png"
+ ],
+ "Mothership": [
+  "icons/blizzard/btn-unit-protoss-mothership-taldarim.png"
+ ],
+ "Multi-Lock Weapons System (Goliath)": [
+  "icons/blizzard/btn-upgrade-swann-multilockweaponsystem.png"
+ ],
+ "Multispectrum Doppler (Sensor Tower)": [
+  "icons/blizzard/btn-tips-laserdrillantiair.png"
+ ],
+ "Muscular Augments (Hydralisk)": [
+  "icons/blizzard/btn-upgrade-zerg-evolvemuscularaugments.png"
+ ],
+ "Mutagen Vents (Bullfrog)": [
+  "icons/blizzard/btn-ability-zerg-dehaka-essencecollector.png"
+ ],
+ "Mutalisk": [
+  "icons/blizzard/btn-unit-zerg-mutalisk.png"
+ ],
+ "Nano Projector (Medic)": [
+  "icons/blizzard/talent-raynor-level03-firebatmedicrange.png"
+ ],
+ "Nano Projectors (Firebat)": [
+  "icons/blizzard/talent-raynor-level03-firebatmedicrange.png"
+ ],
+ "Neosteel Bunker (Bunker)": [
+  "icons/blizzard/btn-upgrade-terran-neosteelframe.png"
+ ],
+ "Network Disruption (Corsair)": [
+  "icons/blizzard/btn-ability-protoss-disruptionblast.png"
+ ],
+ "Neutron Shields (Corsair)": [
+  "icons/original/btn-neutron-shields.png"
+ ],
+ "Nexus Overcharge (Protoss)": [
+  "icons/blizzard/btn-ability-spearofadun-nexusovercharge.png"
+ ],
+ "Night Hawk": [
+  "icons/original/btn-unit-terran-wraith-mengsk.png"
+ ],
+ "Night Wolf": [
+  "icons/original/btn-unit-terran-banshee-mengsk.png"
+ ],
+ "Nothing": [
+  "icons/blizzard/btn-command-cancel.png"
+ ],
+ "Noxious Strain (Ultralisk)": [
+  "icons/blizzard/btn-unit-zerg-ultralisk-noxious.png"
+ ],
+ "Null Shroud (Mist Wing)": [
+  "icons/original/btn-null-shroud.png"
+ ],
+ "Nydus Worm": [
+  "icons/blizzard/btn-building-zerg-nydusworm.png"
+ ],
+ "Nyx-Class Cloaking Module (Spectre)": [
+  "icons/original/btn-permacloak-spectre.png"
+ ],
+ "Obliterate (Archon)": [
+  "icons/original/btn-obliterate.png"
+ ],
+ "Observer": [
+  "icons/blizzard/btn-unit-protoss-observer.png"
+ ],
+ "Ocular Implants (Ghost)": [
+  "icons/blizzard/btn-techupgrade-terran-ocularimplants.png"
+ ],
+ "Oppressor": [
+  "icons/original/btn-unit-protoss-scouttaldarim.png"
+ ],
+ "Optical Flare (Medic)": [
+  "icons/blizzard/btn-upgrade-protoss-fenix-dragoonsolariteflare.png"
+ ],
+ "Optimized Logistics (Battlecruiser)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+ ],
+ "Optimized Logistics (Dominion Trooper)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+ ],
+ "Optimized Logistics (Goliath)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+ ],
+ "Optimized Logistics (Hellion)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+ ],
+ "Optimized Logistics (Liberator)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+ ],
+ "Optimized Logistics (Marine)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+ ],
+ "Optimized Ordnance (Protoss)": [
+  "icons/blizzard/btn-upgrade-karax-turretattackspeed.png"
+ ],
+ "Oracle": [
+  "icons/blizzard/btn-unit-protoss-oracle.png"
+ ],
+ "Orbital Assimilators (Protoss)": [
+  "icons/blizzard/btn-ability-spearofadun-orbitalassimilator.png"
+ ],
+ "Orbital Depots (Terran)": [
+  "icons/blizzard/btn-research-terran-orbitaldepots.png"
+ ],
+ "Orbital Module (Planetary Fortress)": [
+  "icons/original/btn-orbital-fortress.png"
+ ],
+ "Orbital Strike (Barracks)": [
+  "icons/blizzard/btn-research-terran-orbitalstrikerally.png"
+ ],
+ "Orbital Strike (Spear of Adun)": [
+  "icons/blizzard/btn-ability-spearofadun-orbitalstrike.png"
+ ],
+ "Organic Carapace (Roach)": [
+  "icons/blizzard/btn-upgrade-zerg-organiccarapace.png"
+ ],
+ "Organic Carapace (Swarm Host)": [
+  "icons/blizzard/btn-upgrade-zerg-organiccarapace.png"
+ ],
+ "Organic Carapace (Swarm Queen)": [
+  "icons/blizzard/btn-upgrade-zerg-organiccarapace.png"
+ ],
+ "Organic Carapace (Ultralisk)": [
+  "icons/blizzard/btn-upgrade-zerg-organiccarapace.png"
+ ],
+ "Ouroboros Strain (Echidna Worm)": [
+  "icons/blizzard/talent-zagara-level12-unlockswarmling.png"
+ ],
+ "Overseer": [
+  "icons/blizzard/btn-unit-zerg-overseer.png"
+ ],
+ "Overwatch (Spear of Adun)": [
+  "icons/blizzard/btn-ability-zeratul-chargedcrystal-psionicwinds.png"
+ ],
+ "Pacification Protocol (Colossus)": [
+  "icons/original/btn-pacification-protocols.png"
+ ],
+ "Paralytic Barbs (Viper)": [
+  "icons/blizzard/btn-upgrade-zerg-abathur-abduct.png"
+ ],
+ "Parasitic Bomb (Viper)": [
+  "icons/blizzard/btn-ability-zerg-parasiticbomb.png"
+ ],
+ "Particle Reflection (Stalker/Instigator/Slayer)": [
+  "icons/blizzard/btn-upgrade-protoss-fenix-adeptchampionbounceattack.png"
+ ],
+ "Pathogen Projectors (Defiler)": [
+  "icons/blizzard/btn-upgrade-zagara-increasebilelauncherrange.png"
+ ],
+ "Peer Contempt (Skirmisher)": [
+  "icons/original/btn-peer-contempt.png"
+ ],
+ "Perdition Turret": [
+  "icons/blizzard/btn-unit-terran-perditionturret.png"
+ ],
+ "Perfected Power (Disruptor)": [
+  "icons/blizzard/btn-ability-spearofadun-purifierbeam.png"
+ ],
+ "Phalanx Suit (Dragoon)": [
+  "icons/blizzard/btn-upgrade-protoss-fenix-zealotsuit-armorplate.png"
+ ],
+ "Phantom Dash (Mist Wing)": [
+  "icons/original/btn-ability-protoss-phantomdash.png"
+ ],
+ "Phase Blaster (Warp Prism)": [
+  "icons/original/btn-phase-blaster.png"
+ ],
+ "Phase Blink (Slayer)": [
+  "icons/blizzard/btn-ability-protoss-blink-color.png"
+ ],
+ "Phase Bulwark (Adept)": [
+  "icons/blizzard/btn-upgrade-protoss-adeptshieldupgrade.png"
+ ],
+ "Phase Cloak (Predator)": [
+  "icons/original/btn-phase-cloak.png"
+ ],
+ "Phase Reactor (Stalker)": [
+  "icons/blizzard/btn-ability-protoss-blinkshieldrestore.png"
+ ],
+ "Phobos-Class Weapons System (Viking)": [
+  "icons/blizzard/btn-upgrade-raynor-phobosclassweaponssystem.png"
+ ],
+ "Phoenix": [
+  "icons/blizzard/btn-unit-protoss-phoenix.png"
+ ],
+ "Photon Cannon": [
+  "icons/blizzard/btn-building-protoss-photoncannon.png"
+ ],
+ "Pilot (Mist Wing)": [
+  "icons/blizzard/btn-ability-protoss-veilofshadowsvorazun.png",
+  "icons/blizzard/btn-ability-terran-unloadall.png"
+ ],
+ "Plagued Munitions (Infested Marine)": [
+  "icons/blizzard/btn-ability-stukov-plaugedmunitions.png"
+ ],
+ "Planetary Fortress": [
+  "icons/blizzard/btn-building-terran-planetaryfortress.png"
+ ],
+ "Plasma Rifle (Nova Weapon)": [
+  "icons/blizzard/btn-upgrade-nova-equipment-plasmagun.png"
+ ],
+ "Plasma Surge (High Templar)": [
+  "icons/blizzard/btn-upgrade-artanis-healingpsionicstorm.png"
+ ],
+ "Pneumatized Carapace (Overlord)": [
+  "icons/blizzard/btn-upgrade-zerg-pneumatizedcarapace.png"
+ ],
+ "Porous Cartilage (Brood Lord)": [
+  "icons/blizzard/btn-upgrade-kerrigan-broodlordspeed.png"
+ ],
+ "Potent Bile (Ravager)": [
+  "icons/blizzard/potentbile_coop.png"
+ ],
+ "Power Overwhelming (Ascendant)": [
+  "icons/blizzard/btn-upgrade-protoss-alarak-ascendantspermanentlybetter.png"
+ ],
+ "Power Siphon (Archon)": [
+  "icons/blizzard/btn-ability-protoss-shieldrecharge.png"
+ ],
+ "Predator": [
+  "icons/original/btn-unit-terran-predator.png"
+ ],
+ "Predatory Consumption (Defiler)": [
+  "icons/blizzard/btn-progression-zerg-dehaka-15-genemutation.png"
+ ],
+ "Prescient Spores (Devourer)": [
+  "icons/original/btn-prescient-spores.png"
+ ],
+ "Pressurized Glands (Swarm Host)": [
+  "icons/blizzard/btn-upgrade-zerg-pressurizedglands.png"
+ ],
+ "Pride of Augustgrad": [
+  "icons/blizzard/btn-unit-terran-battlecruisermengsk.png"
+ ],
+ "Primal Adaptation (Guardian)": [
+  "icons/blizzard/biomassrecovery_coop.png"
+ ],
+ "Primal Form (Kerrigan)": [
+  "icons/blizzard/btn-unit-zerg-kerriganascended.png",
+  "icons/blizzard/btn-unit-zerg-kerriganghost.png",
+  "icons/blizzard/btn-unit-zerg-kerriganinfested.png"
+ ],
+ "Primal Igniter": [
+  "icons/blizzard/btn-unit-collection-primal-roachupgrade.png"
+ ],
+ "Primal Tenacity (Primal Igniter)": [
+  "icons/blizzard/btn-ability-zerg-genemutation-thornsaura.png"
+ ],
+ "Primordial Fury (Guardian)": [
+  "icons/blizzard/btn-ability-zerg-dehaka-guardian-primordialfury.png"
+ ],
+ "Prismatic Range (Void Ray)": [
+  "icons/blizzard/btn-ability-protoss-prismaticrange.png"
+ ],
+ "Probe Warp-In (Protoss)": [
+  "icons/original/btn-unit-protoss-probe-warpin.png",
+  "icons/blizzard/btn-unit-protoss-probe.png"
+ ],
+ "Progressive Augmented Thrusters (Planetary Fortress)": [
+  "icons/blizzard/btn-ability-terran-liftoff.png",
+  "icons/blizzard/btn-ability-mengsk-siegetank-flyingtankarmament.png",
+ ],
+ "Progressive Automated Mitosis (Infested Siege Tank)": [
+  "icons/original/btn-automated-mitosis-lvl1.png",
+  "icons/blizzard/btn-upgrade-zerg-stukov-siegetankammoregen.png"
+ ],
+ "Progressive Baneling Launch (Aberration)": [
+  "icons/blizzard/abilityicon_spawnbanelings_square.png",
+  "icons/blizzard/talent-zagara-level14-unlocksplitterling.png"
+ ],
+ "Progressive Cross-Spectrum Dampeners (Banshee)": [
+  "icons/original/btn-banshee-cross-spectrum-dampeners.png",
+  "icons/original/btn-permacloak-banshee.png",
+ ],
+ "Progressive Defensive Matrix (Battlecruiser)": [
+  "icons/blizzard/btn-upgrade-swann-defensivematrix.png",
+  "icons/original/btn-advanced-defensive-matrix.png",
+ ],
+ "Progressive Fast Delivery (Terran)": [
+  "icons/blizzard/talent-tychus-level07-firstdiscount.png",
+  "icons/blizzard/talent-tychus-level02-additionaloutlaw.png",
+ ],
+ "Progressive Fire-Suppression System (Terran)": [
+  "icons/blizzard/btn-upgrade-swann-firesuppressionsystem.png",
+  "icons/blizzard/ui_tipicon_campaign_korhal02-psidestroyer.png"
+ ],
+ "Progressive Fungal Snare (Infested Diamondback)": [
+  "icons/blizzard/btn-ability-zerg-stukov-ensnare.png",
+  "icons/blizzard/btn-ability-zerg-stukov-ensnarecdr.png"
+ ],
+ "Progressive High Impact Payload (Thor)": [
+  "icons/blizzard/btn-unit-terran-thorsiegemode.png",
+  "icons/blizzard/btn-upgrade-terran-transformationservos.png"
+ ],
+ "Progressive Immortality Protocol (Thor)": [
+  "icons/original/btn-techupgrade-terran-immortalityprotocol-color.png",
+  "icons/blizzard/talent-swann-level12-immortalityprotocol.png"
+ ],
+ "Progressive Missile Pods (Battlecruiser)": [
+  "icons/original/btn-techupgrade-terran-missilepods-color-level1.png",
+  "icons/blizzard/btn-upgrade-terran-nova-bansheemissilestrik.png"
+ ],
+ "Progressive Protoss Air Armor": [
+  "icons/blizzard/btn-upgrade-protoss-airarmorlevel1.png",
+  "icons/blizzard/btn-upgrade-protoss-airarmorlevel2.png",
+  "icons/blizzard/btn-upgrade-protoss-airarmorlevel3.png",
+  "icons/original/btn-upgrade-protoss-airarmorlevel4.png",
+  "icons/original/btn-upgrade-protoss-airarmorlevel5.png",
+ ],
+ "Progressive Protoss Air Weapon": [
+  "icons/blizzard/btn-upgrade-protoss-airweaponslevel1.png",
+  "icons/blizzard/btn-upgrade-protoss-airweaponslevel2.png",
+  "icons/blizzard/btn-upgrade-protoss-airweaponslevel3.png",
+  "icons/original/btn-upgrade-protoss-airweaponslevel4.png",
+  "icons/original/btn-upgrade-protoss-airweaponslevel5.png",
+ ],
+ "Progressive Protoss Ground Armor": [
+  "icons/blizzard/btn-upgrade-protoss-groundarmorlevel1.png",
+  "icons/blizzard/btn-upgrade-protoss-groundarmorlevel2.png",
+  "icons/blizzard/btn-upgrade-protoss-groundarmorlevel3.png",
+  "icons/original/btn-upgrade-protoss-groundarmorlevel4.png",
+  "icons/original/btn-upgrade-protoss-groundarmorlevel5.png",
+ ],
+ "Progressive Protoss Ground Weapon": [
+  "icons/blizzard/btn-upgrade-protoss-groundweaponslevel1.png",
+  "icons/blizzard/btn-upgrade-protoss-groundweaponslevel2.png",
+  "icons/blizzard/btn-upgrade-protoss-groundweaponslevel3.png",
+  "icons/original/btn-upgrade-protoss-groundweaponslevel4.png",
+  "icons/original/btn-upgrade-protoss-groundweaponslevel5.png",
+ ],
+ "Progressive Protoss Shields": [
+  "icons/blizzard/btn-upgrade-protoss-shieldslevel1.png",
+  "icons/blizzard/btn-upgrade-protoss-shieldslevel2.png",
+  "icons/blizzard/btn-upgrade-protoss-shieldslevel3.png",
+  "icons/original/btn-upgrade-protoss-shieldslevel4.png",
+  "icons/original/btn-upgrade-protoss-shieldslevel5.png",
+ ],
+ "Progressive Proxy Pylon (Spear of Adun)": [
+  "icons/blizzard/btn-ability-spearofadun-deploypylon.png",
+  "icons/blizzard/btn-ability-spearofadun-warpinreinforcements.png",
+ ],
+ "Progressive Regenerative Bio-Steel (Terran)": [
+  "icons/original/btn-regenerativebiosteel-blue.png",
+  "icons/original/btn-regenerativebiosteel-green.png",
+  "icons/blizzard/btn-research-zerg-regenerativebio-steel.png"
+ ],
+ "Progressive Replenishable Magazine (Vulture)": [
+  "icons/blizzard/btn-upgrade-raynor-replenishablemagazine.png",
+ ],
+ "Progressive Stealth Suit Module (Nova Suit Module)": [
+  "icons/blizzard/btn-upgrade-nova-equipment-stealthsuit.png",
+  "icons/blizzard/btn-upgrade-nova-tacticalstealthsuit.png",
+ ],
+ "Progressive Stimpack (Firebat)": [
+  "icons/blizzard/btn-ability-terran-stimpack-color.png",
+  "icons/blizzard/btn-upgrade-terran-superstimppack.png"
+ ],
+ "Progressive Stimpack (Hellion)": [
+  "icons/blizzard/btn-ability-terran-stimpack-color.png",
+  "icons/blizzard/btn-upgrade-terran-superstimppack.png"
+ ],
+ "Progressive Stimpack (Marauder)": [
+  "icons/blizzard/btn-ability-terran-stimpack-color.png",
+  "icons/blizzard/btn-upgrade-terran-superstimppack.png"
+ ],
+ "Progressive Stimpack (Marine)": [
+  "icons/blizzard/btn-ability-terran-stimpack-color.png",
+  "icons/blizzard/btn-upgrade-terran-superstimppack.png"
+ ],
+ "Progressive Stimpack (Reaper)": [
+  "icons/blizzard/btn-ability-terran-stimpack-color.png",
+  "icons/blizzard/btn-upgrade-terran-superstimppack.png"
+ ],
+ "Progressive Terran Infantry Armor": [
+  "icons/blizzard/btn-upgrade-terran-infantryarmorlevel1.png",
+  "icons/blizzard/btn-upgrade-terran-infantryarmorlevel2.png",
+  "icons/blizzard/btn-upgrade-terran-infantryarmorlevel3.png",
+  "icons/original/btn-upgrade-terran-infantryarmorlevel4.png",
+  "icons/original/btn-upgrade-terran-infantryarmorlevel5.png",
+ ],
+ "Progressive Terran Infantry Weapon": [
+  "icons/blizzard/btn-upgrade-terran-infantryweaponslevel1.png",
+  "icons/blizzard/btn-upgrade-terran-infantryweaponslevel2.png",
+  "icons/blizzard/btn-upgrade-terran-infantryweaponslevel3.png",
+  "icons/original/btn-upgrade-terran-infantryweaponslevel4.png",
+  "icons/original/btn-upgrade-terran-infantryweaponslevel5.png",
+ ],
+ "Progressive Terran Ship Armor": [
+  "icons/blizzard/btn-upgrade-terran-shipplatinglevel1.png",
+  "icons/blizzard/btn-upgrade-terran-shipplatinglevel2.png",
+  "icons/blizzard/btn-upgrade-terran-shipplatinglevel3.png",
+  "icons/original/btn-upgrade-terran-shipplatinglevel4.png",
+  "icons/original/btn-upgrade-terran-shipplatinglevel5.png",
+ ],
+ "Progressive Terran Ship Weapon": [
+  "icons/blizzard/btn-upgrade-terran-shipweaponslevel1.png",
+  "icons/blizzard/btn-upgrade-terran-shipweaponslevel2.png",
+  "icons/blizzard/btn-upgrade-terran-shipweaponslevel3.png",
+  "icons/original/btn-upgrade-terran-shipweaponslevel4.png",
+  "icons/original/btn-upgrade-terran-shipweaponslevel5.png",
+ ],
+ "Progressive Terran Vehicle Armor": [
+  "icons/blizzard/btn-upgrade-terran-vehicleplatinglevel1.png",
+  "icons/blizzard/btn-upgrade-terran-vehicleplatinglevel2.png",
+  "icons/blizzard/btn-upgrade-terran-vehicleplatinglevel3.png",
+  "icons/original/btn-upgrade-terran-vehicleplatinglevel4.png",
+  "icons/original/btn-upgrade-terran-vehicleplatinglevel5.png",
+ ],
+ "Progressive Terran Vehicle Weapon": [
+  "icons/blizzard/btn-upgrade-terran-vehicleweaponslevel1.png",
+  "icons/blizzard/btn-upgrade-terran-vehicleweaponslevel2.png",
+  "icons/blizzard/btn-upgrade-terran-vehicleweaponslevel3.png",
+  "icons/original/btn-upgrade-terran-vehicleweaponslevel4.png",
+  "icons/original/btn-upgrade-terran-vehicleweaponslevel5.png",
+ ],
+ "Progressive Tomahawk Power Cells (Wraith)": [
+  "icons/original/btn-techupgrade-terran-tomahawkpowercell-color.png",
+  "icons/original/btn-permacloak-wraith.png",
+ ],
+ "Progressive Transport Hook (Siege Tank)": [
+  "icons/blizzard/btn-ability-tychus-medivac.png",
+  "icons/blizzard/btn-ability-mengsk-siegetank-flyingtankarmament.png",
+ ],
+ "Progressive Tri-Lithium Power Cell (Diamondback)": [
+  "icons/original/btn-upgrade-terran-trilithium-power-cell.png",
+  "icons/original/btn-upgrade-terran-tungsten-spikes.png"
+ ],
+ "Progressive Warp Relocate (Protoss)": [
+  "icons/blizzard/btn-ability-protoss-massrecall.png",
+ ],
+ "Progressive Zerg Flyer Attack": [
+  "icons/blizzard/btn-upgrade-zerg-airattacks-level1.png",
+  "icons/blizzard/btn-upgrade-zerg-airattacks-level2.png",
+  "icons/blizzard/btn-upgrade-zerg-airattacks-level3.png",
+  "icons/original/btn-upgrade-zerg-airattacks-level4.png",
+  "icons/original/btn-upgrade-zerg-airattacks-level5.png",
+ ],
+ "Progressive Zerg Flyer Carapace": [
+  "icons/blizzard/btn-upgrade-zerg-flyercarapace-level1.png",
+  "icons/blizzard/btn-upgrade-zerg-flyercarapace-level2.png",
+  "icons/blizzard/btn-upgrade-zerg-flyercarapace-level3.png",
+  "icons/original/btn-upgrade-zerg-flyercarapace-level4.png",
+  "icons/original/btn-upgrade-zerg-flyercarapace-level5.png",
+ ],
+ "Progressive Zerg Ground Carapace": [
+  "icons/blizzard/btn-upgrade-zerg-groundcarapace-level1.png",
+  "icons/blizzard/btn-upgrade-zerg-groundcarapace-level2.png",
+  "icons/blizzard/btn-upgrade-zerg-groundcarapace-level3.png",
+  "icons/original/btn-upgrade-zerg-groundcarapace-level4.png",
+  "icons/original/btn-upgrade-zerg-groundcarapace-level5.png",
+ ],
+ "Progressive Zerg Melee Attack": [
+  "icons/blizzard/btn-upgrade-zerg-meleeattacks-level1.png",
+  "icons/blizzard/btn-upgrade-zerg-meleeattacks-level2.png",
+  "icons/blizzard/btn-upgrade-zerg-meleeattacks-level3.png",
+  "icons/original/btn-upgrade-zerg-meleeattacks-level4.png",
+  "icons/original/btn-upgrade-zerg-meleeattacks-level5.png",
+ ],
+ "Progressive Zerg Missile Attack": [
+  "icons/blizzard/btn-upgrade-zerg-missileattacks-level1.png",
+  "icons/blizzard/btn-upgrade-zerg-missileattacks-level2.png",
+  "icons/blizzard/btn-upgrade-zerg-missileattacks-level3.png",
+  "icons/original/btn-upgrade-zerg-missileattacks-level4.png",
+  "icons/original/btn-upgrade-zerg-missileattacks-level5.png",
+ ],
+ "Projectile Accelerator (Bunker)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-bunkerresearchbundle_05.png"
+ ],
+ "Prolonged Dispersion (Guardian)": [
+  "icons/blizzard/btn-upgrade-zerg-abathur-prolongeddispersion.png"
+ ],
+ "Propellant Sacs (Guardian)": [
+  "icons/original/btn-propellant-sacs.png"
+ ],
+ "Protective Cover (Aberration)": [
+  "icons/blizzard/btn-upgrade-zagara-aberrationarmorcover.png"
+ ],
+ "Psi Disrupter": [
+  "icons/blizzard/btn-building-terran-sigmaprojector.png",
+  "icons/blizzard/btn-ability-terran-psidisruption.png"
+ ],
+ "Psi Indoctrinator (Hive Mind Emulator)": [
+  "icons/blizzard/btn-building-terran-hivemindemulator.png"
+ ],
+ "Psi Screen (Psi Disrupter)": [
+  "icons/blizzard/btn-progression-protoss-fenix-1-zealotsuit.png"
+ ],
+ "Psionic Lash (Spectre)": [
+  "icons/original/btn-techupgrade-terran-psioniclash-color.png",
+  "icons/original/btn-ultrasonic-pulse-color.png"
+ ],
+ "Psionic Shift (Kerrigan Ability)": [
+  "icons/blizzard/btn-ability-kerrigan-psychicshift.png"
+ ],
+ "Pulsar": [
+  "icons/original/btn-unit-voidray-aiur.png"
+ ],
+ "Pulse Grenades (Nova Gadget)": [
+  "icons/blizzard/btn-upgrade-nova-btn-upgrade-nova-pulsegrenade.png"
+ ],
+ "Purifier Beam (Spear of Adun)": [
+  "icons/blizzard/btn-ability-spearofadun-purifierbeam.png"
+ ],
+ "Pygalisk": [
+  "icons/blizzard/btn-unit-zerg-ultralisk-rcz.png"
+ ],
+ "Pylon Overcharge (Spear of Adun)": [
+  "icons/blizzard/btn-ability-protoss-purify.png"
+ ],
+ "Quantic Reactor (Tempest)": [
+  "icons/blizzard/btn-upgrade-protoss-researchgravitysling.png"
+ ],
+ "Quatro (Protoss)": [
+  "icons/blizzard/btn-progression-protoss-fenix-6-forgeresearch.png"
+ ],
+ "Raid Artillery (Liberator)": [
+  "icons/blizzard/btn-upgrade-terran-nova-terrandefendermodestructureattack.png"
+ ],
+ "Railgun Turret (Raven)": [
+  "icons/blizzard/btn-unit-terran-autoturretblackops.png"
+ ],
+ "Rangefinder Oculus (Nova Equipment)": [
+  "icons/blizzard/btn-upgrade-nova-equipment-rangefinderoculus.png"
+ ],
+ "Rapid Bombardment (Bile Launcher)": [
+  "icons/blizzard/btn-upgrade-zerg-demolition.png"
+ ],
+ "Rapid Deployment Tube (Medivac)": [
+  "icons/original/btn-techupgrade-terran-rapiddeployment-color.png"
+ ],
+ "Rapid Fire Launchers (Cyclone)": [
+  "icons/blizzard/btn-upgrade-raynor-ripwavemissiles.png"
+ ],
+ "Rapid Hibernation (Infested Banshee)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-bansheeburrowregeneration.png"
+ ],
+ "Rapid Incubation (Swarm Host)": [
+  "icons/blizzard/btn-upgrade-zerg-rapidincubation.png"
+ ],
+ "Rapid Metamorph (Baneling)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+ ],
+ "Rapid Power Cycling (Wrathwalker)": [
+  "icons/blizzard/btn-upgrade-protoss-wrathwalker-chargetimeimproved.png"
+ ],
+ "Rapid Recharging (Sentry/Energizer/Havoc/Shield Battery)": [
+  "icons/blizzard/btn-upgrade-karax-energyregen200.png"
+ ],
+ "Rapid Regeneration (Mutalisk)": [
+  "icons/blizzard/btn-upgrade-zerg-rapidregeneration.png"
+ ],
+ "Rapid Reignition Systems (Medivac)": [
+  "icons/blizzard/btn-upgrade-terran-highcapacityfueltanks.png"
+ ],
+ "Rapid Reinforcement (Terran)": [
+  "icons/blizzard/btn-progression-hornerhan-6-mirabuildtime.png"
+ ],
+ "Rapid Reload (Thor)": [
+  "icons/blizzard/btn-ability-mengsk-siegetank-flyingtankarmament.png"
+ ],
+ "Rapid-Fire Cannon (Vanguard)": [
+  "icons/blizzard/btn-upgrade-mengsk-engineeringbay-orbitaldrop.png"
+ ],
+ "Raptor Strain (Zergling)": [
+  "icons/blizzard/btn-unit-zerg-zergling-raptor.png"
+ ],
+ "Ravager": [
+  "icons/blizzard/btn-unit-zerg-ravager.png"
+ ],
+ "Raven": [
+  "icons/blizzard/btn-unit-terran-raven.png"
+ ],
+ "Ravenous Appetite (Nydus Worm)": [
+  "icons/blizzard/ui_tipicon_evolution_hydralisk-waves.png"
+ ],
+ "Reaper": [
+  "icons/blizzard/btn-unit-terran-reaper.png"
+ ],
+ "Reaver": [
+  "icons/blizzard/btn-unit-protoss-reaver.png"
+ ],
+ "Reaver Capacity (Reaver)": [
+  "icons/original/btn-upgrade-protoss-increasedscarabcapacity@scbw.png"
+ ],
+ "Reclamation (Energizer)": [
+  "icons/blizzard/btn-ability-protoss-reclamation.png"
+ ],
+ "Reconstruction (Instigator)": [
+  "icons/original/btn-upgrade-protoss-stalkerpurifier-reconstruction.png"
+ ],
+ "Reconstruction Beam (Spear of Adun)": [
+  "icons/blizzard/btn-ability-spearofadun-reconstructionbeam.png"
+ ],
+ "Reduced Upgrade Research Cost": [
+  "icons/original/btn-upgrade-reducedupgraderesearchcost.png"
+ ],
+ "Reforged Bloodshard Core (Destroyer)": [
+  "icons/blizzard/btn-amonshardsarmor.png"
+ ],
+ "Regenerative Acid (Baneling)": [
+  "icons/blizzard/btn-upgrade-zerg-regenerativebile.png"
+ ],
+ "Regenerative Plating (Infested Bunker)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-bunkerformliferegenupgraded.png"
+ ],
+ "Reintegrated Framework (Stalwart)": [
+  "icons/original/btn-reintigrated-framework.png"
+ ],
+ "Repair Drones (Carrier)": [
+  "icons/blizzard/btn-ability-protoss-carrierrepairdrones.png"
+ ],
+ "Resonating Glaives (Adept)": [
+  "icons/blizzard/btn-upgrade-protoss-resonatingglaives.png"
+ ],
+ "Resource Efficiency (Aberration)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Arbiter)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Brood Lord)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Centurion)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Corruptor)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Cyclone)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Dark Templar/Avenger/Blood Hunter)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Destroyer)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Devastator Turret)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Diamondback)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Firebat)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Ghost)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Goliath)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (HERC)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Hydralisk)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Liberator)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Medic)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Medivac)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Missile Turret)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Nydus Worm/Echidna Worm)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Predator)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Raven)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Reaper)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Reaver)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Scourge)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Scout)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Sentinel)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Siege Tank)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Spectre)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Swarm Host)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Swarm Queen)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Ultralisk)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Valkyrie)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Warhound)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Widow Mine)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Wraith)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Restoration (Medic)": [
+  "icons/original/btn-ability-terran-restoration@scbw.png"
+ ],
+ "Restrained Destruction (Disruptor)": [
+  "icons/blizzard/btn-upgrade-stetmann-banelingmanashieldefficiency.png"
+ ],
+ "Retinal Augmentation (Infested Marine)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-infestedmarinerangeupgrade.png"
+ ],
+ "Ripwave Missiles (Viking)": [
+  "icons/blizzard/btn-upgrade-raynor-ripwavemissiles.png"
+ ],
+ "Roach": [
+  "icons/blizzard/btn-unit-zerg-roach.png"
+ ],
+ "Rocket Barrage (Banshee)": [
+  "icons/blizzard/btn-upgrade-terran-nova-bansheemissilestrik.png"
+ ],
+ "Rogue Forces (Terran)": [
+  "icons/blizzard/btn-unit-terran-tosh.png"
+ ],
+ "Rupture (Baneling)": [
+  "icons/blizzard/btn-upgrade-zerg-rupture.png"
+ ],
+ "Sacrifice (Supplicant)": [
+  "icons/original/btn-ability-protoss-supplicant-sacrificeoff.png",
+  "icons/original/btn-ability-protoss-supplicant-sacrificeon.png"
+ ],
+ "Scanner Sweep (Command Center)": [
+  "icons/blizzard/btn-ability-terran-scannersweep-color.png"
+ ],
+ "Scarab Damage (Reaver)": [
+  "icons/blizzard/btn-upgrade-artanis-scarabsplashradius.png"
+ ],
+ "Scatter Veil (Medivac)": [
+  "icons/original/btn-scatter-veil.png"
+ ],
+ "Science Vessel": [
+  "icons/blizzard/btn-unit-terran-sciencevessel.png"
+ ],
+ "Scourge": [
+  "icons/blizzard/btn-unit-zerg-scourge.png"
+ ],
+ "Scourge Incubation (Corruptor)": [
+  "icons/blizzard/btn-unit-zerg-scourge.png"
+ ],
+ "Scout": [
+  "icons/original/btn-unit-protoss-scout.png"
+ ],
+ "Secretion Glands (Impaler)": [
+  "icons/blizzard/btn-ability-zerg-creepspread.png"
+ ],
+ "Seismic Sonar (Infested Siege Tank)": [
+  "icons/original/btn-seismic-sonar.png"
+ ],
+ "Seismic Spines (Lurker)": [
+  "icons/blizzard/btn-upgrade-kerrigan-seismicspines.png"
+ ],
+ "Self-Sufficient (Zerg)": [
+  "icons/blizzard/btn-progression-zerg-dehaka-7-newdehakaabilities.png"
+ ],
+ "Sensor Array (Observer)": [
+  "icons/blizzard/btn-ability-zeratul-observer-sensorarray.png"
+ ],
+ "Sensor Tower": [
+  "icons/blizzard/btn-building-terran-sensordome.png"
+ ],
+ "Sentinel": [
+  "icons/blizzard/btn-unit-protoss-zealot-purifier.png"
+ ],
+ "Sentry": [
+  "icons/blizzard/btn-unit-protoss-sentry.png"
+ ],
+ "Severing Glaive (Mutalisk)": [
+  "icons/blizzard/btn-upgrade-zerg-explosiveglaive.png"
+ ],
+ "Shadow Guard Training (Dark Templar/Avenger/Blood Hunter)": [
+  "icons/original/btn-shadow-guard-training.png"
+ ],
+ "Shaped Blast (Siege Tank)": [
+  "icons/original/btn-techupgrade-terran-shapedblast-color.png"
+ ],
+ "Shaped Hull (Banshee)": [
+  "icons/original/btn-techupgrade-terran-shapedhull-colored.png"
+ ],
+ "Shaped Hull (Diamondback)": [
+  "icons/original/btn-techupgrade-terran-shapedhull-colored.png"
+ ],
+ "Shaped Hull (Goliath)": [
+  "icons/original/btn-techupgrade-terran-shapedhull-colored.png"
+ ],
+ "Shaped Hull (Siege Tank)": [
+  "icons/original/btn-techupgrade-terran-shapedhull-colored.png"
+ ],
+ "Shaped Hull (Valkyrie)": [
+  "icons/original/btn-techupgrade-terran-shapedhull-colored.png"
+ ],
+ "Shield Battery": [
+  "icons/blizzard/btn-building-protoss-shieldbattery.png"
+ ],
+ "Shield Capacity (Zealot/Sentinel/Centurion)": [
+  "icons/original/btn-shield-capacity.png"
+ ],
+ "Shield Overcharge (Spear of Adun)": [
+  "icons/blizzard/btn-ability-spearofadun-shieldovercharge.png"
+ ],
+ "Shock Division": [
+  "icons/blizzard/btn-unit-terran-siegetankmengsk.png"
+ ],
+ "Shockwave (Adept)": [
+  "icons/blizzard/btn-upgrade-protoss-fenix-adept-recochetglaiveupgraded.png"
+ ],
+ "Shockwave Missile Battery (Banshee)": [
+  "icons/blizzard/btn-upgrade-raynor-shockwavemissilebattery.png"
+ ],
+ "Shredder Rounds (Viking)": [
+  "icons/blizzard/btn-ability-hornerhan-viking-piercingattacks.png"
+ ],
+ "Shredding Claws (Zergling)": [
+  "icons/blizzard/btn-upgrade-zergling-armorshredding.png"
+ ],
+ "Shrike Turret (Bunker)": [
+  "icons/blizzard/btn-upgrade-swann-improvedturretattackspeed.png"
+ ],
+ "Shroud of Adun (Dark Templar/Avenger/Blood Hunter)": [
+  "icons/blizzard/talent-vorazun-level01-shadowstalk.png"
+ ],
+ "Side Missiles (Caladrius)": [
+  "icons/original/btn-side-missiles.png"
+ ],
+ "Siege Breakers": [
+  "icons/original/btn-unit-terran-siegetankmercenary-tank.png"
+ ],
+ "Siege Tank": [
+  "icons/blizzard/btn-unit-terran-siegetank.png"
+ ],
+ "Signal Beacon (Terran)": [
+  "icons/blizzard/talent-raynor-level08-orbitaldroppods.png"
+ ],
+ "Signifier": [
+  "icons/original/btn-unit-protoss-hightemplar-nerazim.png"
+ ],
+ "Singularity Charge (Dragoon)": [
+  "icons/blizzard/btn-upgrade-artanis-singularitycharge.png"
+ ],
+ "Singularity Charge (Immortal/Annihilator)": [
+  "icons/blizzard/btn-upgrade-artanis-singularitycharge.png"
+ ],
+ "Skibi's Angels": [
+  "icons/blizzard/btn-unit-terran-medicelite.png"
+ ],
+ "Skirmisher": [
+  "icons/blizzard/btn-unit-collection-taldarim-phoenix.png"
+ ],
+ "Sky Fury": [
+  "icons/blizzard/btn-unit-terran-vikingmengskfighter.png"
+ ],
+ "Skylord": [
+  "icons/blizzard/btn-unit-collection-taldarim-carrier.png"
+ ],
+ "Skyward Chronoanomaly (Oracle)": [
+  "icons/original/btn-skyward-chronoanomaly.png"
+ ],
+ "Slayer": [
+  "icons/original/btn-unit-protoss-stalker-taldarim-collection-ds.png"
+ ],
+ "Smart Servos (Hellion)": [
+  "icons/blizzard/btn-upgrade-terran-transformationservos.png"
+ ],
+ "Smart Servos (Liberator)": [
+  "icons/blizzard/btn-upgrade-terran-transformationservos.png"
+ ],
+ "Smart Servos (Siege Tank)": [
+  "icons/blizzard/btn-upgrade-terran-transformationservos.png"
+ ],
+ "Smart Servos (Viking)": [
+  "icons/blizzard/btn-upgrade-terran-transformationservos.png"
+ ],
+ "Solar Beam (Trireme)": [
+  "icons/blizzard/btn-upgrade-protoss-fenix-carrier-solarbeam.png"
+ ],
+ "Solar Bombardment (Spear of Adun)": [
+  "icons/blizzard/btn-ability-spearofadun-solarbombardment.png"
+ ],
+ "Solar Lance (Spear of Adun)": [
+  "icons/blizzard/btn-ability-spearofadun-solarlance.png"
+ ],
+ "Solarite Lens (Dawnbringer)": [
+  "icons/original/btn-solarite-lens.png"
+ ],
+ "Solarite Payload (Reaver)": [
+  "icons/original/btn-solarite-payload.png"
+ ],
+ "Solarite Reactor (Caladrius)": [
+  "icons/blizzard/btn-ability-zeratul-darkarchon-maelstrom.png"
+ ],
+ "Son of Korhal": [
+  "icons/original/btn-unit-terran-marine-mengsk.png"
+ ],
+ "Sonic Disrupter (Psi Disrupter)": [
+  "icons/blizzard/btn-ability-protoss-mindblast.png"
+ ],
+ "Soronan Acid (Guardian)": [
+  "icons/blizzard/btn-upgrade-zerg-abathur-biomass.png"
+ ],
+ "Soul Augmentation (Supplicant)": [
+  "icons/blizzard/btn-upgrade-protoss-alarak-supplicantextrashields.png"
+ ],
+ "Sovereign Tactical Missiles (Emperor's Shadow)": [
+  "icons/blizzard/btn-upgrade-mengsk-ghostacademy-guidedtacticalstrike.png"
+ ],
+ "Spacetime Anchor (Arbiter)": [
+  "icons/blizzard/btn-upgrade-protoss-fenix-stasisfield.png"
+ ],
+ "Spartan Company": [
+  "icons/original/btn-unit-terran-goliathmercenary.png"
+ ],
+ "Spawn Banelings (Kerrigan Ability)": [
+  "icons/blizzard/abilityicon_spawnbanelings_square.png"
+ ],
+ "Spawn Larvae (Swarm Queen)": [
+  "icons/blizzard/btn-unit-zerg-larva.png"
+ ],
+ "Spawn Leviathan (Kerrigan Ability)": [
+  "icons/blizzard/btn-unit-zerg-leviathan.png"
+ ],
+ "Spectre": [
+  "icons/original/btn-unit-terran-spectre.png"
+ ],
+ "Spider Mines (Raven)": [
+  "icons/blizzard/btn-upgrade-siegetank-spidermines.png"
+ ],
+ "Spider Mines (Reaper)": [
+  "icons/original/btn-ability-terran-spidermine.png"
+ ],
+ "Spider Mines (Siege Tank)": [
+  "icons/blizzard/btn-upgrade-siegetank-spidermines.png"
+ ],
+ "Spine Crawler": [
+  "icons/blizzard/btn-building-zerg-spinecrawler.png"
+ ],
+ "Splitter Mitosis (Brood Lord)": [
+  "icons/blizzard/abilityicon_spawnbroodlings_square.png"
+ ],
+ "Splitter Strain (Baneling)": [
+  "icons/blizzard/talent-zagara-level14-unlocksplitterling.png"
+ ],
+ "Spore Crawler": [
+  "icons/blizzard/btn-building-zerg-sporecrawler.png"
+ ],
+ "Stabilized Electrodes (Stalwart)": [
+  "icons/original/btn-stabilized-electrodes.png"
+ ],
+ "Stabilizer Medpacks (Medic)": [
+  "icons/blizzard/btn-upgrade-raynor-stabilizermedpacks.png"
+ ],
+ "Stalker": [
+  "icons/blizzard/btn-unit-protoss-stalker.png"
+ ],
+ "Stalwart": [
+  "icons/blizzard/btn-unit-collection-purifier-immortal.png"
+ ],
+ "Stasis Calibration (Oracle)": [
+  "icons/blizzard/btn-ability-protoss-oracle-stasiscalibration.png"
+ ],
+ "Stealth Drive (Corsair)": [
+  "icons/blizzard/btn-upgrade-vorazun-corsairpermanentlycloaked.png"
+ ],
+ "Stealth Drive (Oracle)": [
+  "icons/blizzard/btn-upgrade-vorazun-oraclepermanentlycloaked.png"
+ ],
+ "Stim Infusion (Nova Gadget)": [
+  "icons/blizzard/btn-ability-terran-stimpack-color.png"
+ ],
+ "Stimpack (Pygalisk)": [
+  "icons/blizzard/btn-ability-terran-stimpack-color.png"
+ ],
+ "Structure Armor (Terran)": [
+  "icons/blizzard/btn-upgrade-terran-buildingarmor.png"
+ ],
+ "Structure Targeting (Caladrius)": [
+  "icons/original/btn-caladrius-structure.png"
+ ],
+ "Subterranean Scales (Nydus Worm/Echidna Worm)": [
+  "icons/blizzard/btn-upgrade-zerg-buildingarmor.png"
+ ],
+ "Suffused With Vermin (Bullfrog)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-infestedspawnbroodling.png"
+ ],
+ "Sundering Glaive (Mutalisk)": [
+  "icons/blizzard/btn-upgrade-zerg-explosiveglaive.png"
+ ],
+ "Sunken Spines (Impaler)": [
+  "icons/blizzard/btn-ability-zerg-dehaka-impaler-tenderize.png"
+ ],
+ "Superior Warp Gates (Protoss)": [
+  "icons/blizzard/talent-artanis-level03-warpgatecharges.png"
+ ],
+ "Supplicant": [
+  "icons/blizzard/btn-unit-protoss-alarak-taldarim-supplicant.png"
+ ],
+ "Supply Efficiency (Scout)": [
+  "icons/blizzard/talent-artanis-level14-startingmaxsupply.png"
+ ],
+ "Sustained Cultivation Ventricles (Infested SCV)": [
+  "icons/blizzard/btn-upgrade-swann-scvdoublerepair.png"
+ ],
+ "Sustaining Disruption (Corsair)": [
+  "icons/original/btn-sustaining-disruption.png"
+ ],
+ "Swarm Host": [
+  "icons/blizzard/btn-unit-zerg-swarmhost.png"
+ ],
+ "Swarm Queen": [
+  "icons/blizzard/btn-unit-zerg-broodqueen.png"
+ ],
+ "Swarm Scourge (Scourge)": [
+  "icons/original/btn-upgrade-custom-triple-scourge.png"
+ ],
+ "Swarmling Strain (Zergling)": [
+  "icons/blizzard/btn-unit-zerg-zergling-swarmling.png"
+ ],
+ "Tac Nuke Strike (Nova Ability)": [
+  "icons/blizzard/btn-ability-terran-nuclearstrike-color.png"
+ ],
+ "Tactical Jump (Battlecruiser)": [
+  "icons/blizzard/btn-ability-terran-warpjump.png"
+ ],
+ "Tactical Jump (Hercules)": [
+  "icons/blizzard/btn-ability-terran-hercules-tacticaljump.png"
+ ],
+ "Tactical Jump (Science Vessel)": [
+  "icons/blizzard/btn-ability-hornerhan-fleethyperjump.png"
+ ],
+ "Targeting Optics (Cyclone)": [
+  "icons/blizzard/btn-upgrade-swann-targetingoptics.png"
+ ],
+ "Tech Reactor (Terran)": [
+  "icons/original/btn-building-terran-techreactor.png"
+ ],
+ "Tectonic Destabilizers (Tempest)": [
+  "icons/blizzard/btn-ability-protoss-disruptionblast.png"
+ ],
+ "Tempest": [
+  "icons/blizzard/btn-unit-protoss-tempest-purifier.png"
+ ],
+ "Temporal Acceleration Beam (Oracle)": [
+  "icons/blizzard/btn-ability-protoss-oraclepulsarcannonon.png"
+ ],
+ "Temporal Field (Spear of Adun)": [
+  "icons/blizzard/btn-ability-spearofadun-temporalfield.png"
+ ],
+ "Thermite Filaments (Hellion)": [
+  "icons/blizzard/btn-upgrade-terran-infernalpreigniter.png"
+ ],
+ "Thor": [
+  "icons/blizzard/btn-unit-terran-thor.png"
+ ],
+ "Time Stop (Spear of Adun)": [
+  "icons/blizzard/btn-ability-spearofadun-timestop.png"
+ ],
+ "Tissue Assimilation (Ultralisk)": [
+  "icons/blizzard/btn-upgrade-zerg-tissueassimilation.png"
+ ],
+ "Titanium Housing (Missile Turret)": [
+  "icons/original/btn-techupgrade-terran-titaniumhousing-color.png"
+ ],
+ "Torrasque Strain (Ultralisk)": [
+  "icons/blizzard/btn-unit-zerg-ultralisk-torrasque.png"
+ ],
+ "Transcendence (Archon)": [
+  "icons/blizzard/btn-ability-protoss-astralwind.png"
+ ],
+ "Trapdoor Adaptation (Defiler)": [
+  "icons/blizzard/btn-upgrade-zerg-burrowmove.png"
+ ],
+ "Trigger Override (Wraith)": [
+  "icons/blizzard/btn-ability-hornerhan-wraith-attackspeed.png"
+ ],
+ "Trillic Compression System (Dragoon)": [
+  "icons/blizzard/btn-ability-protoss-dragoonchassis.png"
+ ],
+ "Trireme": [
+  "icons/blizzard/btn-unit-collection-purifier-carrier.png"
+ ],
+ "Tunneling Claws (Roach)": [
+  "icons/blizzard/btn-upgrade-zerg-hotstunnelingclaws.png"
+ ],
+ "Tunneling Jaws (Baneling)": [
+  "icons/blizzard/btn-upgrade-zerg-tunnelingjaws.png"
+ ],
+ "Twilight Chassis (Annihilator)": [
+  "icons/original/btn-twilight-chassis.png"
+ ],
+ "Twin Drones (Zerg)": [
+  "icons/blizzard/btn-ability-kerrigan-twindrones.png"
+ ],
+ "Twin-Linked Flamethrower (Hellion)": [
+  "icons/original/btn-upgrade-terran-twin-linkedflamethrower-color.png"
+ ],
+ "Tyrannozor": [
+  "icons/blizzard/btn-unit-collection-primal-tyrannozor.png"
+ ],
+ "Tyrant's Protection (Tyrannozor)": [
+  "icons/blizzard/btn-ability-zerg-dehaka-tyrannozor-tyrantprotection.png"
+ ],
+ "U-238 Rounds (Reaper)": [
+  "icons/original/btn-techupgrade-terran-u238rounds-color.png"
+ ],
+ "UED Missile Technology (Liberator)": [
+  "icons/original/btn-ued-rocketry-technology.png"
+ ],
+ "Ultra-Capacitors (Terran)": [
+  "icons/blizzard/btn-research-terran-ultracapacitors.png"
+ ],
+ "Ultralisk": [
+  "icons/blizzard/btn-unit-zerg-ultralisk.png"
+ ],
+ "Unrestricted Mutation (Zerg)": [
+  "icons/blizzard/btn-upgrade-zerg-swarmfrenzy.png"
+ ],
+ "Unshackled Psionic Storm (High Templar/Signifier)": [
+  "icons/original/btn-unshackled-psionic-storm.png"
+ ],
+ "Valkyrie": [
+  "icons/original/btn-unit-terran-valkyrie@scbw.png"
+ ],
+ "Vanadium Plating (Terran)": [
+  "icons/blizzard/btn-research-terran-vanadiumplating.png"
+ ],
+ "Vanguard": [
+  "icons/blizzard/btn-unit-protoss-immortal-taldarim.png"
+ ],
+ "Ventral Sacs (Overlord)": [
+  "icons/blizzard/btn-upgrade-zerg-ventralsacs.png"
+ ],
+ "Vespene Efficiency (Zerg)": [
+  "icons/blizzard/btn-ability-kerrigan-vespeneefficiency.png"
+ ],
+ "Vespene Synthesis (Predator)": [
+  "icons/original/predatorvespene.png"
+ ],
+ "Vessel of the Conclave (Arbiter)": [
+  "icons/blizzard/btn-ability-protoss-forceofwill.png"
+ ],
+ "Vicious Glaive (Mutalisk)": [
+  "icons/blizzard/btn-upgrade-zerg-viciousglaive.png"
+ ],
+ "Viking": [
+  "icons/blizzard/btn-unit-terran-vikingfighter.png"
+ ],
+ "Vile Strain (Roach)": [
+  "icons/blizzard/btn-unit-zerg-roach-vile.png"
+ ],
+ "Violent Enzymes (Infested Diamondback)": [
+  "icons/blizzard/btn-ability-mengsk-ghost-pyrokineticimmolation_orange.png"
+ ],
+ "Viper": [
+  "icons/blizzard/btn-unit-zerg-viper.png"
+ ],
+ "Viral Contamination (Infested Liberator)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-infestedliberatoraoe.png"
+ ],
+ "Virulent Microbes (Viper)": [
+  "icons/blizzard/btn-upgrade-zerg-abathur-castrange.png"
+ ],
+ "Virulent Spores (Scourge)": [
+  "icons/blizzard/btn-upgrade-zagara-scourgesplashdamage.png"
+ ],
+ "Void Ray": [
+  "icons/blizzard/btn-unit-protoss-warpray.png"
+ ],
+ "Vulcan Blaster (Oppressor)": [
+  "icons/original/btn-ability-protoss-vulcanblaster.png"
+ ],
+ "Vulture": [
+  "icons/blizzard/btn-unit-terran-vulture.png"
+ ],
+ "W.I.L.D. Missiles (Viking)": [
+  "icons/blizzard/btn-ability-hornerhan-viking-missileupgrade.png"
+ ],
+ "War Configuration (Warp Prism)": [
+  "icons/blizzard/btn-upgrade-protoss-alarak-graviticdrive.png"
+ ],
+ "War Pigs": [
+  "icons/original/btn-unit-terran-marinemercenary.png"
+ ],
+ "Warhound": [
+  "icons/blizzard/btn-unit-terran-warhound.png"
+ ],
+ "Warp Harmonization (Protoss)": [
+  "icons/blizzard/btn-ability-spearofadun-warpharmonization.png"
+ ],
+ "Warp Prism": [
+  "icons/blizzard/btn-unit-protoss-warpprism.png"
+ ],
+ "Warp Refraction (Warp Prism)": [
+  "icons/original/btn-warp-refraction.png"
+ ],
+ "Whirlwind (Zealot)": [
+  "icons/blizzard/btn-ability-protoss-whirlwind.png"
+ ],
+ "Widow Mine": [
+  "icons/blizzard/btn-unit-terran-widowmine.png"
+ ],
+ "Wild Mutation (Kerrigan Ability)": [
+  "icons/blizzard/btn-ability-kerrigan-wildmutation.png"
+ ],
+ "Winged Nightmares": [
+  "icons/blizzard/btn-unit-collection-wraith-junker.png"
+ ],
+ "Wise Old Torrasque": [
+  "icons/blizzard/btn-unit-zerg-ultralisk-remastered.png"
+ ],
+ "Wraith": [
+  "icons/blizzard/btn-unit-terran-wraith.png"
+ ],
+ "Wrathwalker": [
+  "icons/blizzard/btn-unit-protoss-colossus-taldarim.png"
+ ],
+ "Yggdrasil": [
+  "icons/original/btn-unit-zerg-overlord@scbw.png"
+ ],
+ "Zealot": [
+  "icons/blizzard/btn-unit-protoss-zealot.png"
+ ],
+ "Zenith Pitch (Supplicant)": [
+  "icons/blizzard/btn-upgrade-protoss-alarak-rangeweapon.png"
+ ],
+ "Zergling": [
+  "icons/blizzard/btn-unit-zerg-zergling.png"
+ ],
+ "Zergling Reconstitution (Zerg)": [
+  "icons/blizzard/btn-ability-kerrigan-zerglingreconstitution.png"
+ ],
+ "_protoss": [
+  "icons/blizzard/ui_glues_help_armyicon_protoss.png"
+ ],
+ "_terran": [
+  "icons/blizzard/ui_glues_help_armyicon_terran.png"
+ ],
+ "_zerg": [
+  "icons/blizzard/ui_glues_help_armyicon_zerg.png"
+ ],
+ "Kerrigan Level": [
+  "icons/blizzard/btn-ability-kerrigan-revive.png"
+ ]
+}

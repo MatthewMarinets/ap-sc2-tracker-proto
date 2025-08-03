@@ -11,6 +11,9 @@ a {
 }
 
 /* Section colours */
+#player-info {
+    background-color: #37a;
+}
 .player-tracker {
     max-width: 100%;
 }
