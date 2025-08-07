@@ -87,7 +87,7 @@ class EmitItemIcon:
             # Filler items
             emit(f'{i}<div class="item-counter">')
             emit(f'{i}  <img src="{iconpath(item.item_name, 0)}" title="{item.item_name}{title_suffix(item.item_name)}">')
-            emit(f'{i}  <span class="item-count">+{len(item.item_name) * 5}</span>')
+            emit(f'{i}  <span class="item-count">{{{{kerrigan_level}}}}</span>')
             emit(f'{i}</div>')
         elif isinstance(item, SectionBreak):
             small_i = '  '*(indent-1)
@@ -116,8 +116,10 @@ class EmitItemIcon:
             assert False, f"Unknown type {type(item)}"
 
 
-def emit_section_start(section_id: str, subsections: Iterable[str] = (), start_minimized: bool = False) -> None:
-    if start_minimized:
+def emit_section_start(section_id: str, subsections: Iterable[str] = (), start_minimized: str = '') -> None:
+    if start_minimized and OUTPUT_FOR_JINJA:
+        checked = f' checked="{{{{\'t\' if not {start_minimized}}}}}"'
+    elif start_minimized:
         checked = ' checked="t"'
     else:
         checked = ''
@@ -181,8 +183,8 @@ emit_section('filler-items', FILLER_ITEMS)
 emit_section('terran-items', TERRAN_ITEMS)
 emit_section('zerg-items', ZERG_ITEMS)
 emit_section('protoss-items', PROTOSS_ITEMS)
-emit_section('nova-items', NOVA_ITEMS, True)
-emit_section('kerrigan-items', KERRIGAN_ITEMS, True)
+emit_section('nova-items', NOVA_ITEMS, 'nova_present')
+emit_section('kerrigan-items', KERRIGAN_ITEMS, 'kerrigan_present')
 # emit_keys_section()
 # emit_locations_section()
 
