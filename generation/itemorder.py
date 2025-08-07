@@ -725,6 +725,10 @@ PROTOSS_ITEMS = [
     Upgradeable(item_names.SENTINEL, [
         item_names.SENTINEL_RESOURCE_EFFICIENCY,
     ]),
+    Upgradeable(None, [
+        item_names.ZEALOT_SENTINEL_CENTURION_LEG_ENHANCEMENTS,
+        item_names.ZEALOT_SENTINEL_CENTURION_SHIELD_CAPACITY,
+    ], classname="zealot-tier"),
     Upgradeable(item_names.SUPPLICANT, [
         item_names.SUPPLICANT_BLOOD_SHIELD,
         item_names.SUPPLICANT_ENDLESS_SERVITUDE,
@@ -732,10 +736,6 @@ PROTOSS_ITEMS = [
         item_names.SUPPLICANT_SOUL_AUGMENTATION,
         item_names.SUPPLICANT_ZENITH_PITCH,
     ]),
-    Upgradeable(None, [
-        item_names.ZEALOT_SENTINEL_CENTURION_LEG_ENHANCEMENTS,
-        item_names.ZEALOT_SENTINEL_CENTURION_SHIELD_CAPACITY,
-    ], classname="zealot-tier"),
     Upgradeable(item_names.STALKER, [
         item_names.STALKER_PHASE_REACTOR,
     ]),
@@ -839,6 +839,11 @@ PROTOSS_ITEMS = [
     Upgradeable(item_names.ANNIHILATOR, [
         item_names.ANNIHILATOR_TWILIGHT_CHASSIS,
     ]),
+    Upgradeable(None, [
+        item_names.IMMORTAL_ANNIHILATOR_ADVANCED_TARGETING,
+        item_names.IMMORTAL_ANNIHILATOR_DISRUPTOR_DISPERSION,
+        item_names.IMMORTAL_ANNIHILATOR_SINGULARITY_CHARGE,
+    ], classname="immortal-tier"),
     Upgradeable(item_names.VANGUARD, [
         item_names.VANGUARD_AGONY_LAUNCHERS,
         item_names.VANGUARD_FUSION_MORTARS,
@@ -852,11 +857,6 @@ PROTOSS_ITEMS = [
         item_names.STALWART_REINTEGRATED_FRAMEWORK,
         item_names.STALWART_STABILIZED_ELECTRODES,
     ]),
-    Upgradeable(None, [
-        item_names.IMMORTAL_ANNIHILATOR_ADVANCED_TARGETING,
-        item_names.IMMORTAL_ANNIHILATOR_DISRUPTOR_DISPERSION,
-        item_names.IMMORTAL_ANNIHILATOR_SINGULARITY_CHARGE,
-    ], classname="immortal-tier"),
     Upgradeable(item_names.COLOSSUS, [
         item_names.COLOSSUS_FIRE_LANCE,
         item_names.COLOSSUS_PACIFICATION_PROTOCOL,
@@ -898,13 +898,6 @@ PROTOSS_ITEMS = [
     Upgradeable(item_names.MIRAGE, [
         item_names.MIRAGE_GRAVITON_BEAM,
     ]),
-    Upgradeable(item_names.CORSAIR, [
-        item_names.CORSAIR_ARGUS_JEWEL,
-        item_names.CORSAIR_NETWORK_DISRUPTION,
-        item_names.CORSAIR_NEUTRON_SHIELDS,
-        item_names.CORSAIR_STEALTH_DRIVE,
-        item_names.CORSAIR_SUSTAINING_DISRUPTION,
-    ]),
     Upgradeable(item_names.SKIRMISHER, [
         item_names.SKIRMISHER_PEER_CONTEMPT,
     ]),
@@ -912,8 +905,14 @@ PROTOSS_ITEMS = [
         item_names.PHOENIX_CLASS_ANION_PULSE_CRYSTALS,
         item_names.PHOENIX_CLASS_IONIC_WAVELENGTH_FLUX,
     ], classname="phoenix-tier"),
+    Upgradeable(item_names.CORSAIR, [
+        item_names.CORSAIR_ARGUS_JEWEL,
+        item_names.CORSAIR_NETWORK_DISRUPTION,
+        item_names.CORSAIR_NEUTRON_SHIELDS,
+        item_names.CORSAIR_STEALTH_DRIVE,
+        item_names.CORSAIR_SUSTAINING_DISRUPTION,
+    ]),
     Upgradeable(item_names.VOID_RAY, [
-        item_names.VOID_RAY_DESTROYER_PULSAR_DAWNBRINGER_FLUX_VANES,
         item_names.VOID_RAY_PRISMATIC_RANGE,
     ]),
     Upgradeable(item_names.DESTROYER, [
@@ -930,6 +929,9 @@ PROTOSS_ITEMS = [
         item_names.DAWNBRINGER_ENHANCED_SHIELD_GENERATOR,
         item_names.DAWNBRINGER_SOLARITE_LENS,
     ]),
+    Upgradeable(None, [
+        item_names.VOID_RAY_DESTROYER_PULSAR_DAWNBRINGER_FLUX_VANES,
+    ], classname="void-ray-tier"),
     Upgradeable(item_names.SCOUT, [
         item_names.SCOUT_APIAL_SENSORS,
         item_names.SCOUT_EXPEDITIONARY_HULL,
@@ -947,16 +949,16 @@ PROTOSS_ITEMS = [
         item_names.CALADRIUS_SOLARITE_REACTOR,
         item_names.CALADRIUS_STRUCTURE_TARGETING,
     ]),
-    Upgradeable(None, [
-        item_names.SCOUT_ADVANCED_PHOTON_BLASTERS,
-        item_names.SCOUT_COMBAT_SENSOR_ARRAY,
-        item_names.SCOUT_GRAVITIC_THRUSTERS,
-    ], classname="scout-tier"),
     Upgradeable(item_names.MISTWING, [
         item_names.MISTWING_NULL_SHROUD,
         item_names.MISTWING_PHANTOM_DASH,
         item_names.MISTWING_PILOT,
     ]),
+    Upgradeable(None, [
+        item_names.SCOUT_ADVANCED_PHOTON_BLASTERS,
+        item_names.SCOUT_COMBAT_SENSOR_ARRAY,
+        item_names.SCOUT_GRAVITIC_THRUSTERS,
+    ], classname="scout-tier"),
     Upgradeable(item_names.CARRIER, [
         item_names.CARRIER_REPAIR_DRONES,
     ]),
@@ -1050,47 +1052,61 @@ PROTOSS_ITEMS = [
 ]
 
 NOVA_ITEMS = [
-    item_names.NOVA_GHOST_VISOR,
-    item_names.NOVA_RANGEFINDER_OCULUS,
-    item_names.NOVA_DOMINATION,
-    item_names.NOVA_BLINK,
-    item_names.NOVA_PROGRESSIVE_STEALTH_SUIT_MODULE,
-    item_names.NOVA_ENERGY_SUIT_MODULE,
-    item_names.NOVA_ARMORED_SUIT_MODULE,
-    item_names.NOVA_JUMP_SUIT_MODULE,
-    item_names.NOVA_C20A_CANISTER_RIFLE,
-    item_names.NOVA_HELLFIRE_SHOTGUN,
-    item_names.NOVA_PLASMA_RIFLE,
-    item_names.NOVA_MONOMOLECULAR_BLADE,
-    item_names.NOVA_BLAZEFIRE_GUNBLADE,
-    item_names.NOVA_STIM_INFUSION,
-    item_names.NOVA_PULSE_GRENADES,
-    item_names.NOVA_FLASHBANG_GRENADES,
-    item_names.NOVA_IONIC_FORCE_FIELD,
-    item_names.NOVA_HOLO_DECOY,
-    item_names.NOVA_NUKE,
+    Upgradeable((
+        item_names.NOVA_C20A_CANISTER_RIFLE,
+        item_names.NOVA_HELLFIRE_SHOTGUN,
+        item_names.NOVA_PLASMA_RIFLE,
+        item_names.NOVA_MONOMOLECULAR_BLADE,
+        item_names.NOVA_BLAZEFIRE_GUNBLADE,
+    ), classname="nova-weapons"),
+    Upgradeable((
+        item_names.NOVA_GHOST_VISOR,
+        item_names.NOVA_RANGEFINDER_OCULUS,
+        item_names.NOVA_DOMINATION,
+    ), classname="nova-visors"),
+    Upgradeable((
+        item_names.NOVA_PULSE_GRENADES,
+        item_names.NOVA_FLASHBANG_GRENADES,
+        item_names.NOVA_STIM_INFUSION,
+        item_names.NOVA_IONIC_FORCE_FIELD,
+        item_names.NOVA_HOLO_DECOY,
+    ), classname="nova-gadgets"),
+    Upgradeable((
+        item_names.NOVA_BLINK,
+        item_names.NOVA_PROGRESSIVE_STEALTH_SUIT_MODULE,
+        item_names.NOVA_ENERGY_SUIT_MODULE,
+        item_names.NOVA_ARMORED_SUIT_MODULE,
+        item_names.NOVA_JUMP_SUIT_MODULE,
+    ), classname="nova-suits"),
+    Upgradeable((item_names.NOVA_NUKE,), classname="nova-utility")
 ]
 
 KERRIGAN_ITEMS = [
     FillerCounter("Kerrigan Level"),
-    item_names.KERRIGAN_KINETIC_BLAST,
-    item_names.KERRIGAN_HEROIC_FORTITUDE,
-    item_names.KERRIGAN_LEAPING_STRIKE,
-    item_names.KERRIGAN_CRUSHING_GRIP,
-    item_names.KERRIGAN_CHAIN_REACTION,
-    item_names.KERRIGAN_PSIONIC_SHIFT,
-    item_names.KERRIGAN_WILD_MUTATION,
-    item_names.KERRIGAN_SPAWN_BANELINGS,
-    item_names.KERRIGAN_MEND,
-    item_names.KERRIGAN_INFEST_BROODLINGS,
-    item_names.KERRIGAN_FURY,
-    item_names.KERRIGAN_ABILITY_EFFICIENCY,
-    item_names.KERRIGAN_APOCALYPSE,
-    item_names.KERRIGAN_SPAWN_LEVIATHAN,
-    item_names.KERRIGAN_DROP_PODS,
-    item_names.KERRIGAN_PRIMAL_FORM,
-    item_names.KERRIGAN_ASSIMILATION_AURA,
-    item_names.KERRIGAN_IMMOBILIZATION_WAVE,
+    Upgradeable((
+        item_names.KERRIGAN_KINETIC_BLAST,
+        item_names.KERRIGAN_LEAPING_STRIKE,
+        item_names.KERRIGAN_CRUSHING_GRIP,
+        item_names.KERRIGAN_PSIONIC_SHIFT,
+        item_names.KERRIGAN_WILD_MUTATION,
+        item_names.KERRIGAN_SPAWN_BANELINGS,
+        item_names.KERRIGAN_MEND,
+        item_names.KERRIGAN_ASSIMILATION_AURA,
+    ), classname="kerrigan-actives"),
+    Upgradeable((
+        item_names.KERRIGAN_HEROIC_FORTITUDE,
+        item_names.KERRIGAN_CHAIN_REACTION,
+        item_names.KERRIGAN_INFEST_BROODLINGS,
+        item_names.KERRIGAN_FURY,
+        item_names.KERRIGAN_ABILITY_EFFICIENCY,
+    ), classname="kerrigan-passives"),
+    Upgradeable((
+        item_names.KERRIGAN_APOCALYPSE,
+        item_names.KERRIGAN_SPAWN_LEVIATHAN,
+        item_names.KERRIGAN_DROP_PODS,
+        item_names.KERRIGAN_IMMOBILIZATION_WAVE,
+    ), classname="kerrigan-ultimates"),
+    Upgradeable((item_names.KERRIGAN_PRIMAL_FORM,), classname="kerrigan-form")
     # item_names.KERRIGAN_LEVELS_10,
     # item_names.KERRIGAN_LEVELS_9,
     # item_names.KERRIGAN_LEVELS_8,

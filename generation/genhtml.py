@@ -118,7 +118,7 @@ class EmitItemIcon:
 
 def emit_section_start(section_id: str, subsections: Iterable[str] = (), start_minimized: str = '') -> None:
     if start_minimized and OUTPUT_FOR_JINJA:
-        checked = f' checked="{{{{\'t\' if not {start_minimized}}}}}"'
+        checked = f'{{{{ \'checked="t"\' if not {start_minimized}}}}}'
     elif start_minimized:
         checked = ' checked="t"'
     else:
