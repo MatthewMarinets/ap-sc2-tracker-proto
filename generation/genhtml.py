@@ -5,6 +5,9 @@ from ..item import item_tables, item_groups
 from ..item.item_descriptions import item_descriptions
 
 
+OUTPUT_FOR_JINJA = True
+
+
 fp = open('zout.html', 'w')
 def emit(string: str, **kwargs) -> None:
     print(string, **kwargs, file=fp)
@@ -44,16 +47,27 @@ class EmitItemIcon:
         if isinstance(item, str):
             item_data = item_tables.item_table[item]
             if item_data.quantity == 1:
+                # Normal items
                 suffix = ''
+                class_suffix = ''
                 if item in HIDDEN_ITEMS:
-                    suffix = ' class="hidden-item"'
-                emit(f'{i}<img id="{item}" src="{iconpath(item, 0)}" title="{item}{title_suffix(item)}"{suffix}>')
+                    class_suffix = ' hidden-item'
+                    suffix = f' class="{class_suffix[1:]}"'
+                if OUTPUT_FOR_JINJA:
+                    emit(f'{i}<img id="{item}" src="{iconpath(item, 0)}" title="{item}{title_suffix(item)}" class="{{{{\'acquired\' if inventory[{item_data.code}] > 0}}}}{class_suffix}">')
+                else:
+                    emit(f'{i}<img id="{item}" src="{iconpath(item, 0)}" title="{item}{title_suffix(item)}"{suffix}>')
             else:
-                emit(f'{i}<div id="{item}" class="progressive lvl-0" data-max-level="{item_data.quantity}">')
+                # Progressive items
+                if OUTPUT_FOR_JINJA:
+                    emit(f'{i}<div id="{item}" class="progressive lvl-{{{{[inventory[{item_data.code}], {item_data.quantity}]|min}}}}">')
+                else:
+                    emit(f'{i}<div id="{item}" class="progressive lvl-0" data-max-level="{item_data.quantity}">')
                 for level in range(0, item_data.quantity):
                     emit(f'{i}  <img src="{iconpath(item, level)}" title="{item} - Level {level+1}{title_suffix(item)}">')
                 emit(f'{i}</div>')
         elif isinstance(item, Upgradeable):
+            # Item blocks
             second_class = ''
             if item.parent_items and item.parent_items[0] in HIDDEN_CLASSES:
                 second_class = ' hidden-class'
@@ -70,6 +84,7 @@ class EmitItemIcon:
                 emit(f'{i}  </div>')
             emit(f'{i}</div>')
         elif isinstance(item, FillerCounter):
+            # Filler items
             emit(f'{i}<div class="item-counter">')
             emit(f'{i}  <img src="{iconpath(item.item_name, 0)}" title="{item.item_name}{title_suffix(item.item_name)}">')
             emit(f'{i}  <span class="item-count">+{len(item.item_name) * 5}</span>')
@@ -120,7 +135,7 @@ def emit_section_start(section_id: str, subsections: Iterable[str] = (), start_m
             emit(f'            {subsection}')
             emit(f'          </div>')
         emit(f'        </div>')
-    emit(f'      <div class="section-body">')
+    emit(f'      <div id="section-{section_id.split("-", 1)[0]}" class="section-body">')
 
 def emit_section_end(subsections: Iterable = ()) -> None:
     if subsections:
@@ -168,7 +183,7 @@ emit_section('zerg-items', ZERG_ITEMS)
 emit_section('protoss-items', PROTOSS_ITEMS)
 emit_section('nova-items', NOVA_ITEMS, True)
 emit_section('kerrigan-items', KERRIGAN_ITEMS, True)
-emit_keys_section()
-emit_locations_section()
+# emit_keys_section()
+# emit_locations_section()
 
 fp.close()

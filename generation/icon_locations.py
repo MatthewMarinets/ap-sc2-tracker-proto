@@ -2072,8 +2072,7 @@ ICON_PATHS = {
   "icons/blizzard/btn-upgrade-zerg-rupture.png"
  ],
  "Sacrifice (Supplicant)": [
-  "icons/original/btn-ability-protoss-supplicant-sacrificeoff.png",
-  "icons/original/btn-ability-protoss-supplicant-sacrificeon.png"
+  "icons/original/btn-ability-protoss-supplicant-sacrificeon.png",
  ],
  "Scanner Sweep (Command Center)": [
   "icons/blizzard/btn-ability-terran-scannersweep-color.png"
