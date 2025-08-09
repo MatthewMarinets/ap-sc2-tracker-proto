@@ -44,7 +44,9 @@ class EmitItemIcon:
 
     def emit_item_icon(self, item: str | Upgradeable | FillerCounter | SectionBreak | SubSection, indent: int = 4) -> None:
         i = '  ' * indent
-        if isinstance(item, str):
+        if item is None:
+            emit(f'{i}<div class="spacer"></div>')
+        elif isinstance(item, str):
             item_data = item_tables.item_table[item]
             if item_data.quantity == 1:
                 # Normal items

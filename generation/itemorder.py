@@ -660,6 +660,7 @@ ZERG_ITEMS = [
         item_names.ECHIDNA_WORM_OUROBOROS_STRAIN,
     ]),
     Upgradeable(None, [
+        None,
         item_names.NYDUS_WORM_ECHIDNA_WORM_JORMUNGANDR_STRAIN,
         item_names.NYDUS_WORM_ECHIDNA_WORM_RESOURCE_EFFICIENCY,
         item_names.NYDUS_WORM_ECHIDNA_WORM_SUBTERRANEAN_SCALES,
@@ -726,6 +727,7 @@ PROTOSS_ITEMS = [
         item_names.SENTINEL_RESOURCE_EFFICIENCY,
     ]),
     Upgradeable(None, [
+        None,
         item_names.ZEALOT_SENTINEL_CENTURION_LEG_ENHANCEMENTS,
         item_names.ZEALOT_SENTINEL_CENTURION_SHIELD_CAPACITY,
     ], classname="zealot-tier"),
@@ -748,6 +750,7 @@ PROTOSS_ITEMS = [
         item_names.SLAYER_PHASE_BLINK,
     ]),
     Upgradeable(None, [
+        None,
         item_names.STALKER_INSTIGATOR_SLAYER_DISINTEGRATING_PARTICLES,
         item_names.STALKER_INSTIGATOR_SLAYER_PARTICLE_REFLECTION,
     ], classname="stalker-tier"),
@@ -767,6 +770,7 @@ PROTOSS_ITEMS = [
         item_names.HAVOC_ENDURING_SIGHT,
     ]),
     Upgradeable(None, [
+        None,
         item_names.SENTRY_ENERGIZER_HAVOC_CLOAKING_MODULE,
         item_names.SENTRY_ENERGIZER_HAVOC_SHIELD_BATTERY_RAPID_RECHARGING,
     ], classname="sentry-tier"),
@@ -797,14 +801,17 @@ PROTOSS_ITEMS = [
         item_names.ASCENDANT_POWER_OVERWHELMING,
     ]),
     Upgradeable(None, [
+        None,
         item_names.HIGH_TEMPLAR_SIGNIFIER_HALLUCINATION,
         item_names.HIGH_TEMPLAR_SIGNIFIER_KHAYDARIN_AMULET,
         item_names.HIGH_TEMPLAR_SIGNIFIER_UNSHACKLED_PSIONIC_STORM,
     ], classname="high-templar-tier"),
     Upgradeable(None, [
+        None,
         item_names.ARCHON_HIGH_ARCHON,
         item_names.ARCHON_TRANSCENDENCE,
         item_names.ARCHON_POWER_SIPHON,
+        None,
         item_names.ARCHON_ERADICATE,
         item_names.ARCHON_OBLITERATE,
     ], classname="archon"),
@@ -827,9 +834,11 @@ PROTOSS_ITEMS = [
         item_names.BLOOD_HUNTER_BRUTAL_EFFICIENCY,
     ]),
     Upgradeable(None, [
+        None,
         item_names.DARK_TEMPLAR_AVENGER_BLOOD_HUNTER_BLINK,
         item_names.DARK_TEMPLAR_AVENGER_BLOOD_HUNTER_RESOURCE_EFFICIENCY,
         item_names.DARK_TEMPLAR_AVENGER_BLOOD_HUNTER_SHADOW_GUARD_TRAINING,
+        None,
         item_names.DARK_TEMPLAR_AVENGER_BLOOD_HUNTER_SHROUD_OF_ADUN,
     ], classname="dark-templar-tier"),
     SubSection("Robotics Facility"),
@@ -840,6 +849,7 @@ PROTOSS_ITEMS = [
         item_names.ANNIHILATOR_TWILIGHT_CHASSIS,
     ]),
     Upgradeable(None, [
+        None,
         item_names.IMMORTAL_ANNIHILATOR_ADVANCED_TARGETING,
         item_names.IMMORTAL_ANNIHILATOR_DISRUPTOR_DISPERSION,
         item_names.IMMORTAL_ANNIHILATOR_SINGULARITY_CHARGE,
@@ -902,6 +912,7 @@ PROTOSS_ITEMS = [
         item_names.SKIRMISHER_PEER_CONTEMPT,
     ]),
     Upgradeable(None, [
+        None,
         item_names.PHOENIX_CLASS_ANION_PULSE_CRYSTALS,
         item_names.PHOENIX_CLASS_IONIC_WAVELENGTH_FLUX,
     ], classname="phoenix-tier"),
@@ -930,6 +941,7 @@ PROTOSS_ITEMS = [
         item_names.DAWNBRINGER_SOLARITE_LENS,
     ]),
     Upgradeable(None, [
+        None,
         item_names.VOID_RAY_DESTROYER_PULSAR_DAWNBRINGER_FLUX_VANES,
     ], classname="void-ray-tier"),
     Upgradeable(item_names.SCOUT, [
@@ -955,6 +967,7 @@ PROTOSS_ITEMS = [
         item_names.MISTWING_PILOT,
     ]),
     Upgradeable(None, [
+        None,
         item_names.SCOUT_ADVANCED_PHOTON_BLASTERS,
         item_names.SCOUT_COMBAT_SENSOR_ARRAY,
         item_names.SCOUT_GRAVITIC_THRUSTERS,
@@ -969,6 +982,7 @@ PROTOSS_ITEMS = [
         item_names.SKYLORD_JUMP,
     ]),
     Upgradeable(None, [
+        None,
         item_names.CARRIER_SKYLORD_TRIREME_HULL_OF_PAST_GLORIES,
         item_names.CARRIER_TRIREME_GRAVITON_CATAPULT,
     ], classname="carrier-tier"),
