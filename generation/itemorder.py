@@ -5,6 +5,9 @@ from ..item import item_names, item_tables
 from dataclasses import dataclass
 
 
+class Spacer:
+    pass
+
 @dataclass
 class FillerCounter:
     item_name: str
@@ -13,13 +16,13 @@ class FillerCounter:
 class Upgradeable:
     def __init__(
         self,
-        parent_items: str | list[str] | None,
+        parent_items: str | list[str] | None | Spacer,
         child_items: list[str] = (),
         classname: str | None = None,
     ) -> None:
         self.parent_items = (
             () if parent_items is None
-            else (parent_items,) if isinstance(parent_items, str)
+            else (parent_items,) if isinstance(parent_items, str) or isinstance(parent_items, Spacer)
             else tuple(parent_items)
         )
         self.child_items = child_items
@@ -38,8 +41,10 @@ class SectionBreak:
 class SubSection:
     name: str
 
+TrackerElements = str | FillerCounter | Upgradeable | SectionBreak | SubSection | Spacer
 
-FILLER_ITEMS = [
+
+FILLER_ITEMS: list[TrackerElements] = [
     FillerCounter(item_names.STARTING_MINERALS),
     FillerCounter(item_names.STARTING_VESPENE),
     FillerCounter(item_names.STARTING_SUPPLY),
@@ -51,7 +56,7 @@ FILLER_ITEMS = [
     FillerCounter(item_names.UPGRADE_RESEARCH_COST),
 ]
 
-TERRAN_ITEMS = [
+TERRAN_ITEMS: list[TrackerElements] = [
     SubSection("Barracks"),
     Upgradeable(item_names.MARINE, [
         item_names.MARINE_COMBAT_SHIELD,
@@ -430,7 +435,7 @@ TERRAN_ITEMS = [
     ], classname="terran-macro"),
 ]
 
-ZERG_ITEMS = [
+ZERG_ITEMS: list[TrackerElements] = [
     SubSection("Ground"),
     Upgradeable(item_names.ZERGLING, [
         item_names.ZERGLING_ADRENAL_OVERLOAD,
@@ -659,7 +664,7 @@ ZERG_ITEMS = [
     Upgradeable(item_names.ECHIDNA_WORM, [
         item_names.ECHIDNA_WORM_OUROBOROS_STRAIN,
     ]),
-    Upgradeable(None, [
+    Upgradeable(Spacer(), [
         item_names.NYDUS_WORM_ECHIDNA_WORM_JORMUNGANDR_STRAIN,
         item_names.NYDUS_WORM_ECHIDNA_WORM_RESOURCE_EFFICIENCY,
         item_names.NYDUS_WORM_ECHIDNA_WORM_SUBTERRANEAN_SCALES,
@@ -714,7 +719,7 @@ ZERG_ITEMS = [
     ), classname="zerg-macro"),
 ]
 
-PROTOSS_ITEMS = [
+PROTOSS_ITEMS: list[TrackerElements] = [
     SubSection("Gateway"),
     Upgradeable(item_names.ZEALOT, [
         item_names.ZEALOT_WHIRLWIND,
@@ -725,7 +730,7 @@ PROTOSS_ITEMS = [
     Upgradeable(item_names.SENTINEL, [
         item_names.SENTINEL_RESOURCE_EFFICIENCY,
     ]),
-    Upgradeable(None, [
+    Upgradeable(Spacer(), [
         item_names.ZEALOT_SENTINEL_CENTURION_LEG_ENHANCEMENTS,
         item_names.ZEALOT_SENTINEL_CENTURION_SHIELD_CAPACITY,
     ], classname="zealot-tier"),
@@ -747,7 +752,7 @@ PROTOSS_ITEMS = [
     Upgradeable(item_names.SLAYER, [
         item_names.SLAYER_PHASE_BLINK,
     ]),
-    Upgradeable(None, [
+    Upgradeable(Spacer(), [
         item_names.STALKER_INSTIGATOR_SLAYER_DISINTEGRATING_PARTICLES,
         item_names.STALKER_INSTIGATOR_SLAYER_PARTICLE_REFLECTION,
     ], classname="stalker-tier"),
@@ -766,7 +771,7 @@ PROTOSS_ITEMS = [
         item_names.HAVOC_DETECT_WEAKNESS,
         item_names.HAVOC_ENDURING_SIGHT,
     ]),
-    Upgradeable(None, [
+    Upgradeable(Spacer(), [
         item_names.SENTRY_ENERGIZER_HAVOC_CLOAKING_MODULE,
         item_names.SENTRY_ENERGIZER_HAVOC_SHIELD_BATTERY_RAPID_RECHARGING,
     ], classname="sentry-tier"),
@@ -796,12 +801,12 @@ PROTOSS_ITEMS = [
         item_names.ASCENDANT_CHAOTIC_ATTUNEMENT,
         item_names.ASCENDANT_POWER_OVERWHELMING,
     ]),
-    Upgradeable(None, [
+    Upgradeable(Spacer(), [
         item_names.HIGH_TEMPLAR_SIGNIFIER_HALLUCINATION,
         item_names.HIGH_TEMPLAR_SIGNIFIER_KHAYDARIN_AMULET,
         item_names.HIGH_TEMPLAR_SIGNIFIER_UNSHACKLED_PSIONIC_STORM,
     ], classname="high-templar-tier"),
-    Upgradeable(None, [
+    Upgradeable(Spacer(), [
         item_names.ARCHON_HIGH_ARCHON,
         item_names.ARCHON_TRANSCENDENCE,
         item_names.ARCHON_POWER_SIPHON,
@@ -826,7 +831,7 @@ PROTOSS_ITEMS = [
     Upgradeable(item_names.BLOOD_HUNTER, [
         item_names.BLOOD_HUNTER_BRUTAL_EFFICIENCY,
     ]),
-    Upgradeable(None, [
+    Upgradeable(Spacer(), [
         item_names.DARK_TEMPLAR_AVENGER_BLOOD_HUNTER_BLINK,
         item_names.DARK_TEMPLAR_AVENGER_BLOOD_HUNTER_RESOURCE_EFFICIENCY,
         item_names.DARK_TEMPLAR_AVENGER_BLOOD_HUNTER_SHADOW_GUARD_TRAINING,
@@ -839,7 +844,7 @@ PROTOSS_ITEMS = [
     Upgradeable(item_names.ANNIHILATOR, [
         item_names.ANNIHILATOR_TWILIGHT_CHASSIS,
     ]),
-    Upgradeable(None, [
+    Upgradeable(Spacer(), [
         item_names.IMMORTAL_ANNIHILATOR_ADVANCED_TARGETING,
         item_names.IMMORTAL_ANNIHILATOR_DISRUPTOR_DISPERSION,
         item_names.IMMORTAL_ANNIHILATOR_SINGULARITY_CHARGE,
@@ -901,7 +906,7 @@ PROTOSS_ITEMS = [
     Upgradeable(item_names.SKIRMISHER, [
         item_names.SKIRMISHER_PEER_CONTEMPT,
     ]),
-    Upgradeable(None, [
+    Upgradeable(Spacer(), [
         item_names.PHOENIX_CLASS_ANION_PULSE_CRYSTALS,
         item_names.PHOENIX_CLASS_IONIC_WAVELENGTH_FLUX,
     ], classname="phoenix-tier"),
@@ -929,7 +934,7 @@ PROTOSS_ITEMS = [
         item_names.DAWNBRINGER_ENHANCED_SHIELD_GENERATOR,
         item_names.DAWNBRINGER_SOLARITE_LENS,
     ]),
-    Upgradeable(None, [
+    Upgradeable(Spacer(), [
         item_names.VOID_RAY_DESTROYER_PULSAR_DAWNBRINGER_FLUX_VANES,
     ], classname="void-ray-tier"),
     Upgradeable(item_names.SCOUT, [
@@ -954,7 +959,7 @@ PROTOSS_ITEMS = [
         item_names.MISTWING_PHANTOM_DASH,
         item_names.MISTWING_PILOT,
     ]),
-    Upgradeable(None, [
+    Upgradeable(Spacer(), [
         item_names.SCOUT_ADVANCED_PHOTON_BLASTERS,
         item_names.SCOUT_COMBAT_SENSOR_ARRAY,
         item_names.SCOUT_GRAVITIC_THRUSTERS,
@@ -968,7 +973,7 @@ PROTOSS_ITEMS = [
     Upgradeable(item_names.SKYLORD, [
         item_names.SKYLORD_JUMP,
     ]),
-    Upgradeable(None, [
+    Upgradeable(Spacer(), [
         item_names.CARRIER_SKYLORD_TRIREME_HULL_OF_PAST_GLORIES,
         item_names.CARRIER_TRIREME_GRAVITON_CATAPULT,
     ], classname="carrier-tier"),

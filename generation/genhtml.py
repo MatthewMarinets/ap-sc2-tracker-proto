@@ -66,6 +66,8 @@ class EmitItemIcon:
                 for level in range(0, item_data.quantity):
                     emit(f'{i}  <img src="{iconpath(item, level)}" title="{item} - Level {level+1}{title_suffix(item)}">')
                 emit(f'{i}</div>')
+        elif isinstance(item, Spacer):
+            emit(f'{i}<div class="spacer"></div>')
         elif isinstance(item, Upgradeable):
             # Item blocks
             second_class = ''
