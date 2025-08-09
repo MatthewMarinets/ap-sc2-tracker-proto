@@ -15,6 +15,13 @@ mklink /D worlds\sc2\tracker <path to tracker repo>\generation
 python -m worlds.sc2.tracker.genhtml
 ```
 
+On Linux:
+```bash
+cd <path to Archipelago repo>
+ln -s <path to tracker repo>\generation worlds/sc2/tracker
+python3 -m worlds.sc2.tracker.genhtml
+```
+
 This will generate the HTML at `zout.html`.
 
 ## Script overview
