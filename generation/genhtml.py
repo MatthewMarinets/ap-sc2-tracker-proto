@@ -89,7 +89,7 @@ class EmitItemIcon:
             # Filler items
             emit(f'{i}<div class="item-counter">')
             emit(f'{i}  <img src="{iconpath(item.item_name, 0)}" title="{item.item_name}{title_suffix(item.item_name)}">')
-            emit(f'{i}  <span class="item-count">{{{{kerrigan_level}}}}</span>')
+            emit(f'{i}  <span class="item-count">{{{{{item.var_name}}}}}</span>')
             emit(f'{i}</div>')
         elif isinstance(item, SectionBreak):
             small_i = '  '*(indent-1)

@@ -11,6 +11,7 @@ class Spacer:
 @dataclass
 class FillerCounter:
     item_name: str
+    var_name: str
 
 
 class Upgradeable:
@@ -45,15 +46,15 @@ TrackerElements = str | FillerCounter | Upgradeable | SectionBreak | SubSection 
 
 
 FILLER_ITEMS: list[TrackerElements] = [
-    FillerCounter(item_names.STARTING_MINERALS),
-    FillerCounter(item_names.STARTING_VESPENE),
-    FillerCounter(item_names.STARTING_SUPPLY),
-    FillerCounter(item_names.MAX_SUPPLY),
-    FillerCounter(item_names.REDUCED_MAX_SUPPLY),
-    FillerCounter(item_names.BUILDING_CONSTRUCTION_SPEED),
-    FillerCounter(item_names.SHIELD_REGENERATION),
-    FillerCounter(item_names.UPGRADE_RESEARCH_SPEED),
-    FillerCounter(item_names.UPGRADE_RESEARCH_COST),
+    FillerCounter(item_names.STARTING_MINERALS, 'minerals_count'),
+    FillerCounter(item_names.STARTING_VESPENE, 'vespene_count'),
+    FillerCounter(item_names.STARTING_SUPPLY, 'supply_count'),
+    FillerCounter(item_names.MAX_SUPPLY, 'max_supply_count'),
+    FillerCounter(item_names.REDUCED_MAX_SUPPLY, 'reduced_supply_count'),
+    FillerCounter(item_names.BUILDING_CONSTRUCTION_SPEED, 'construction_speed_count'),
+    FillerCounter(item_names.SHIELD_REGENERATION, 'shield_regen_count'),
+    FillerCounter(item_names.UPGRADE_RESEARCH_SPEED, 'upgrade_speed_count'),
+    FillerCounter(item_names.UPGRADE_RESEARCH_COST, 'research_cost_count'),
 ]
 
 TERRAN_ITEMS: list[TrackerElements] = [
@@ -1087,7 +1088,7 @@ NOVA_ITEMS = [
 ]
 
 KERRIGAN_ITEMS = [
-    FillerCounter("Kerrigan Level"),
+    FillerCounter("Kerrigan Level", 'kerrigan_level'),
     Upgradeable((
         item_names.KERRIGAN_KINETIC_BLAST,
         item_names.KERRIGAN_LEAPING_STRIKE,
